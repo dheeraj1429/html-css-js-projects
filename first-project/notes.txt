@@ -1,0 +1,22 @@
+<div class="col-12 col-sm-12 col-md-3">
+                                <div class="selection_div">
+                                    <div class="selection_header_div d-flex justify-content-around align-items-center">
+                                        <h3 class="mb-0">FUEL TYPE </h3>
+                                        <img src="./assets/images/icon_engine.png" class="img-fluid" alt="">
+                                    </div>
+
+                                    <div class="selection_div_content mt-3">
+
+                                        <div class="selection_inner_div">
+                                            <p>Diesel</p>
+                                        </div>
+                                        <div class="selection_inner_div dark_sm_section">
+                                            <p>Petrol</p>
+                                        </div>
+                                        <div class="selection_inner_div dark_section">
+                                            <p class="text-white">Gas</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
