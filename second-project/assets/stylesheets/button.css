@@ -1,0 +1,49 @@
+/* buttons */
+.exploreMore_button {
+    padding: 0.8rem 2.3rem;
+    background-color: var(--lightSkyCl);
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    color: var(--mainColor);
+    font-size: 20px;
+}
+.exploreMore_button_second {
+    padding: 0.8rem 4rem;
+    background-color: var(--lightSkyCl);
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    color: var(--mainColor);
+    font-size: 20px;
+}
+.exploreMore_button_three {
+    padding: 0.8rem 4rem;
+    border: 3px solid var(--lightSkyCl);
+    border-radius: 30px;
+    cursor: pointer;
+    color: var(--lightSkyCl);
+    font-size: 20px;
+    background-color: transparent;
+}
+.subscripButton {
+    padding: 0.8rem 2rem;
+    border-radius: 30px;
+    border: none;
+    background-color: var(--mainColor);
+    cursor: pointer;
+    color: var(--lightSkyCl);
+}
+.submit_button {
+    padding: 0.8rem 2rem;
+    background-color: var(--darkHeading);
+    border: none;
+    color: var(--mainColor);
+}
+.view_case_button {
+    padding: 1rem 3rem;
+    border: 1px solid var(--mainColor);
+    color: var(--mainColor);
+    background-color: transparent;
+}
+/* buttons */

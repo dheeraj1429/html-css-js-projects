@@ -1,0 +1,107 @@
+.great_solution_banner {
+    background-image: url(../images/solution-bg.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.great_solution_banner h5 {
+    color: var(--mainColor);
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.banner_icons_div {
+    bottom: 30%;
+}
+/* cards section */
+.cards_eni_div {
+    width: 100%;
+    height: 550px;
+    padding: 2rem;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    border-radius: 20px;
+}
+
+.cart_hover_an_div {
+    margin-top: 500px;
+    transition: all 0.4s ease;
+}
+
+.cards_eni_div:hover .cart_hover_an_div {
+    margin-top: 0 !important;
+}
+
+.cards_eni_div h3 {
+    font-weight: 600;
+    font-size: 54px;
+}
+.cards_eni_div p {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 35px;
+}
+
+.cart_hover_an_div {
+    background-position: center;
+    border-radius: 12px;
+}
+
+.first_card {
+    background-image: url(../images/fir1.png);
+    background-size: cover;
+}
+
+.second_card {
+    background-image: url(../images/second.png);
+    background-size: cover;
+}
+
+.three_card {
+    background-image: url(../images/thres.png);
+    background-size: cover;
+}
+
+.four_card {
+    background-image: url(../images/four_s.png);
+    background-size: cover;
+}
+
+.five_card {
+    background-image: url(../images/fiv.png);
+    background-size: cover;
+}
+
+.six_card {
+    background-image: url(../images/six.png);
+    background-size: cover;
+}
+
+.phone_call_div {
+    width: 100%;
+    height: 100%;
+    background-color: var(--mainColor);
+    border-radius: 12px;
+    padding: 1rem 2rem;
+}
+.phone_call_div h4 {
+    color: var(--dark);
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+.phone_call_div p {
+    color: var(--grayLight);
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.solution_s .bg_pos_cart_div {
+    background-image: url(../images/ef.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: -100px;
+    height: 90vh;
+}
+/* cards section */

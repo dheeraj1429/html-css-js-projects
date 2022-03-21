@@ -1,0 +1,32 @@
+.navbar {
+    background-color: var(--dark);
+}
+
+.nav_div {
+    padding: 0.8rem 1rem;
+    display: flex;
+    align-items: center;
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.nav_div i {
+    color: var(--mainColor);
+    margin-left: 0.8rem;
+}
+
+.nav_div a {
+    margin-bottom: 0;
+    color: var(--mainColor);
+}
+
+.nav_div_active {
+    border-bottom: 1px solid var(--lightSkyCl);
+}
+.nav_div_active p {
+    color: var(--lightSkyCl);
+}
+
+.active_nav i {
+    color: var(--lightSkyCl);
+}
