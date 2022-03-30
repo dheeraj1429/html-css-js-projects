@@ -15,6 +15,10 @@
     margin-left: 0.8rem;
 }
 
+.bar {
+    color: var(--mainColor);
+}
+
 .nav_div a {
     margin-bottom: 0;
     color: var(--mainColor);

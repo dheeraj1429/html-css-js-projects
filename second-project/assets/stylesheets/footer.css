@@ -35,6 +35,11 @@
     outline: none;
     padding: 1rem;
     background-color: transparent;
+    color: var(--mainColor);
+}
+
+.footer input::placeholder {
+    color: var(--mainColor);
 }
 
 .footer_sm_div {

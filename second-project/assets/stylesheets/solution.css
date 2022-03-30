@@ -21,11 +21,26 @@
     overflow: hidden;
     transition: all 0.3s ease;
     border-radius: 20px;
+    position: relative;
 }
 
 .cart_hover_an_div {
     margin-top: 500px;
     transition: all 0.4s ease;
+}
+
+/* .cards_eni_div::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(31, 31, 31, 0.29);
+} */
+
+.cart_hover_an_div {
+    z-index: 100;
 }
 
 .cards_eni_div:hover .cart_hover_an_div {
@@ -35,6 +50,7 @@
 .cards_eni_div h3 {
     font-weight: 600;
     font-size: 54px;
+    z-index: 100;
 }
 .cards_eni_div p {
     font-weight: 400;
@@ -47,13 +63,33 @@
     border-radius: 12px;
 }
 
+.solution_cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.solution_cart .cart_hover_an_div {
+    position: absolute;
+    bottom: -150px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 86%;
+}
+
+.solution_cart:hover .cart_hover_an_div {
+    bottom: 20px;
+}
+
 .first_card {
     background-image: url(../images/fir1.png);
     background-size: cover;
 }
 
 .second_card {
-    background-image: url(../images/second.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url(../images/second.png);
     background-size: cover;
 }
 

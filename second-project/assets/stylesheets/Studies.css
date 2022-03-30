@@ -1,0 +1,14 @@
+.stuidio_banner_section {
+    background-image: url(../images/11.png);
+    background-position: center;
+    background-size: cover;
+}
+.stuidio_banner_section h5 {
+    color: var(--mainColor);
+    font-weight: 800;
+    font-size: 30px;
+}
+.solution-cart {
+    width: 100%;
+    padding-top: 160px;
+}

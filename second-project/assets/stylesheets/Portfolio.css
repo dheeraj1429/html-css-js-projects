@@ -1,0 +1,23 @@
+.portfolio_banner_section {
+    background-image: url(../images/portfolio_banner.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.portfolio_banner_section h5 {
+    color: var(--mainColor);
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.portfolio_card_one {
+    background-image: url(../images/p-cart-1.png);
+    background-position: center;
+    background-size: cover;
+}
+.portfolio_card_Two {
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url(../images/p-cart_2.png);
+}

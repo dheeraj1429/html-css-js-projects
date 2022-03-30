@@ -46,4 +46,12 @@
     color: var(--mainColor);
     background-color: transparent;
 }
+.explore_app_button {
+    padding: 0.9rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: var(--mainColor);
+    background-color: var(--lightSkyCl);
+}
 /* buttons */

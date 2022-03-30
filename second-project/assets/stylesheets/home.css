@@ -68,7 +68,7 @@
     font-weight: 600;
 }
 .recognized_form_content h3 {
-    font-weight: 800;
+    font-weight: 700;
     font-size: 58px;
 }
 
@@ -279,6 +279,7 @@
     z-index: 100;
     background-color: var(--mainColor);
     cursor: pointer;
+    box-shadow: 0 0 10px var(--lightSmookTwo);
 }
 
 .first_tab_c {
@@ -323,6 +324,7 @@
     background-position: center;
     background-size: contain;
     z-index: -1;
+    background-repeat: no-repeat;
 }
 .read_to_grow_inner_section {
     width: 100%;
@@ -356,3 +358,6 @@
     font-size: 15px;
 }
 /* READY TO GROW */
+.lineOne {
+    display: none;
+}
