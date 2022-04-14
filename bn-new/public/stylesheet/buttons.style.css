@@ -27,3 +27,11 @@
     border-radius: 8px;
     color: var(--mainColorCl);
 }
+
+.Subcribe_button {
+    padding: 0.8rem 3rem;
+    border-radius: 10px;
+    background-color: #16354d;
+    color: var(--mainColorCl);
+    border: none;
+}

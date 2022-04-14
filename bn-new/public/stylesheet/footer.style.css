@@ -1,0 +1,42 @@
+footer {
+    padding: 100px 0;
+    background-color: var(--darkBlueCl);
+}
+
+footer p {
+    color: var(--footerCl);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.footer_icons_div {
+    width: 30px;
+    height: 30px;
+    background-color: var(--lightGreenCl);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+footer h3 {
+    color: var(--mainColorCl);
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer ul li {
+    list-style: none;
+    margin-bottom: 1rem;
+}
+
+footer ul li a {
+    color: var(--footerCl);
+    text-decoration: none;
+}
+
+footer ul li i {
+    color: var(--footerCl);
+}
