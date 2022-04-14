@@ -1,0 +1,11 @@
+.industries_banner_section {
+    background-image: url(../images/industries_banner.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.industries_banner_section h5 {
+    color: var(--mainColor);
+    font-weight: 800;
+    font-size: 30px;
+}

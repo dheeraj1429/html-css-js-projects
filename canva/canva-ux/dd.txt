@@ -1,0 +1,126 @@
+<div class="col-12">
+                    <div id="carouselExampleIndicators" class="carousel slide testimonial" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="testimonial-card text-center">
+                                            <img src="images/pro-1.png" alt="pro" class="img-fluid">
+                                            <h4>Mathew</h4>
+                                            <h5>CTO</h5>
+                                            <img src="images/rating.png" alt="rating" class="img-fluid">
+                                            <p>"We had an idea for an educational app. They understood timelines,
+                                                and offered innovative suggestions for our software."
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="testimonial-card text-center">
+                                            <img src="images/pro-2.png" alt="pro" class="img-fluid">
+                                            <h4>Karen</h4>
+                                            <h5>Project Manager</h5>
+                                            <img src="images/rating.png" alt="rating" class="img-fluid">
+                                            <p>"We had an idea for an educational app. They understood timelines,
+                                                and offered innovative suggestions for our software."
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="testimonial-card text-center">
+                                            <img src="images/pro-3.png" alt="pro" class="img-fluid">
+                                            <h4>John</h4>
+                                            <h5>Entrepreneur</h5>
+                                            <img src="images/rating.png" alt="rating" class="img-fluid">
+                                            <p>"We had an idea for an educational app. They understood timelines,
+                                                and offered innovative suggestions for our software."
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="testimonial-card text-center">
+                                            <img src="images/pro-1.png" alt="pro" class="img-fluid">
+                                            <h4>Mathew</h4>
+                                            <h5>CTO</h5>
+                                            <img src="images/rating.png" alt="rating" class="img-fluid">
+                                            <p>"We had an idea for an educational app. They understood timelines,
+                                                and offered innovative suggestions for our software."
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="testimonial-card text-center">
+                                            <img src="images/pro-2.png" alt="pro" class="img-fluid">
+                                            <h4>Karen</h4>
+                                            <h5>Project Manager</h5>
+                                            <img src="images/rating.png" alt="rating" class="img-fluid">
+                                            <p>"We had an idea for an educational app. They understood timelines,
+                                                and offered innovative suggestions for our software."
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="testimonial-card text-center">
+                                            <img src="images/pro-3.png" alt="pro" class="img-fluid">
+                                            <h4>John</h4>
+                                            <h5>Entrepreneur</h5>
+                                            <img src="images/rating.png" alt="rating" class="img-fluid">
+                                            <p>"We had an idea for an educational app. They understood timelines,
+                                                and offered innovative suggestions for our software."
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="testimonial-card text-center">
+                                            <img src="images/pro-1.png" alt="pro" class="img-fluid">
+                                            <h4>Mathew</h4>
+                                            <h5>CTO</h5>
+                                            <img src="images/rating.png" alt="rating" class="img-fluid">
+                                            <p>"We had an idea for an educational app. They understood timelines,
+                                                and offered innovative suggestions for our software."
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="testimonial-card text-center">
+                                            <img src="images/pro-2.png" alt="pro" class="img-fluid">
+                                            <h4>Karen</h4>
+                                            <h5>Project Manager</h5>
+                                            <img src="images/rating.png" alt="rating" class="img-fluid">
+                                            <p>"We had an idea for an educational app. They understood timelines,
+                                                and offered innovative suggestions for our software."
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="testimonial-card text-center">
+                                            <img src="images/pro-3.png" alt="pro" class="img-fluid">
+                                            <h4>John</h4>
+                                            <h5>Entrepreneur</h5>
+                                            <img src="images/rating.png" alt="rating" class="img-fluid">
+                                            <p>"We had an idea for an educational app. They understood timelines,
+                                                and offered innovative suggestions for our software."
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </button>
+                    </div>
+                </div>

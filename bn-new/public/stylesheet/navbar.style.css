@@ -1,0 +1,11 @@
+.navbar-nav li .nav-link {
+    color: var(--mainColorCl);
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: -0.02em;
+    margin-right: 2.5rem;
+}
+
+.activeNavbar_item {
+    color: var(--lightGreenCl) !important;
+}

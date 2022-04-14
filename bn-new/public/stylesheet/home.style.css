@@ -1,0 +1,311 @@
+/* banner section */
+.banner_section {
+    background-image: url(../images/banner.png);
+    background-position: center;
+    background-size: cover;
+    height: 120vh;
+}
+.banner_section p {
+    color: var(--mainColorCl);
+    font-weight: 400;
+    font-size: 18px;
+}
+.banner_section h1 {
+    font-weight: 800;
+    font-size: 82.4758px;
+}
+.line_div {
+    width: 15%;
+    height: 2px;
+    background-color: var(--lightGreenCl);
+}
+.smContent_div p {
+    color: var(--smGrayNewCL);
+    font-size: 17px;
+}
+/* banner section */
+
+/* cart section */
+.cart_inner_div {
+    border: 10px;
+    background-color: var(--mainColorCl);
+    padding: 40px 30px;
+    margin-top: -300px;
+}
+.cart_div_first {
+    border-radius: 30px 0 0 30px;
+}
+.cart_div_thred {
+    border-radius: 0 30px 30px 0;
+}
+.cart_inner_div h3 {
+    font-weight: 600;
+    font-size: 30px;
+}
+.cart_inner_div p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: var(--smGrayCl);
+}
+.cart_inner_div a {
+    color: var(--lightGreenCl);
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+}
+/* cart section */
+
+/* Creating a world */
+.creating_a_world_class h5 {
+    color: var(--lightGreenCl);
+}
+.creating_a_world_class h1 {
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 65px;
+}
+.creating_a_world_class h1 span {
+    background: -webkit-linear-gradient(#c74da9, #3482f6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.creating_a_world_class p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: var(--smGrayCl);
+}
+/* Creating a world */
+
+/* Services */
+.service_section h5 {
+    color: var(--lightGreenCl);
+}
+.service_section h1 {
+    font-weight: 700;
+    font-size: 45px;
+}
+.service_cart_div {
+    background-color: var(--mainColorCl);
+    padding-top: 150px;
+    padding-bottom: 30px;
+    position: relative;
+    border-radius: 20px;
+    margin-bottom: 2rem;
+}
+.service_section .active_cart {
+    background-color: var(--lightGreenCl);
+}
+
+.service_cart_div .icons_div {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    left: 30px;
+    border-radius: 0 0px 50px 50px;
+    background-color: var(--lightCl);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.active_cart .icons_div {
+    background-color: var(--mainColorCl);
+}
+
+.service_cart_div h2 {
+    font-weight: 600;
+    font-size: 30px;
+}
+.service_cart_div p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+.service_cart_div a {
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+    color: var(--lightGreenCl);
+}
+
+.active_cart p,
+.active_cart h2,
+.active_cart a {
+    color: var(--mainColorCl);
+}
+
+.service_second_cart {
+    margin-top: -90px;
+}
+.service_second_thred {
+    margin-top: -170px;
+}
+.service_five_cart {
+    margin-top: -60px;
+}
+/* Services */
+
+/* A Successful Entrepreneurial Development Process */
+.successful_entrepreenurial {
+    background-image: url(../images/ng.png);
+    background-position: center;
+    background-size: cover;
+    padding: 150px 0;
+}
+.successful_entrepreenurial h1 {
+    color: var(--mainColorCl);
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 55px;
+}
+
+.successful_entrepreenurial h1 span {
+    background: -webkit-linear-gradient(#c74da9, #3482f6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.successful_entrepreenurial .smCart_content h5 {
+    color: var(--mainColorCl);
+}
+
+.successful_entrepreenurial p {
+    color: var(--smGrayNewCL);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+}
+/* A Successful Entrepreneurial Development Process */
+
+/* The business partners */
+.the_business_partners h5 {
+    color: var(--lightGreenCl);
+}
+.the_business_partners h1 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+}
+.bussiness_cart_div {
+    border-radius: 15px;
+    background-color: var(--mainColorCl);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+/* The business partners */
+
+/* HOW DOES WE WORK */
+.how_does_we {
+    position: relative;
+    /* padding: 150px 0; */
+}
+.how_does_we .row {
+    z-index: 100;
+    position: relative;
+}
+/* .how_does_we::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--lightSkyCl);
+    z-index: 10;
+    clip-path: polygon(100% 0, 100% 0, 100% 84%, 0 100%, 0 100%, 0 14%);
+} */
+.how_does_we h5 {
+    color: var(--lightGreenCl);
+}
+.how_does_we h1 {
+    font-weight: 700;
+    font-size: 45px;
+}
+.how_does_we p {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 30px;
+    color: var(--smGrayCl);
+}
+.how_does_work_content {
+    position: relative;
+    padding-left: 1rem;
+}
+.how_does_work_content::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 2px;
+    height: 100%;
+    background-color: var(--lightGreenCl);
+    border-radius: 10px;
+}
+/* HOW DOES WE WORK */
+
+/* Designed for developers */
+.designed_for_developers {
+    background-image: url(../images/bg-new.png);
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0;
+}
+.designed_for_developers h5 {
+    color: var(--lightGreenCl);
+}
+.designed_for_developers h1 {
+    font-weight: 800;
+    font-size: 50px;
+    color: var(--mainColorCl);
+}
+.designed_for_developers p {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    color: var(--smGrayCl);
+}
+.designed_content_div h4 {
+    color: var(--mainColorCl);
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.designed_content_div p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: var(--smGrayCl);
+}
+.designed_content_div a {
+    color: var(--lightGreenCl);
+    text-decoration: none;
+}
+/* Designed for developers */
+
+/* Contact for Consulting */
+.contact_for_consulation p {
+    font-weight: 400;
+    font-size: 18px;
+}
+.contact_for_consulation h5 {
+    font-weight: 600;
+    font-size: 30px;
+}
+.contact_for_consulation input,
+.contact_for_consulation textarea {
+    width: 100%;
+    height: 60px;
+    background: #f5f5f5;
+    border-radius: 15px;
+    padding: 1rem;
+    border: none;
+}
+.contact_for_consulation .textaria {
+    height: 200px;
+}
+/* Contact for Consulting */

@@ -1,0 +1,29 @@
+.Appoiontment_button {
+    padding: 0.8rem 2rem;
+    background: var(--darkButtonCl);
+    backdrop-filter: blur(20px);
+    border: none;
+    border-radius: 8px;
+    color: var(--mainColorCl);
+}
+.right_arrow_button {
+    padding: 0.8rem 2rem;
+    background: var(--lightGreenCl);
+    backdrop-filter: blur(20px);
+    border: none;
+    border-radius: 8px;
+    color: var(--mainColorCl);
+}
+.submit_button {
+    width: 100%;
+    padding: 0.8rem 2rem;
+    background-color: var(--lightGreenCl);
+    box-shadow: 0px 65.2563px 52.2051px rgba(49, 49, 49, 0.07), 0px 42.2958px 30.5738px rgba(49, 49, 49, 0.07),
+        0px 25.1358px 16.6283px rgba(49, 49, 49, 0.0607407), 0px 13.0513px 8.48332px rgba(49, 49, 49, 0.05),
+        0px 5.31718px 4.25375px rgba(49, 49, 49, 0.0392593), 0px 1.20845px 2.05437px rgba(49, 49, 49, 0.0240741);
+    border-radius: 15px;
+    backdrop-filter: blur(20px);
+    border: none;
+    border-radius: 8px;
+    color: var(--mainColorCl);
+}

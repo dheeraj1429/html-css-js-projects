@@ -1,0 +1,449 @@
+@media screen and (min-width: 991) and (max-width: 1200px) {
+   /* STYLES HERE */
+}
+
+@media (max-width: 1800px) {
+   .services_includes_card {
+      width: 70%;
+   }
+}
+@media (max-width: 1562px) {
+   .services_includes_card {
+      width: 79%;
+   }
+}
+@media (max-width: 1500px) {
+   .content-banner h4 {
+      font-size: 130px;
+   }
+   .Out_web_designagency h2 {
+      font-size: 60px;
+   }
+   .get_your_free_qoute h2 {
+      font-size: 60px;
+   }
+   .content-banner h1 {
+      font-size: 130px;
+   }
+   .content-banner h4 {
+      font-size: 100px;
+   }
+}
+@media (max-width: 1408px) {
+   .services_includes_card {
+      width: 91%;
+   }
+   .web_desing_Content_div h1 {
+      font-size: 65px;
+      line-height: normal;
+   }
+   .web_desing_Content_div p {
+      font-size: 22px;
+   }
+   Header {
+      padding: 0 30px;
+   }
+   footer {
+      padding: 30px;
+   }
+}
+@media (max-width: 1200px) {
+   .web_desing_Content_div h1 {
+      font-size: 38px;
+      line-height: normal;
+   }
+   .side_Padding {
+      padding: 0 100px;
+   }
+}
+@media (max-width: 1200px) {
+   .navbar-nav .nav-item {
+      text-align: center;
+      padding: 0.5rem 0;
+   }
+   .icon-header {
+      padding: 0.5rem 0;
+      text-align: center;
+   }
+   .contact_icon_div p {
+      font-size: 14px !important;
+   }
+   .font_sm {
+      font-size: 18px !important;
+   }
+   .mapSection {
+      margin-top: 0 !important;
+   }
+   .bg_card h1 {
+      font-weight: bold;
+      font-size: 27px;
+   }
+   .bg_card {
+      height: auto;
+   }
+}
+@media (max-width: 990px) {
+   .services_includes_card {
+      width: 59%;
+   }
+   .side_Padding {
+      padding: 0 60px;
+   }
+   .content-banner h4 {
+      font-size: 80px;
+   }
+   .Out_web_designagency h2 {
+      font-size: 50px;
+   }
+   .get_your_free_qoute h2 {
+      font-size: 50px;
+   }
+   .get_your_free_qoute h2 {
+      font-size: 30px;
+   }
+   .A_treasure_trove_of h2 {
+      font-size: 40px;
+   }
+   .A_treasure_trove_of p {
+      font-size: 18px;
+   }
+   .A_treasure_trove_of .hide_heading {
+      font-size: 80px;
+   }
+   .bg_card h1 {
+      font-size: 20px;
+   }
+   .details p {
+      font-size: 0.8rem;
+   }
+   .details .pos_dl {
+      font-size: 40px;
+      top: 38%;
+   }
+   .bg-img-bottam {
+      padding: 1rem;
+   }
+   .bg-img-bottam p {
+      font-size: 14px;
+   }
+   .related-section h2 {
+      font-size: 60px;
+   }
+   .Portfolio_centent_info span {
+      font-size: 80px;
+   }
+   .Portfolio_centent_info h4 {
+      font-size: 54px;
+   }
+   .Portfolio_centent_info p {
+      font-size: 15px;
+   }
+   .info-end h5 {
+      font-size: 23px;
+   }
+   .Portfolio_centent_info ul li {
+      font-size: 20px;
+   }
+   .about-card h4 {
+      font-size: 28px;
+   }
+   .get {
+      font-size: 70px;
+   }
+   .get1 {
+      font-size: 70px;
+   }
+   .card-bg h2 {
+      font-size: 60px;
+   }
+   .card-bg p {
+      font-size: 25px;
+   }
+   .banner_vide_div video {
+      width: auto;
+      height: 100%;
+   }
+}
+@media (max-width: 885px) {
+   .services_includes_card {
+      width: 68%;
+   }
+   .Out_web_designagency h2 {
+      font-size: 45px;
+   }
+   .Out_web_designagency p {
+      font-size: 20px;
+   }
+   .get_your_free_qoute h2 {
+      font-size: 35px;
+   }
+   .portfolio .nav-pills .nav-link {
+      padding: 1rem 3.5rem;
+   }
+   .privacy h1,
+   .privacy h4 {
+      font-size: 60px;
+   }
+}
+@media (max-width: 767px) {
+   .services_includes_card {
+      width: 70%;
+   }
+   .side_Padding {
+      padding: 0 30px;
+   }
+   .trd-centent {
+      padding: 23px 10px;
+   }
+   .bg_card {
+      padding: 4rem 1rem;
+   }
+   .container_details .light_heading_para {
+      font-size: 35px !important;
+   }
+   .contact_card_div {
+      padding: 2rem !important;
+   }
+   .contact-img {
+      left: 0;
+   }
+   .contact-us {
+      border-left: 0;
+   }
+   .accordion-tab {
+      padding: 1rem;
+   }
+   .Web-div h2 {
+      font-size: 50px;
+   }
+   .Web-div p {
+      font-size: 18px;
+   }
+   .get {
+      font-size: 50px;
+   }
+   .get1 {
+      font-size: 50px;
+   }
+   .hover_Section h1 {
+      font-size: 40px;
+   }
+   .work-centent p {
+      padding-left: 0;
+   }
+   .work-centent-sec p {
+      padding-right: 0;
+   }
+   .get::after {
+      content: '';
+      margin: auto;
+   }
+
+   .get1::after {
+      content: '';
+      margin: auto;
+   }
+}
+@media (max-width: 767px) {
+   .footer_content_div {
+      display: grid;
+      justify-content: center;
+   }
+   .footer-link h5 {
+      margin-bottom: 13px;
+   }
+   .Portfolio_centent_info ul li {
+      list-style: none;
+   }
+   .Portfolio_centent_info ul {
+      padding-left: 0 !important;
+   }
+   .footer-link h4 {
+      font-size: 20px;
+   }
+   .copyright p {
+      text-align: center;
+   }
+}
+
+@media (max-width: 767px) {
+   .bg_card {
+      height: 86%;
+   }
+}
+
+@media (max-width: 660px) {
+   .nav {
+      display: grid !important;
+      align-items: center !important;
+      justify-content: center !important;
+   }
+   .nav li {
+      margin: 1rem 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+}
+@media (max-width: 600px) {
+   .services_includes_card {
+      width: 90%;
+   }
+   .section {
+      padding: 0;
+   }
+   .Portfolio_centent_info h4 {
+      font-size: 40px;
+   }
+   .padding_secttion {
+      padding: 30px 10px;
+   }
+}
+@media (max-width: 571px) {
+   .footer-link h4::after {
+      content: '';
+      margin: auto;
+   }
+   .related-section h2 {
+      font-size: 30px;
+   }
+   .bg-img-bottam {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)),
+         url(../images/port-banner.png);
+   }
+   .point-centent li {
+      font-size: 15px;
+      padding: 1rem 0;
+   }
+   .trd-centent span {
+      margin-bottom: 0.5rem;
+   }
+   .footer-link h4::after {
+      content: '';
+      margin: auto;
+      width: 20%;
+   }
+}
+@media (max-width: 500px) {
+   .services_includes_card {
+      width: 100%;
+   }
+
+   .search_input_div input {
+      padding: 0 0 0 0.5rem;
+   }
+   .search_input_div {
+      display: grid;
+      border-radius: 30px;
+      overflow: visible;
+      height: auto;
+   }
+   .search_input_div input {
+      height: 50px;
+      border-radius: 30px;
+      padding: 1rem;
+      margin: 0.5rem 0;
+   }
+   .icon-pre-next h4 {
+      font-size: 15px;
+   }
+   .details_content h1 {
+      font-size: 2rem;
+   }
+}
+@media (max-width: 450px) {
+   .services_includes_list li p {
+      font-size: 12px;
+   }
+   .A_treasure_trove_of .hide_heading {
+      font-size: 35px;
+   }
+   .Portfolio_centent_info h4 {
+      font-size: 30px;
+   }
+   .Portfolio_centent_info span {
+      font-size: 47px;
+   }
+   Header {
+      padding: 0;
+   }
+   .Out_web_designagency h2 {
+      font-size: 26px;
+   }
+   .send_message p {
+      font-size: 0.8rem;
+   }
+   .details_content h1 {
+      font-size: 1.5rem;
+   }
+   .content_div {
+      display: grid !important;
+      justify-content: center !important;
+   }
+   .content_div p {
+      margin-top: 0.5rem;
+   }
+   .about-card p {
+      font-size: 16px !important;
+   }
+}
+@media (max-width: 400px) {
+   .services_includes_list {
+      padding: 0;
+   }
+   .web_desing_Content_div h1 {
+      font-size: 35px;
+   }
+   .content-banner h4 {
+      font-size: 53px;
+   }
+   .get_your_free_qoute h2 {
+      font-size: 30px;
+   }
+   .web_desing_Content_div p {
+      font-size: 12px;
+   }
+   .A_treasure_trove_of p {
+      font-size: 14px;
+   }
+   .get1 {
+      font-size: 42px;
+   }
+   .get {
+      font-size: 42px;
+   }
+   .our-content h5 {
+      font-size: 15px;
+   }
+   .my-btn {
+      padding: 1rem 2rem;
+   }
+   .Web-div h2 {
+      font-size: 37px;
+   }
+   .Web-div p {
+      font-size: 16px;
+   }
+   .Out_web_designagency p {
+      font-size: 15px;
+   }
+   .work-centent h2 {
+      font-size: 36px;
+   }
+   .work-centent-sec h2 {
+      font-size: 36px;
+   }
+   .work-centent p {
+      font-size: 14px;
+   }
+}
+@media (max-width: 370px) {
+   .services_includes_list li::before {
+      content: '';
+      margin-right: 0px;
+      transform: scale(0.4);
+   }
+   .services_includes_list li p {
+      font-size: 10px;
+   }
+}

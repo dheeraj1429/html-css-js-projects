@@ -1,0 +1,362 @@
+/* banner section */
+.banner_section::before {
+    content: '';
+    width: 100%;
+    height: 96%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(../images/unsplash_t8TOMKe6xZU.png);
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+}
+.banner_section_bottom_div {
+    width: 100%;
+    position: absolute;
+    bottom: -620px;
+    left: 0;
+    z-index: -1;
+}
+.banner_section h3 {
+    color: var(--lightSkyCl);
+    font-weight: 800;
+    font-size: 40px;
+}
+.banner_section h1 {
+    color: var(--mainColor);
+    font-size: 50px;
+    font-weight: 700;
+}
+.banner_icons_div {
+    position: absolute;
+    bottom: 40%;
+    right: 30px;
+}
+.banner_icons_div img {
+    cursor: pointer;
+}
+/* banner section */
+
+/* blog section */
+.blog_cart_div {
+    width: auto;
+    height: 100%;
+    background: var(--mainColor);
+    box-shadow: 0px 0px 6px 4px rgba(183, 183, 183, 0.2);
+    border-radius: 20px;
+}
+.blog_cart_div h5 {
+    font-weight: 800;
+    font-size: 32px;
+}
+.blog_cart_div p {
+    font-size: 20px;
+    color: var(--grayLight);
+}
+/* blog section */
+
+/* Recognized Forums */
+.line_div {
+    width: 180px;
+    height: 6px;
+    background-color: var(--lightSkyCl);
+}
+.recognized_form_content h5,
+.services h5 {
+    font-size: 24px;
+    font-weight: 600;
+}
+.recognized_form_content h3 {
+    font-weight: 700;
+    font-size: 58px;
+}
+
+.services h3 {
+    font-size: 58px;
+    font-weight: 700;
+}
+
+.recognized_form_content p {
+    font-size: 20px;
+}
+.sm_cart_icons_div {
+    width: 100%;
+    height: 100%;
+    background-color: var(--mainColor);
+    box-shadow: 0px 0px 6px 1px rgba(174, 174, 174, 0.25);
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    cursor: pointer;
+}
+.sm_cart_active {
+    background-color: var(--lightBlue);
+}
+/* Recognized Forums */
+
+/* services */
+.services {
+    position: relative;
+}
+.curcle_div {
+    position: absolute;
+    top: -400px;
+    right: 0px;
+    z-index: -1;
+}
+.services h1 {
+    font-weight: 700;
+    font-size: 53px;
+    line-height: 74px;
+}
+.services p {
+    font-size: 21px;
+}
+.blog_slider_cart {
+    width: 100%;
+    box-shadow: 0px 0px 5.7801px 3.8534px rgba(183, 183, 183, 0.2);
+    border-radius: 11.5602px;
+    background-color: var(--mainColor);
+}
+.blog_slider_container h5 {
+    color: var(--lightSkyCl);
+    font-size: 25px;
+}
+.blog_slider_heading_div {
+    border-bottom: 1px solid var(--lightGray);
+    width: 100%;
+    padding: 0.5rem 0;
+}
+.blog_slider_cart p {
+    font-size: 20px;
+}
+.slider_card_sm_content i {
+    color: var(--lightSkyCl);
+    font-size: 0.9rem;
+}
+.slider_card_sm_content p {
+    color: var(--grayLight);
+    font-size: 17px;
+}
+/* services */
+
+/* Portfolio */
+.portfolio_heading h5 {
+    font-size: 25px;
+    font-weight: 700;
+}
+.portfolioSection .line_div {
+    max-width: 180px;
+    margin: auto;
+    margin-top: 0.8rem;
+}
+.portfolioSection h1 {
+    font-weight: 700;
+    font-size: 54px;
+}
+/* Portfolio */
+
+/* Ideal Mobile App Development Process */
+
+/* Ideal Mobile App Development Process */
+
+/* Clients Contentment is all We Starve for */
+.client_contentment h3 {
+    font-size: 54px;
+    font-weight: 700;
+}
+
+.cart_slider {
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    /* border: 1px solid red; */
+    /* overflow: hidden; */
+    position: relative;
+}
+
+.cart_slider_head {
+    height: 600px;
+}
+
+.cart_slider_inner_Cart {
+    width: 1200px;
+    background-color: var(--lightSkyCl);
+    border-radius: 50px;
+    padding: 2rem 3rem;
+    transition: all 0.5s ease;
+}
+
+.cart_slider_inner_Cart p {
+    color: var(--mainColor);
+    font-weight: 400;
+    font-size: 20px;
+}
+.user_info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.user_profile {
+    width: 100px;
+    height: 100px;
+}
+.user_info h5 {
+    font-size: 40px;
+}
+.user_info p {
+    font-size: 14px;
+}
+
+.slider_image {
+    margin-bottom: -200px;
+}
+
+.cart_slider_option_div {
+    margin-top: -90px;
+}
+
+.cart_options img {
+    cursor: pointer;
+    width: 28px;
+    margin-right: 0.5rem;
+}
+
+.cart_options i {
+    margin-right: 0.5rem;
+    font-size: 0.8rem;
+    color: var(--gray);
+}
+
+.cart_options_active {
+    color: var(--dark) !important;
+}
+
+.slider .slick-current {
+    width: 1300px !important;
+}
+
+.slider .slick-dots {
+    width: 100px !important;
+    bottom: 90px;
+}
+
+.slider .slick-next:before,
+.slider .slick-prev:before {
+    color: var(--dark);
+}
+
+.slider .slick-next:before,
+.slider .slick-prev:before {
+    color: var(--dark);
+}
+
+.slider .slick-prev {
+    top: 84%;
+    left: 0px;
+}
+
+.slider .slick-next {
+    left: 120px;
+    top: 84%;
+}
+
+/* Clients Contentment is all We Starve for */
+
+/* Technologies */
+.tec_tabs {
+    background-color: var(--lightSkyCl);
+    padding: 1rem;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    z-index: 100;
+    background-color: var(--mainColor);
+    cursor: pointer;
+    box-shadow: 0 0 10px var(--lightSmookTwo);
+}
+
+.first_tab_c {
+    background-color: var(--lightSkyCl);
+}
+
+.first_tab_c p {
+    color: var(--mainColor) !important;
+}
+
+.tec_tabs p {
+    font-size: 25px;
+    color: var(--grayLight);
+    font-weight: 700;
+}
+.card_tabs_option {
+    width: 100%;
+    padding: 1rem;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--mainColor);
+}
+/* Technologies */
+
+/* READY TO GROW */
+.ready_to_grow {
+    position: relative;
+}
+.bg_pos_cart_div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    width: 100%;
+    height: 100vh;
+    top: -500px;
+    left: 0;
+    background-image: url(../images/f.png);
+    background-position: center;
+    background-size: contain;
+    z-index: -1;
+}
+.read_to_grow_inner_section {
+    width: 100%;
+    height: 100%;
+    padding: 3rem 2rem;
+    border-radius: 30px;
+    background-color: var(--mainColor);
+    box-shadow: 0px 8px 30px rgba(64, 196, 224, 0.1);
+}
+.read_to_grow_inner_section h1 {
+    font-weight: 700;
+    font-size: 80px;
+}
+.read_to_grow_inner_section input {
+    width: 100%;
+    height: 60px;
+    background-color: transparent;
+    padding: 2rem;
+    border-radius: 30px 0 0 30px;
+    border: 1px solid var(--lightGray);
+    outline: none;
+}
+.read_to_grow_inner_section .input_second {
+    border-radius: 0 30px 30px 0px;
+}
+
+.ready_to_go_content h3 {
+    font-size: 40px;
+}
+.ready_to_go_content p {
+    font-size: 15px;
+}
+/* READY TO GROW */
+.lineOne {
+    display: none;
+}

@@ -1,0 +1,1014 @@
+/* Golbal code start  */
+* {
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+
+body {
+   background-color: var(--darkBg);
+}
+
+h2 {
+   font-size: 70px;
+   color: var(--mainColor);
+}
+
+h3 {
+   font-size: 30px;
+   color: var(--main-color);
+}
+
+p {
+   font-size: 25px;
+   color: var(--smgray);
+}
+
+:root {
+   --main-color: #009eff;
+   --mainColor: #fff;
+   --lightCl: #dbdbdb;
+   --dark: rgb(73, 73, 73);
+   --dark1: rgb(58, 58, 58);
+   --light: #e7e7e7;
+   --darkBg: #000000;
+   --navbarColor: #000;
+   --smgray: rgb(255, 255, 255);
+   --footerColor: #000;
+   --cardColor: #041228;
+   --cursorColor: #fff;
+}
+
+.light_theme {
+   --mainColor: #0e0e0e;
+   --main-color: #009eff;
+   --light: #636363;
+   --darkBg: #f5f5f5;
+   --navbarColor: #000;
+   --smgray: rgb(61, 61, 61);
+   --footerColor: #000;
+   --cardColor: #041228;
+   --cursorColor: #000;
+}
+
+.padding_secttion {
+   padding: 80px 10px;
+}
+
+.padding_two {
+   padding-bottom: 80px !important;
+}
+
+.row {
+   padding: 0px;
+}
+
+.light_para_cl {
+   color: var(--main-color);
+}
+
+.light_para {
+   font-size: 30px;
+   color: var(--main-color);
+}
+.hide_heading {
+   font-weight: 700;
+   font-size: 140px;
+   opacity: 0.1;
+   color: var(--main-color);
+}
+/* Golbal code end  */
+
+/* Header css code start  */
+Header {
+   padding: 0px 140px;
+   background-color: var(--navbarColor);
+}
+
+header .navbar-light .navbar-nav .nav-link:hover {
+   color: var(--main-color);
+}
+Header .navbar-light .navbar-nav .nav-link.active {
+   color: var(--main-color);
+}
+Header .navbar-light .navbar-nav .nav-link {
+   color: #fff;
+   /* font-size: 18px; */
+   padding: 0px 40px;
+}
+
+.icon-header .fab {
+   color: var(--main-color);
+   padding: 0px 20px;
+   font-size: 20px;
+}
+
+Header .navbar-light .navbar-toggler {
+   color: rgba(0, 0, 0, 0.55);
+   background-color: #fff;
+}
+
+.themeChange i {
+   color: #fff;
+}
+
+.head_div {
+   position: relative;
+}
+
+.banner_vide_div {
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   overflow: hidden;
+}
+
+.banner_vide_div video {
+   width: 100%;
+   min-height: 100%;
+   transition: all 0.5s ease;
+}
+
+/* Header css code end  */
+
+/* Banner css code start  */
+
+body {
+   overflow-x: hidden;
+   position: relative;
+}
+
+.ml12 {
+   font-weight: 200;
+   font-size: 1.8em;
+   text-transform: uppercase;
+   letter-spacing: 0.5em;
+}
+
+.cursor {
+   width: 20px;
+   height: 20px;
+   border: 1px solid var(--cursorColor);
+   border-radius: 50%;
+   position: absolute;
+   transition-duration: 50ms;
+   /* transition-timing-function: ease; */
+   animation: cursorAnim 0.5s infinite alternate;
+   pointer-events: none;
+   /* box-shadow: 0 0 10px var(--main-color); */
+   z-index: 200;
+}
+
+.cursor::after {
+   content: '';
+   width: 20px;
+   height: 20px;
+   position: absolute;
+   border: 8px solid gray;
+   border-radius: 50%;
+   opacity: 0.5;
+   box-shadow: 0 0 20px var(--mainColor);
+   top: -1px;
+   left: -1px;
+   animation: cursorAnim2 0.5s infinite alternate;
+}
+
+@keyframes cursorAnim {
+   from {
+      transform: scale(1);
+   }
+   to {
+      transform: scale(0.7);
+   }
+}
+
+@keyframes cursorAnim2 {
+   from {
+      transform: scale(1);
+   }
+   to {
+      transform: scale(0.4);
+   }
+}
+
+@keyframes cursorAnim3 {
+   0% {
+      transform: scale(1);
+   }
+   50% {
+      transform: scale(3);
+   }
+   100% {
+      transform: scale(1);
+      opacity: 0;
+   }
+}
+
+.expand {
+   animation: cursorAnim3 0.5s forwards;
+   border: 1px solid red;
+}
+
+.section {
+   padding: 20px 140px;
+   background-color: var(--darkBg);
+}
+
+.page_heightDiv {
+   top: 0;
+   left: 0;
+   height: 100%;
+   position: fixed;
+   width: 4px;
+}
+
+.ifon {
+   width: 100%;
+   height: 0%;
+   transition: all 0.3s ease;
+   background-color: var(--main-color);
+}
+
+.themeChange i {
+   cursor: pointer;
+}
+
+.content-banner h1 {
+   color: var(--mainColor);
+   font-size: 180px;
+   font-weight: bold;
+   line-height: 0.4;
+}
+
+.content-banner h4 {
+   font-size: 145px;
+   font-weight: bold;
+   -webkit-text-stroke: 3px var(--mainColor);
+   line-height: 1.2;
+   color: transparent;
+}
+
+.content-banner p {
+   font-size: 16px !important;
+   line-height: 1.6;
+   margin-top: 30px;
+   color: var(--mainColor);
+}
+
+.content-banner button {
+   border: 4px solid var(--main-color);
+   padding: 15px 50px;
+   border-radius: 50px;
+   color: var(--mainColor);
+   margin-top: 40px;
+}
+
+.content-banner button:hover {
+   color: var(--main-color);
+}
+
+.bannerSection {
+   transition: all 0.3s ease;
+   position: relative;
+   z-index: 100;
+}
+
+.banner_card {
+   position: relative;
+}
+
+.banner_video_div {
+   width: 100%;
+   opacity: 0;
+}
+
+.banner_video_div video {
+   max-width: 100%;
+   max-width: 100%;
+}
+
+.arrowEL {
+   transform: rotate(90deg);
+   position: fixed;
+   bottom: 40px;
+   left: 50%;
+   width: 30px;
+   opacity: 0;
+   height: auto;
+}
+
+.animi {
+   animation: arrow infinite 1.6s ease-out;
+}
+
+@keyframes arrow {
+   0% {
+      bottom: 40px;
+      opacity: 1;
+   }
+   50% {
+      bottom: 10px;
+      opacity: 1;
+   }
+   100% {
+      bottom: 40px;
+      opacity: 0;
+   }
+}
+
+.banner_image_div {
+   position: relative;
+}
+
+.banner_image_div img {
+   transition: all 0.1s ease;
+}
+
+/* Banner css code end  */
+
+/* WHO WE ARE css code start */
+
+.sec-centent {
+   padding: 50px 140px;
+}
+
+.sec-centent h2 {
+   padding: 20px 0px 0px 0px;
+}
+
+.sec-centent span {
+   display: flex;
+   justify-content: end;
+   width: 84%;
+   margin-bottom: 30px;
+}
+
+.sec-centent h3 {
+   padding: 10px 0px;
+}
+
+/* WHO WE ARE code end  */
+/* Trusted By Clients css code start  */
+.trd-centent {
+   padding: 50px 140px;
+}
+
+.trd-centent span {
+   display: flex;
+   justify-content: end;
+   width: 81%;
+   margin-bottom: 30px;
+}
+
+.side_Padding {
+   padding: 0 150px;
+}
+
+.paddgin_one {
+   padding: 30px 0;
+}
+
+/* hover_Section */
+
+.hover_Section {
+   background: linear-gradient(255.68deg, #007fcc 28.27%, #039efe 99.65%);
+   background-position: center;
+   background-size: cover;
+   transition: all 0.2s ease-out;
+}
+
+.hover_Section h1 {
+   font-weight: bold;
+   font-size: 80px;
+   color: var(--mainColor);
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+}
+
+.See_all_clients {
+   padding: 0.6rem 2rem;
+   border: none;
+   outline: none;
+   border: 2px solid #fff;
+   border-radius: 30px;
+   background-color: transparent;
+   color: #fff;
+}
+
+.hover_icons_div img {
+   width: 120px;
+   height: auto;
+}
+
+.hover_effect {
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+   display: grid;
+   place-content: center;
+   position: relative;
+}
+
+.hover_div {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+   border-radius: 50%;
+   z-index: 10;
+   transform: scale(0);
+   transition: all 0.2s ease;
+}
+
+.hover_effect img {
+   z-index: 20;
+}
+
+.hover_effect:hover .hover_div {
+   background-color: #fff;
+   transform: scale(1);
+}
+
+.hover_effect img:nth-child(2) {
+   margin-bottom: -80px;
+   opacity: 0;
+   transition: all 0.2s ease;
+}
+
+.hover_effect:hover img:nth-child(2) {
+   margin-bottom: 0;
+   opacity: 1;
+   transition: all 0.2s ease;
+}
+
+.hover_effect:hover img:nth-child(1) {
+   margin-top: -80px;
+   opacity: 0;
+   transition: all 0.2s ease;
+}
+
+/* hover_Section */
+
+/* OUR WORK section start  */
+.app_section {
+   position: relative;
+}
+
+.animiImage_card {
+   position: absolute;
+   top: -75vh;
+   right: 80vw;
+   z-index: 10000;
+   width: 30vw;
+   max-width: initial;
+   opacity: 0.6;
+   transform: rotate(10deg) translate3d(0vw, 0vw, 1px);
+   transition: all 0.75s ease-in-out;
+   filter: blur(8px);
+}
+
+.animation_card_right {
+   right: -30vh !important;
+}
+
+.app_image {
+   transition: all 0.75s ease-in-out;
+   opacity: 1;
+   filter: blur(0);
+   position: relative;
+   left: 0;
+   top: 0;
+   width: 100%;
+   transform: rotate(0deg);
+}
+/* OUR WORK section start  */
+
+/* Trusted By Clients css code end  */
+/* our expertise css code start  */
+.fr-centent {
+   padding: 50px 140px;
+}
+
+.fr-centent span {
+   display: flex;
+   justify-content: end;
+   width: 76%;
+   margin-bottom: 30px;
+}
+
+.get::after {
+   content: '';
+   display: block;
+   border-bottom: 8px solid var(--main-color);
+   margin-top: -18px;
+   max-width: 14%;
+}
+
+.get1::after {
+   content: '';
+   display: block;
+   border-bottom: 8px solid var(--main-color);
+   max-width: 40%;
+   margin-top: -18px;
+}
+.section1 {
+   padding: 0px 140px;
+}
+
+.our-content h5 {
+   font-size: 25px;
+   color: var(--smgray);
+}
+
+.our-content span {
+   color: var(--main-color);
+}
+
+.my-btn {
+   padding: 15px 50px;
+   border-radius: 50px;
+   color: var(--mainColor);
+   background-color: var(--main-color);
+   margin-top: 20px;
+   font-weight: bold;
+}
+.card-bg {
+   background-image: url(../images/background.png);
+   background-repeat: no-repeat;
+   margin: 100px 0px;
+}
+.card-bg1 {
+   background-image: url(../images/bg-1.png);
+   background-repeat: no-repeat;
+   margin: 100px 0px;
+}
+.card-bg2 {
+   background-image: url(../images/bg-2.png);
+   background-repeat: no-repeat;
+   margin: 100px 0px;
+}
+.card-centent {
+   padding: 50px;
+}
+/* our expertise css code end  */
+
+/* Work process css code start  */
+.box-part {
+   background: #041229;
+   padding: 60px 20px;
+   border-radius: 12px;
+}
+.box-part h5 {
+   color: var(--main-color);
+   margin: 20px 0px;
+   font-size: 30px;
+}
+.box-part .text {
+   font-size: 18px;
+   color: #fff;
+}
+.count {
+   font-size: 50px;
+   font-weight: bold;
+   -webkit-text-stroke: 2px var(--main-color);
+   position: absolute;
+   margin-left: 20px;
+}
+
+/* Work process css code end  */
+
+/* our work css code start  */
+.span-img span {
+   display: flex;
+   justify-content: end;
+   width: 80%;
+   margin-bottom: 30px;
+}
+
+.work-centent {
+   padding: 0px 0px 30px 0px;
+}
+.work-centent h5 {
+   font-size: 80px;
+   -webkit-text-stroke: 4px #fff;
+   color: #000;
+   line-height: 0.6;
+}
+.work-centent h2 {
+   font-size: 60px;
+}
+.work-centent p {
+   font-size: 16px;
+   color: var(--smgray);
+   padding-left: 200px;
+}
+
+.work-centent-sec {
+   padding: 30px 0px 0px 0px;
+}
+.work-centent-sec h5 {
+   font-size: 80px;
+   -webkit-text-stroke: 4px #fff;
+   color: #000;
+   line-height: 0.6;
+}
+.work-centent-sec h2 {
+   font-size: 60px;
+}
+.work-centent-sec p {
+   font-size: 16px;
+   color: var(--smgray);
+   padding-right: 200px;
+}
+
+/* our work css code end  */
+
+/* PORTFOLIO css code start  */
+.Portfolio-centent {
+   padding: 100px 300px;
+}
+.portfolio .nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+   color: #fff;
+   background-color: var(--main-color);
+   padding: 15px 60px;
+   border-radius: 50px;
+   font-weight: bold;
+}
+.portfolio .nav-pills .nav-link {
+   background: #041228;
+   border-radius: 50px;
+   padding: 15px 60px;
+   color: #fff;
+}
+/* PORTFOLIO css code end  */
+
+/* Testimonial css code start  */
+
+.testimonial-card {
+   background-color: #041228;
+   padding: 50px 25px;
+   border-radius: 12px;
+}
+
+.testimonial-card h4 {
+   font-size: 40px;
+   color: #fff;
+   margin-top: 10px;
+}
+
+.testimonial-card h5 {
+   font-size: 20px;
+   color: var(--main-color);
+}
+
+.testimonial-card p {
+   font-size: 16px !important;
+   color: #fff;
+   margin: 20px 0px;
+}
+
+.testimonial .carousel-indicators [data-bs-target] {
+   width: 30px;
+   height: 30px;
+   border-radius: 50%;
+   background-color: var(--main-color);
+}
+
+.testimonial .carousel-indicators {
+   margin-bottom: -5rem;
+}
+/* Testimonial css code end  */
+
+/* Contact us css code start  */
+.contact-us {
+   background-color: #041228;
+   border-left: 100px solid #020914;
+}
+
+.contact-img {
+   position: relative;
+   left: -190px;
+}
+.contact-padding {
+   padding: 0px 140px 50px 140px;
+}
+.accordion-tab {
+   padding: 50px 50px 50px 0px;
+}
+
+.accordion-tab h4 {
+   font-size: 30px;
+   color: #fff;
+   padding: 20px 0px;
+}
+.accordion-tab .accordion-item {
+   border: none;
+   border-top: 4px solid #fff;
+   border-radius: 0px;
+}
+.accordion-tab .accordion-button:focus {
+   border-color: #041228;
+}
+.accordion-tab .accordion-button:not(.collapsed) {
+   background-color: #041228;
+}
+.accordion-tab .accordion-button:not(.collapsed) {
+   color: #fff;
+   font-size: 24px;
+   font-weight: bold;
+}
+.accordion-tab .accordion-body {
+   background-color: #041228;
+}
+.accordion-tab .accordion-button:not(.collapsed)::after {
+   background-image: url(../images/cx.png);
+}
+.accordion-tab .accordion-button::after {
+   background-image: url(../images/plus.png);
+}
+.accordion-tab .accordion-button {
+   background-color: #041228;
+   color: #fff;
+   font-size: 22px;
+   padding: 30px 20px;
+}
+.accordion-tab strong {
+   font-weight: normal;
+   color: #fff;
+   font-size: 20px;
+}
+
+/* Contact us css code end  */
+
+/* footer css code start  */
+
+footer {
+   padding: 50px 140px 20px 140px;
+   background-color: var(--footerColor);
+}
+
+.footer_content_div_inner h4 {
+   color: var(--main-color);
+   max-width: 300px;
+}
+
+.footer_content_div_inner p {
+   font-size: 1.1rem;
+   font-weight: 400;
+}
+
+.footer_content_div_inner i {
+   color: var(--mainColor);
+}
+
+.footer-link h4 {
+   text-transform: uppercase;
+   color: #fff;
+   font-size: 24px;
+}
+
+.footer-link h5 {
+   margin-bottom: 20px;
+   font-size: 16px;
+}
+.footer-link h4::after {
+   content: '';
+   display: block;
+   width: 40%;
+   border-bottom: 3px solid var(--main-color);
+   margin-top: 10px !important;
+}
+
+.footer-link h5 a {
+   text-decoration: none;
+   color: #fff;
+   text-transform: uppercase;
+   font-weight: normal;
+   padding: 20px 0px;
+}
+.footer-link h5 a:hover {
+   color: var(--main-color);
+   transition: all 0.5s;
+}
+.footer-link p {
+   font-size: 16px !important;
+   font-weight: normal;
+   color: #fff;
+}
+
+.footer-link form {
+   margin-top: 40px;
+}
+.footer-link .form-control {
+   height: 50px;
+   border-radius: 50px;
+   box-shadow: 0px 0px 5px 11px RGBA(13, 83, 231, 0.2);
+}
+
+.footer-link button {
+   padding: 15px 40px;
+   border-radius: 50px;
+}
+.copyright p {
+   color: #fff;
+   font-size: 18px !important;
+}
+.footer-icon .fab {
+   color: var(--main-color);
+   padding: 0px 20px;
+   font-size: 20px;
+}
+/* footer css code end  */
+
+/* about css code start  */
+.about-sec {
+   padding: 50px 140px;
+}
+
+.about-sec h2 span {
+   color: var(--main-color);
+   font-weight: bold;
+}
+
+.point-centent li {
+   font-size: 20px;
+   color: var(--mainColor);
+   padding: 30px 10px;
+}
+/* about css code end  */
+
+/* about card css code start  */
+.card-section-about {
+   padding: 50px 140px;
+}
+.about_card_secton_div {
+   padding: 0 1rem;
+}
+.about-card {
+   background-color: #041228;
+   border-radius: 12px;
+   padding: 40px;
+   height: 100%;
+}
+.about-card h4 {
+   font-size: 30px;
+   color: #fff;
+}
+.about-card h4 span {
+   color: var(--main-color);
+}
+.about-card p {
+   color: var(--light);
+   font-size: 21px !important;
+}
+/* about card css end  */
+
+/* Portfolio page css start  */
+
+.img-Card {
+   background: #000;
+}
+
+.Portfolio_deta h4 {
+   font-size: 30px;
+   color: var(--main-color);
+}
+
+.Portfolio_deta h6 {
+   font-size: 24px;
+   color: var(--mainColor);
+}
+
+.Portfolio_centent_info h4 {
+   font-size: 80px;
+   color: var(--mainColor);
+}
+
+.Portfolio_centent_info span {
+   font-size: 140px;
+   -webkit-text-stroke: 3px var(--main-color);
+   color: #020914;
+}
+.Portfolio_centent_info ul li {
+   font-size: 30px;
+   color: var(--main-color);
+}
+.info-end {
+   border-left: 6px solid var(--main-color);
+   padding-left: 50px;
+   margin: 50px 0px;
+}
+.info-end h5 {
+   font-size: 40px;
+   color: var(--mainColor);
+}
+
+.info-end h6 {
+   color: var(--main-color);
+   font-size: 24px;
+}
+
+.bg_img-port {
+   background-color: #041228;
+   padding: 0px;
+   border-radius: 30px;
+   margin-top: 100px;
+   margin-bottom: 50px;
+}
+
+.info_img_port {
+   position: absolute;
+   padding: 30px;
+}
+.info_img_port ul li {
+   font-size: 20px;
+   color: #fff;
+   list-style: none;
+}
+.info_img_port ul li::before {
+   content: '\2022';
+   color: var(--main-color);
+   font-weight: bold;
+   display: inline-block;
+   width: 1em;
+   font-size: 30px;
+   margin-left: -1em;
+}
+
+.hr {
+   color: #fff;
+   height: 3px;
+   background: #fff;
+   margin-top: 50px;
+}
+
+.icon-pre-next h4 {
+   font-size: 30px;
+   color: #fff;
+   margin: 50px 0px;
+}
+.icon-pre-next i {
+   color: var(--main-color);
+}
+
+.bg-img-bottam {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
+      url(../images/port-banner.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 100px 140px;
+   background-color: #041228;
+}
+
+.bg-img-bottam h4 {
+   font-size: 40px;
+   color: #fff;
+}
+.bg-img-bottam h4 span {
+   color: var(--main-color);
+}
+.bg-img-bottam p {
+   font-size: 20px;
+   color: #fff;
+}
+.btn-portfolio {
+   padding: 15px 50px;
+   background: var(--main-color);
+   color: #fff;
+   border: 0px;
+   border-radius: 50px;
+}
+
+/* .portfolio page css end  */
+
+.item {
+   margin-right: 1rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.testimonial-card img {
+   margin: auto;
+}
+
+.Policy_section h1,
+.Policy_section h3 {
+   color: var(--mainColor);
+}
+
+.Policy_section p {
+   color: var(--light);
+   font-size: 1rem;
+   text-align: justify;
+}
+
+.privacy h1,
+.privacy h4 {
+   font-size: 130px;
+}

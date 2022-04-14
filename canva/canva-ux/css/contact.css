@@ -1,0 +1,188 @@
+/* CONTACT DETAILS */
+.container_details {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../images/ms.png);
+   background-position: center;
+   background-size: cover;
+   padding: 50px 0;
+}
+.container_details h2 {
+   font-weight: bold;
+   font-size: 30px;
+   color: #fff;
+}
+.container_details p {
+   color: #fff;
+}
+.contact_card_div {
+   position: relative;
+}
+.container_details .light_heading_para {
+   font-weight: 800;
+   font-size: 50px;
+}
+.line_image {
+   width: 50%;
+}
+.container_details input {
+   width: 100%;
+   height: 60px;
+   padding: 1.5rem;
+   border-radius: 30px;
+   background: transparent;
+   border: 1px solid #fff;
+   outline: none;
+   color: #fff;
+}
+.container_details textarea {
+   width: 100%;
+   height: 60px;
+   padding: 1.5rem;
+   background: transparent;
+   border: 1px solid #fff;
+   outline: none;
+   color: #fff;
+   border-radius: 15px;
+   height: 180px;
+}
+.SendButton {
+   padding: 0.6rem 1.5rem;
+   border-radius: 40px;
+   background-color: var(--main-color);
+   border: none;
+   color: var(--mainColor);
+   transition: all 0.3s ease;
+}
+.SendButton img {
+   width: 35px;
+   margin-left: 0.5rem;
+}
+.contact_card_div {
+   /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(0deg, #010ab9 0%, #0368ff 100%); */
+   /* box-shadow: 0px 0px 13px 11px rgba(2, 74, 197, 0.25); */
+   border-radius: 60px;
+   width: 100%;
+   height: 100%;
+   padding: 6rem 3rem;
+}
+.font_sm {
+   font-size: 18px;
+   font-weight: 400;
+   letter-spacing: 1px;
+}
+.contact_icon_div h4 {
+   font-size: 20px;
+}
+.contact_icon_div p {
+   font-size: 20px;
+}
+.contact_inner_content_div img {
+   width: 35px;
+}
+/* CONTACT DETAILS */
+
+/* Flip Card */
+.flip_card_div {
+   background-color: transparent;
+   perspective: 1000px;
+   width: 100%;
+   height: 700px;
+}
+.flip_card_inner {
+   position: relative;
+   width: 100%;
+   height: 100%;
+   transform-style: preserve-3d;
+   transition: transform 0.8s;
+}
+
+.hoverCardCl {
+   animation: flipAnimi ease-in-out 5s infinite alternate;
+}
+
+@keyframes flipAnimi {
+   0% {
+      transform: rotateY(40deg);
+   }
+   10% {
+      transform: rotateY(-40deg);
+   }
+   20% {
+      transform: rotateY(65deg);
+   }
+   30% {
+      transform: rotateY(0deg);
+   }
+   70% {
+      transform: rotateY(0deg);
+   }
+   80% {
+      transform: rotateY(40deg);
+   }
+   90% {
+      transform: rotateY(-45deg);
+   }
+   100% {
+      transform: rotateY(0deg);
+   }
+}
+
+.flip_card_div:hover .flip_card_inner {
+   transform: rotateY(180deg);
+}
+.flip_card_frount {
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.flipCard_back {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   -webkit-backface-visibility: hidden;
+   backface-visibility: hidden;
+}
+.flip_card_frount img {
+   width: 450px;
+}
+.flip_card_frount {
+   position: absolute;
+   width: 100%;
+   -webkit-backface-visibility: hidden;
+   backface-visibility: hidden;
+}
+
+.flipCard_back {
+   transform: rotateY(180deg);
+}
+
+/* .contect_from_para {
+  margin-bottom: 6rem;
+} */
+
+.icons_div_content {
+   padding: 0.6rem 1rem;
+   transition: all 0.3s ease;
+   border: 3px solid #009dff00;
+}
+
+.icons_div_content p {
+   margin-bottom: 0;
+}
+
+.icons_div_content:hover {
+   background: rgba(0, 158, 255, 0.2);
+   mix-blend-mode: normal;
+   border-radius: 11px;
+   border: 3px solid #009eff;
+}
+
+/* Flip Card */
+
+/* mapSection */
+.mapSection {
+   margin-top: -80px;
+}
+/* mapSection */
