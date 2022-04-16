@@ -6,6 +6,10 @@
     margin-right: 2.5rem;
 }
 
+.nav-link:hover {
+    color: var(--lightGreenCl) !important;
+}
+
 .activeNavbar_item {
     color: var(--lightGreenCl) !important;
 }

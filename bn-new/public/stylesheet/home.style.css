@@ -10,6 +10,17 @@
     font-weight: 400;
     font-size: 18px;
 }
+.ml12 {
+    font-weight: 200;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+}
+
+.ml12 .letter {
+    display: inline-block;
+    line-height: 1em;
+}
 .banner_section h1 {
     font-weight: 800;
     font-size: 82.4758px;
@@ -66,7 +77,7 @@
     line-height: 65px;
 }
 .creating_a_world_class h1 span {
-    background: -webkit-linear-gradient(#c74da9, #3482f6);
+    background-image: linear-gradient(to right top, #be50ae, #ad5bc1, #9666d3, #7671e1, #467bec);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -86,6 +97,11 @@
     font-weight: 700;
     font-size: 45px;
 }
+.service_section span {
+    background-image: linear-gradient(to right top, #be50ae, #ad5bc1, #9666d3, #7671e1, #467bec);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 .service_cart_div {
     background-color: var(--mainColorCl);
     padding-top: 150px;
@@ -93,11 +109,27 @@
     position: relative;
     border-radius: 20px;
     margin-bottom: 2rem;
+    transition: all 0.3s ease;
 }
+.service_cart_div:hover {
+    background-color: var(--lightGreenCl);
+}
+
+.service_cart_div:hover a {
+    color: var(--mainColorCl);
+}
+
 .service_section .active_cart {
     background-color: var(--lightGreenCl);
 }
 
+.service_cart_div:hover h2 {
+    color: var(--mainColorCl);
+}
+
+.service_cart_div:hover p {
+    color: var(--mainColorCl);
+}
 .service_cart_div .icons_div {
     position: absolute;
     width: 100px;
@@ -109,6 +141,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.service_cart_div:hover .icons_div {
+    background-color: var(--mainColorCl);
 }
 
 .active_cart .icons_div {
@@ -163,7 +199,7 @@
 }
 
 .successful_entrepreenurial h1 span {
-    background: -webkit-linear-gradient(#c74da9, #3482f6);
+    background-image: linear-gradient(to right top, #be50ae, #ad5bc1, #9666d3, #7671e1, #467bec);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -202,7 +238,10 @@
 /* HOW DOES WE WORK */
 .how_does_we {
     position: relative;
-    /* padding: 150px 0; */
+    padding: 200px 0;
+    background-image: url(../images/sec-bg.png);
+    background-position: center;
+    background-size: cover;
 }
 .how_does_we .row {
     z-index: 100;
@@ -225,6 +264,12 @@
 .how_does_we h1 {
     font-weight: 700;
     font-size: 45px;
+    color: var(--mainColorCl);
+}
+.how_does_we span {
+    background-image: linear-gradient(to right top, #be50ae, #ad5bc1, #9666d3, #7671e1, #467bec);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .how_does_we p {
     font-weight: 400;
@@ -317,6 +362,8 @@
     background-image: url(../images/subscribe.png);
     background-position: center;
     background-size: cover;
+    position: relative;
+    padding: 30px 0;
 }
 .got_the_whole h3 {
     font-weight: 700;

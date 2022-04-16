@@ -1,12 +1,30 @@
 footer {
-    padding: 100px 0;
-    background-color: var(--darkBlueCl);
+    /* padding: 100px 0; */
+    padding-top: 350px;
+    background-image: url(../images/footer-bg-image.png);
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 40px;
+    margin-top: -300px;
 }
 
 footer p {
     color: var(--footerCl);
     font-weight: 400;
     font-size: 18px;
+}
+
+footer hr {
+    color: var(--mainColorCl);
+}
+
+.footer_second_content_div {
+    justify-content: space-between;
+}
+
+.footer_second_content_div p {
+    color: var(--mainColorCl);
+    font-size: 16px;
 }
 
 .footer_icons_div {
