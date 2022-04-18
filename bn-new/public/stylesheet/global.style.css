@@ -22,7 +22,7 @@ body {
     --lightPinkCl: #c74da9;
     --darkButtonCl: #112852;
     --smGrayNewCL: #8193b2;
-    --bodyCl: #f7f7fe;
+    --bodyCl: #f0efef;
     --lightCl: #61ce7065;
     --lightSkyCl: #efeffb;
     --footerCl: #8e8e8e;
@@ -39,3 +39,15 @@ body {
 }
 
 /* global classes */
+
+.fade_down {
+    opacity: 0;
+    transition: all 0.5s ease;
+    transform: translateY(-100px);
+}
+
+.fade_up {
+    opacity: 1;
+    transition: all 0.5s ease;
+    transform: translateY(0);
+}

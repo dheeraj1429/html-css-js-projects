@@ -1,0 +1,148 @@
+.about_banner {
+    height: auto;
+    background-image: url(../images/ab.png);
+    background-position: center;
+    background-size: cover;
+}
+.about_banner .about_content_div {
+    padding-top: 200px;
+    padding-bottom: 350px;
+}
+
+.about_banner h4 {
+    color: var(--mainColorCl);
+    font-weight: 700;
+    font-size: 45px;
+}
+.about_banner p {
+    color: var(--lightGreenCl);
+}
+
+.creating_a_world_class {
+    margin-top: -80px;
+}
+
+/* YOUR TRUST, OUR FOUNDATION. */
+.your_truest_foundation {
+    background-image: url(../images/you-trust.png);
+    background-position: center;
+    background-size: cover;
+    padding: 250px 0;
+}
+.your_truest_foundation h5 {
+    color: var(--lightGreenCl);
+}
+/* YOUR TRUST, OUR FOUNDATION. */
+
+/* we love to talk */
+.we_love_to_talk {
+    padding: 200px 0;
+    background-image: url(../images/ng.png);
+    background-position: center;
+    background-size: cover;
+    margin-top: -170px;
+}
+.we_love_to_talk h5 {
+    color: var(--lightGreenCl);
+}
+.we_love_to_talk h3 {
+    font-weight: 800;
+    font-size: 45px;
+    color: var(--mainColorCl);
+}
+.we_love_to_talk .blog_image {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+.we_love_to_talk .blog_hover img {
+    width: 100%;
+    height: 100%;
+}
+.we_love_to_talk .blog_content_image {
+    width: 100%;
+}
+.we_love_to_talk .metting_div {
+    padding: 1rem 3rem;
+    background-color: var(--lightGreenCl);
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: var(--mainColorCl);
+}
+.we_love_to_talk h4 {
+    color: var(--mainColorCl);
+    font-weight: 600;
+    font-size: 23px;
+}
+.we_love_to_talk p {
+    color: var(--mainColorCl);
+}
+.blog_hover {
+    width: 30px;
+    height: 30px;
+    border: 1px solid var(--footerCl);
+    border-radius: 50%;
+    cursor: pointer;
+}
+.blog_hover img {
+    width: 100%;
+    height: 100%;
+}
+/* we love to talk */
+
+/* Client Testimonials */
+.client_testimonials h5 {
+    color: var(--lightGreenCl);
+}
+.client_testimonials h1 {
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 65px;
+}
+.client_testimonials h1 span {
+    background-image: linear-gradient(to right top, #be50ae, #ad5bc1, #9666d3, #7671e1, #467bec);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.user_testimonial_div {
+    padding: 2rem;
+    background-color: var(--mainColorCl);
+    border-radius: 15px 15px 15px 0px;
+    position: relative;
+}
+.user_testimonial_div .user_profile_div {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.user_testimonial_div .user_profile_div img {
+    width: 100%;
+}
+.user_testimonial_div h5 {
+    color: var(--darkBlueCl);
+    font-weight: 600;
+    font-size: 20px;
+}
+.user_testimonial_div span {
+    font-weight: 400;
+    font-size: 18px;
+}
+.user_testimonial_div p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+.user_testimonial_div .bottom_arrrow {
+    width: 100px;
+    height: 100px;
+    background-image: url(../images/bottom_arrow.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    bottom: -80px;
+    left: 20px;
+}
+/* Client Testimonials */
