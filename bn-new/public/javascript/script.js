@@ -1,6 +1,15 @@
 "use strict";
 
-const fadeUpElem = document.querySelectorAll(".fade_up");
+const fadeUpElem = document.querySelectorAll(".fade_up"),
+    itemSlider = document.querySelectorAll(".items_sliders"),
+    wrapperDivElm = document.querySelector(".wrapper_div");
+
+let clonesWidth,
+    sliderWidth,
+    clones = [],
+    scrollPosition;
+
+let items = [...itemSlider];
 
 const Option = {
     root: null,

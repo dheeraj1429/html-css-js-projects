@@ -1,0 +1,33 @@
+.experience_div {
+    background-image: url(../images/bannernew.png);
+    height: auto;
+}
+
+.experience_div .content_div {
+    padding: 180px 0;
+}
+
+.valuble_service p {
+    color: var(--lightGreenCl);
+}
+
+.valuble_service h2 {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.valuable_div {
+    width: 100%;
+    height: 100%;
+    background-color: var(--mainColorCl);
+    padding: 4rem;
+}
+
+.valuable_div_active {
+    background-color: var(--lightGreenCl);
+}
+
+.valuable_div h4 {
+    font-weight: 600;
+    font-size: 30px;
+}
