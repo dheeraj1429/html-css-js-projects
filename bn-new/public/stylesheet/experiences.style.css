@@ -31,3 +31,110 @@
     font-weight: 600;
     font-size: 30px;
 }
+
+/* PROFESSIONAL SOLUTIONS */
+.professional_solutions {
+    background-image: url(../images/bg_green.png);
+    background-position: center;
+    background-size: contain;
+    padding: 217px 0;
+    background-repeat: no-repeat;
+}
+.professional_solutions .professional_content_div p {
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--mainColorCl);
+}
+
+.professional_solutions .professional_content_div h2 {
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--mainColorCl);
+}
+
+.professional_content_div .professional_content_div span {
+    font-weight: 500;
+    font-size: 30px;
+}
+/* PROFESSIONAL SOLUTIONS */
+
+/* Web Development */
+.web_info_div {
+    width: 100%;
+    height: 100%;
+    padding: 3rem 3rem;
+    background-color: var(--mainColorCl);
+    margin-top: -197px;
+}
+.web_info_div h4 {
+    font-weight: 700;
+    font-size: 20px;
+}
+.web_info_div span {
+    font-weight: 400;
+    font-size: 16px;
+}
+/* Web Development */
+
+/* CARRY ON PLANNING */
+.carry_on_planing {
+    padding-top: 250px;
+    padding-bottom: 100px;
+}
+/* CARRY ON PLANNING */
+
+/* BEST PLACE TO WORK */
+.best_place_to_work {
+    /* -webkit-clip-path: polygon(0 16%, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 16%, 100% 0, 100% 100%, 0% 100%); */
+    background-color: var(--darkBlCl);
+    /* padding-top: 220px; */
+}
+.best_place_to_work p {
+    color: var(--mainColorCl);
+    font-weight: 500;
+    font-size: 20px;
+}
+.best_place_to_work h2 {
+    color: var(--mainColorCl);
+    font-weight: 600;
+    font-size: 45px;
+}
+.best_place_to_work .best_place_to_work_content {
+    margin-bottom: -200px;
+    position: relative;
+}
+/* BEST PLACE TO WORK */
+
+/* CARRY ON PLANNING */
+.video_prev_div {
+    width: 100%;
+    height: 100%;
+    height: 600px;
+    position: relative;
+    padding: 3rem;
+    display: flex;
+    align-items: flex-end;
+}
+.video_prev_div img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.video_prev_div p,
+.video_prev_div h1 {
+    position: relative;
+    z-index: 10;
+    color: var(--mainColorCl);
+}
+.video_prev_div p {
+    color: var(--lightGreenCl);
+}
+.carry_on_planing p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 35px;
+}
+/* CARRY ON PLANNING */

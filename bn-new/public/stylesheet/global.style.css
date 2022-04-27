@@ -26,6 +26,7 @@ body {
     --lightCl: #61ce7065;
     --lightSkyCl: #efeffb;
     --footerCl: #8e8e8e;
+    --darkBlCl: #040e24;
 }
 /* colors */
 
@@ -50,4 +51,15 @@ body {
     opacity: 1;
     transition: all 0.5s ease;
     transform: translateY(0);
+}
+
+/*  */
+.banner_component {
+    position: relative;
+}
+
+.popup {
+    position: absolute;
+    width: 90%;
+    height: 400px;
 }
