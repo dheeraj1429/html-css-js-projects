@@ -1,0 +1,43 @@
+.we_answer_all_the {
+    margin-top: -100px;
+}
+
+.card_div_elm {
+    background-color: var(--mainColorCl);
+    border-radius: 20px;
+    padding: 4rem 3rem;
+}
+
+.card_div_elm p {
+    color: var(--lightGreenCl);
+}
+
+.card_div_elm h2 {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 45px;
+}
+
+.card_div_elm .map_div {
+    width: 100%;
+    height: 400px;
+}
+
+/* Our Location */
+.our_location_div h1 {
+    font-weight: 700;
+    font-size: 45px;
+}
+.our_location_div p {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 33px;
+}
+.our_location_cart h3 {
+    font-weight: 700;
+    font-size: 30px;
+}
+.our_location_cart {
+    border-bottom: 1px solid #b4b4d2;
+}
+/* Our Location */
