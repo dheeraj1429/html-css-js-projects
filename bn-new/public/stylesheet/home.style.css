@@ -10,14 +10,14 @@
     font-weight: 400;
     font-size: 18px;
 }
-.ml12 {
+.animi-text {
     font-weight: 200;
     font-size: 1.8em;
     text-transform: uppercase;
     letter-spacing: 0.5em;
 }
 
-.ml12 .letter {
+.animi-text .letter {
     display: inline-block;
     line-height: 1em;
 }

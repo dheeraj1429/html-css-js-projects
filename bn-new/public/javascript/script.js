@@ -151,6 +151,51 @@
             // *********************************** //
         };
 
+        // ** Text slide aniamtion function ** //
+        _libraryObj.slideTextAnimation = function (elm) {
+            if (!elm) return;
+
+            let loopCount = 0,
+                fps = 100,
+                loopReverse = false;
+
+            const targetElement = _grabDomelm(elm);
+
+            // ** convert the target tag into the span tag ** //
+            targetElement.innerHTML = targetElement.textContent.replace(
+                /\S/g,
+                "<span class='letter'>$&</span>"
+            );
+
+            const animationLetter = document.querySelectorAll(".letter");
+            // ** create a loop for the animation text ** //
+
+            return function animate() {
+                // perform some animation task here
+                if (loopCount === 100) {
+                    loopReverse = true;
+                }
+
+                if (loopCount == 0) {
+                    loopReverse = false;
+                }
+
+                if (loopReverse) {
+                    loopCount--;
+                } else {
+                    loopCount++;
+                }
+
+                // animationLetter.forEach((el, i) => {
+                //     el.style.opacity = `.${loopCount}`;
+                // });
+
+                setTimeout(() => {
+                    requestAnimationFrame(animate);
+                }, 1000 / fps);
+            };
+        };
+
         return _libraryObj;
     };
 
@@ -161,8 +206,18 @@
 })(window);
 
 // for testing and calling the function
-myWindowGlobalLv.scroll(".fade_up", { elements: 3, rootMargin: 0, class: "fade_down", removeClass: "fade_up" });
-myWindowGlobalLv.toggle(".popUpOverLayDiv", { elementClass: "show_popUp", targetButton: "Appoiontment_button" });
+myWindowGlobalLv.scroll(".fade_up", {
+    elements: 3,
+    rootMargin: 0,
+    class: "fade_down",
+    removeClass: "fade_up",
+});
+
+myWindowGlobalLv.toggle(".popUpOverLayDiv", {
+    elementClass: "show_popUp",
+    targetButton: "Appoiontment_button",
+});
+
 // myWindowGlobalLv.slider(".slider", {
 //     slidersItemClass: ".items_sliders",
 //     elements: 4,

@@ -2,6 +2,15 @@
     margin-top: -100px;
 }
 
+.content_content_div {
+    padding-top: 100px !important;
+    padding-bottom: 200px !important;
+}
+
+.content_content_div img {
+    margin-bottom: -100px;
+}
+
 .card_div_elm {
     background-color: var(--mainColorCl);
     border-radius: 20px;
@@ -41,3 +50,35 @@
     border-bottom: 1px solid #b4b4d2;
 }
 /* Our Location */
+
+.contact_for_consulation {
+    background-color: var(--darkBlCl);
+    padding: 4rem 3rem;
+    border-radius: 15px;
+}
+
+.contact_for_consulation span {
+    color: var(--mainColorCl);
+}
+
+.contact_for_consulation h1 {
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--mainColorCl);
+}
+
+.content_dc_div h4 {
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.card_div_elm p {
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.the_bis_div {
+    padding: 4rem;
+    background-color: var(--mainColorCl);
+    border-radius: 24px 300px 24px 24px;
+}

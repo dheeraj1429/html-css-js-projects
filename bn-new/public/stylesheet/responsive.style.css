@@ -1,0 +1,77 @@
+@media (max-width: 1700px) {
+    .banner_section h1 {
+        font-size: 44.4758px;
+    }
+    .smContent_div p {
+        font-size: 13px;
+    }
+    .cart_inner_div h3 {
+        font-size: 25px;
+    }
+    .cart_inner_div p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .creating_a_world_class h1 {
+        font-size: 31px;
+        line-height: normal;
+    }
+    .creating_a_world_class p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .service_section h1 {
+        font-size: 31px;
+    }
+    .service_cart_div h2 {
+        font-size: 23px;
+    }
+    .service_cart_div p {
+        font-size: 15px;
+        line-height: 26px;
+    }
+    .successful_entrepreenurial h1 {
+        font-size: 31px;
+        line-height: 38px;
+    }
+    .the_business_partners h1 {
+        font-weight: 700;
+        font-size: 31px;
+        line-height: 36px;
+    }
+    .how_does_we h1 {
+        font-size: 31px;
+    }
+    .got_the_whole h3 {
+        font-weight: 700;
+        font-size: 27px;
+        line-height: 37px;
+    }
+}
+
+@media (max-width: 1500px) {
+    .marginCards {
+        margin-bottom: 2rem;
+    }
+    .service_cart_div {
+        height: 100%;
+    }
+    .service_second_cart {
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+    .service_second_thred {
+        margin: auto;
+    }
+    .service_five_cart {
+        margin: auto;
+    }
+    .successful_entrepreenurial,
+    .how_does_we {
+        background-color: var(--darkBlueCl);
+        padding: 2rem;
+    }
+    .side_padding {
+        padding: 0 100px;
+    }
+}

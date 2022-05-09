@@ -145,4 +145,35 @@
     bottom: -80px;
     left: 20px;
 }
+
+.client_content_div {
+    width: 100%;
+    height: 800px;
+    background-image: url(../images/Rectangle\ 1499.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.client_content_div .client_content_inner_div {
+    max-width: 50%;
+    background-color: var(--mainColorCl);
+    padding: 1rem 2rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.client_content_div .client_content_inner_div h1 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 47px;
+}
+
+.client_content_div .client_content_inner_div .line_div_inner {
+    border: 2px solid var(--lightGreenCl);
+    padding: 2rem;
+    border-radius: 10px;
+}
+
 /* Client Testimonials */
