@@ -138,3 +138,19 @@ main {
 /* .items_sliders {
     position: absolute;
 } */
+
+.Appointment_div {
+    background-color: var(--mainColorCl) !important;
+}
+
+.Appointment_div span {
+    color: var(--darkBlCl) !important;
+}
+
+.Appointment_div h1 {
+    color: var(--darkBlCl) !important;
+}
+
+.Appointment_div p {
+    color: var(--smGrayCl) !important;
+}

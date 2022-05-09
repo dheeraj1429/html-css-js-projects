@@ -47,7 +47,11 @@
     font-size: 30px;
 }
 .our_location_cart {
-    border-bottom: 1px solid #b4b4d2;
+    background-color: var(--mainColorCl);
+    padding: 1rem 2rem;
+}
+.our_location_cart img {
+    margin-top: -60px;
 }
 /* Our Location */
 

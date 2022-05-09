@@ -3,6 +3,7 @@
     background-image: url(../images/ab.png);
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 .about_banner .about_content_div {
     padding-top: 200px;

@@ -213,10 +213,10 @@ myWindowGlobalLv.scroll(".fade_up", {
     removeClass: "fade_up",
 });
 
-myWindowGlobalLv.toggle(".popUpOverLayDiv", {
-    elementClass: "show_popUp",
-    targetButton: "Appoiontment_button",
-});
+// myWindowGlobalLv.toggle(".popUpOverLayDiv", {
+//     elementClass: "show_popUp",
+//     targetButton: "Appoiontment_button",
+// });
 
 // myWindowGlobalLv.slider(".slider", {
 //     slidersItemClass: ".items_sliders",

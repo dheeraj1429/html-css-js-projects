@@ -143,3 +143,55 @@
 }
 
 /* Words From BONAMIites */
+
+.valuable_div {
+    border-top: 4px solid var(--lightGreenCl);
+}
+
+.marginCl {
+    margin-top: -100px;
+}
+
+/* PROFESSIONAL SOLUTIONS */
+.professional_solutions_div {
+    background-image: url(../images/services_bbae-bg.png);
+    background-position: center;
+    background-size: cover;
+    padding-top: 233px;
+    padding-bottom: 144px;
+}
+
+.carry_on_planing {
+    padding-bottom: 100px;
+}
+
+.professional_solutions_div span {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.web_designing_content_div {
+    border-bottom: 1px solid #616161;
+}
+
+.web_designing h1 {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.web_designing p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 35px;
+}
+
+.best_place_to_work .margin_img {
+    margin-top: 100px;
+}
+
+.best_place_to_work {
+    background-image: url(../images/Group\ 1000001717.png);
+    background-position: center;
+    background-size: cover;
+    padding: 160px 0;
+}
