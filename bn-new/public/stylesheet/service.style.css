@@ -16,6 +16,13 @@
     background-position: center;
     background-size: cover; */
 }
+.current_job_openings {
+    background-image: url(../images/Group\ 1000001661.png);
+    background-position: center;
+    background-size: cover;
+    clip-path: polygon(100% 0, 100% 0, 100% 84%, 0 100%, 0 100%, 0% 60%, 0 18%);
+    padding: 200px 0;
+}
 /* .current_job_openings {
     background-image: url(../images/11.png);
     background-position: center;

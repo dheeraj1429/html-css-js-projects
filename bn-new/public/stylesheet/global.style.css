@@ -154,3 +154,7 @@ main {
 .Appointment_div p {
     color: var(--smGrayCl) !important;
 }
+
+.upper_div_cl h5 {
+    text-transform: uppercase;
+}

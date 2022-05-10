@@ -33,10 +33,70 @@
         <link rel="stylesheet" href="./public/stylesheet/contact.style.css" />
         <link rel="stylesheet" href="./public/stylesheet/service.style.css" />
         <link rel="stylesheet" href="./public/stylesheet/experiences.style.css" />
+
+        <style>
+            .contact_for_consulation {
+                background-color: var(--lightGreenCl);
+            }
+        </style>
     </head>
     <body>
+        <div class="popUpOverLayDiv">
+            <div class="popUpDiv">
+                <div class="container-fluid contact_for_consulation">
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-6">
+                                <p>WE ANSWER ALL THE SILLY QUESTIONS</p>
+                                <h2>
+                                    To learn how BonAmi can transform your business, schedule a free
+                                    consultation today!
+                                </h2>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6">
+                                <div class="row popup_elem_div">
+                                    <div class="col-12 col-sm-12 col-md-6">
+                                        <input type="text" placeholder="Your Name" />
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-6">
+                                        <input type="number" placeholder="Phone number*" />
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-6 mt-4">
+                                        <input type="email" placeholder="Email*" />
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-6 mt-4">
+                                        <input type="text" placeholder="Contact Us Regarding" />
+                                    </div>
+                                    <div class="col-12 mt-4">
+                                        <textarea
+                                            name=""
+                                            id=""
+                                            cols="30"
+                                            rows="10"
+                                            class="textaria"
+                                            placeholder="Message"
+                                        ></textarea>
+
+                                        <button class="submit_button mt-4 mb-4">
+                                            Submit Form
+                                            <img src="./public/images/right_arrow.png" alt="" />
+                                        </button>
+
+                                        <span>
+                                            Our experts will call back to you in your comfortable
+                                            time within 2 business days.
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- navbar -->
-        <section class="banner_section about_banner side_padding">
+        <section class="banner_section about_banner side_padding service_banner">
             <div class="navbar_div py-3">
                 <div class="navbar_div py-3">
                     <nav class="navbar navbar-expand-xl">
@@ -76,9 +136,7 @@
                                         >
                                     </li>
                                     <li class="nav-item">
-                                        <a href="./appointment.html">
-                                            <button class="Appoiontment_button">Appiontment</button>
-                                        </a>
+                                        <button class="Appoiontment_button">Appiontment</button>
                                     </li>
                                 </ul>
                             </div>
@@ -462,7 +520,7 @@
                                     <div class="col-12">
                                         <div class="newsLetter_div">
                                             <input type="text" placeholder="Enter Your Email" />
-                                            <button class="Subcribe_button">Subcribe</button>
+                                            <button class="Subcribe_button">Subscribe</button>
                                         </div>
                                     </div>
                                 </div>

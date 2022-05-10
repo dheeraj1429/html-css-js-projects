@@ -1,3 +1,12 @@
+.carrer_pad {
+    background-image: url(../images/about-banner-elements.png) !important;
+    height: 100vh !important;
+}
+
+.service_banner {
+    background-image: url(../images/service-banner.png) !important;
+}
+
 .about_banner {
     height: auto;
     background-image: url(../images/ab.png);
@@ -32,6 +41,11 @@
 }
 .your_truest_foundation h5 {
     color: var(--lightGreenCl);
+}
+.your_truest_foundation h6 {
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 37px;
 }
 /* YOUR TRUST, OUR FOUNDATION. */
 
