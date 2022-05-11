@@ -56,9 +56,12 @@
 /* Our Location */
 
 .contact_for_consulation {
-    background-color: var(--darkBlCl);
     padding: 4rem 3rem;
     border-radius: 15px;
+}
+
+.dark_bg {
+    background-color: var(--darkBlCl);
 }
 
 .contact_for_consulation span {
@@ -85,4 +88,8 @@
     padding: 4rem;
     background-color: var(--mainColorCl);
     border-radius: 24px 300px 24px 24px;
+}
+
+.content_dc_div img {
+    transform: scale(0.7);
 }

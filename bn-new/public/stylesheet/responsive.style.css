@@ -74,4 +74,291 @@
     .side_padding {
         padding: 0 100px;
     }
+    .your_truest_foundation h6 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .client_testimonials h1 {
+        font-size: 34px;
+        line-height: 41px;
+    }
+    .client_content_div .client_content_inner_div h1 {
+        font-size: 22px;
+        line-height: 29px;
+    }
+    .client_content_div .client_content_inner_div {
+        max-width: 75%;
+    }
+    .be_a_part_of_bonami h2 {
+        font-size: 31px;
+    }
+    .carrer_pad {
+        padding-bottom: 4rem;
+        height: auto !important;
+    }
+    .current_job_openings {
+        background-image: none;
+        background-position: center;
+        background-size: cover;
+        clip-path: none;
+        padding: 0 0;
+    }
+    .about_banner h4 {
+        font-size: 37px;
+    }
+    .contact_for_consulation h1 {
+        font-size: 33px;
+    }
+    .the_business_partners h1 {
+        font-size: 26px;
+        line-height: normal;
+    }
+    .content_dc_div h4 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .the_bis_div {
+        background-color: transparent;
+    }
+}
+
+@media (max-width: 1200px) {
+    .banner_section {
+        height: auto;
+    }
+    .banner_section h1 {
+        font-size: 36.4758px;
+    }
+    .cart_inner_div p {
+        font-size: 12px;
+    }
+    .cart_inner_div h3 {
+        font-size: 23px;
+    }
+    .got_the_whole h3 {
+        font-size: 23px;
+        line-height: 28px;
+    }
+    .got_the_whole {
+        max-width: 80%;
+    }
+    .res_second_img {
+        display: none;
+    }
+}
+
+@media (max-width: 1000px) {
+    .cart_inner_div {
+        margin-top: auto;
+        border-radius: 20px;
+        margin-bottom: 2rem;
+    }
+    .cart_section {
+        margin-top: 50px;
+    }
+    .side_padding {
+        padding: 0px 65px;
+    }
+    .banner_section {
+        background: var(--darkBlCl);
+        background-repeat: no-repeat;
+    }
+    footer p {
+        color: var(--footerCl);
+        font-weight: 400;
+        font-size: 15px;
+    }
+    .creating_a_world_class {
+        margin-top: 30px;
+    }
+    .your_truest_foundation {
+        background-image: none;
+        background-position: center;
+        background-size: cover;
+        padding: 0px 0;
+    }
+    .client_content_div .client_content_inner_div {
+        max-width: 85%;
+    }
+    .about_banner h4 {
+        font-size: 40px;
+    }
+    .about_res_banner {
+        background-image: url(../images/ab.png);
+        background-color: transparent;
+    }
+    .about_banner .about_content_div {
+        padding-top: 133px;
+        padding-bottom: 179px;
+    }
+    .client_testimonials h1 {
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .be_a_part_of_bonami h2 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 770px) {
+    .client_content_div .client_content_inner_div {
+        max-width: 100%;
+        position: relative;
+        padding: 3rem 2rem;
+    }
+    .client_content_div {
+        height: auto;
+    }
+    .res_img {
+        display: block;
+        margin-top: 30px;
+    }
+    .cv_content_section h5 {
+        font-size: 19px;
+    }
+    .mail_your_cv ul li {
+        font-size: 15px;
+    }
+    .banner_section h1 {
+        font-size: 25.4758px;
+    }
+    .be_a_part_of_bonami h2 {
+        font-size: 18px;
+    }
+    .accordion_head {
+        font-size: 14px;
+    }
+    .cv_content_section h5 {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 700px) {
+    .how_does_we h1 {
+        font-size: 25px;
+        margin-bottom: 1rem;
+    }
+    .how_does_we p {
+        line-height: normal;
+    }
+    .how_does_work_content::before {
+        width: 0px;
+    }
+    .how_does_work_content {
+        padding-left: 0rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .got_the_whole h3 {
+        font-size: 19px;
+        line-height: normal;
+    }
+    .newsLetter_div button {
+        position: relative;
+        top: auto;
+        right: auto;
+        transform: translate(0);
+        margin-top: 1rem;
+    }
+    .newsLetter_div {
+        height: auto;
+    }
+    .about_banner h4 {
+        font-size: 33px;
+    }
+    .creating_a_world_class h1 {
+        font-size: 26px;
+        line-height: normal;
+    }
+    .side_padding {
+        padding: 0px 15px;
+    }
+    .your_truest_foundation h6 {
+        font-size: 14px;
+        line-height: normal;
+    }
+    .about_banner h4 {
+        font-size: 24px;
+    }
+    .client_testimonials h1 {
+        font-size: 20px;
+        line-height: normal;
+    }
+    .client_content_div .client_content_inner_div h1 {
+        font-size: 16px;
+        line-height: normal;
+    }
+    .line_div {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .banner_section h1 {
+        font-size: 27.4758px;
+    }
+    .creating_a_world_class h1 {
+        font-size: 19px;
+    }
+    .creating_a_world_class p {
+        font-size: 15px;
+        line-height: normal;
+    }
+    .service_cart_div p {
+        font-size: 15px;
+        line-height: normal;
+    }
+    .successful_entrepreenurial h1 {
+        font-size: 19px;
+        line-height: normal;
+    }
+    .smCart_content {
+        display: block !important;
+    }
+    .smCart_content img {
+        margin-bottom: 1rem;
+    }
+    .successful_entrepreenurial,
+    .how_does_we {
+        padding: 0;
+    }
+    .contact_for_consulation h5 {
+        font-weight: 600;
+        font-size: 23px;
+    }
+    .side_padding {
+        padding: 0px 25px;
+    }
+    .footer_second_content_div p {
+        color: var(--mainColorCl);
+        font-size: 11px;
+    }
+    .content_content_div {
+        padding-top: 0px !important;
+        padding-bottom: 123px !important;
+    }
+    .inner_elemet_cart {
+        display: block !important;
+        text-align: center;
+    }
+    .contact_for_consulation h1 {
+        font-size: 20px;
+    }
+    .contact_for_consulation {
+        padding: 2rem 2rem;
+    }
+    .contact_for_consulation .textaria {
+        height: 100px;
+    }
+    .the_bis_div {
+        margin-top: 2rem;
+        padding: 0;
+    }
+    .about_banner h4 {
+        font-weight: 600;
+        font-size: 18px;
+    }
 }

@@ -213,10 +213,10 @@ myWindowGlobalLv.scroll(".fade_up", {
     removeClass: "fade_up",
 });
 
-myWindowGlobalLv.toggle(".popUpOverLayDiv", {
-    elementClass: "show_popUp",
-    targetButton: "Appoiontment_button",
-});
+// myWindowGlobalLv.toggle(".popUpOverLayDiv", {
+//     elementClass: "show_popUp",
+//     targetButton: "Appoiontment_button",
+// });
 
 // myWindowGlobalLv.slider(".slider", {
 //     slidersItemClass: ".items_sliders",
@@ -224,4 +224,10 @@ myWindowGlobalLv.toggle(".popUpOverLayDiv", {
 //     width: "1600px",
 //     height: "400px",
 //     border: "1px solid red",
+// });
+
+// myWindowGlobalLv.DomElement(".our_values_section", "div", {
+//     class: "element-div",
+//     id: "element-id",
+//     textContent: "some demo content",
 // });

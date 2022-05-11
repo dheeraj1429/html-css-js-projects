@@ -30,6 +30,7 @@
         <link rel="stylesheet" href="./public/stylesheet/global.style.css" />
         <link rel="stylesheet" href="./public/stylesheet/buttons.style.css" />
         <link rel="stylesheet" href="./public/stylesheet/about.style.css" />
+        <link rel="stylesheet" href="./public/stylesheet/responsive.style.css" />
     </head>
 
     <body>
@@ -88,7 +89,7 @@
         </div>
 
         <!-- navbar -->
-        <section class="banner_section about_banner side_padding">
+        <section class="banner_section about_banner side_padding about_res_banner">
             <div class="navbar_div py-3">
                 <nav class="navbar navbar-expand-lg">
                     <div class="container-fluid">
@@ -126,9 +127,9 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="./services.html">Services</a>
                                 </li>
-                                <li class="nav-item">
+                                <!-- <li class="nav-item">
                                     <button class="Appoiontment_button">Appiontment</button>
-                                </li>
+                                </li> -->
                             </ul>
                         </div>
                     </div>
@@ -137,8 +138,15 @@
 
             <div class="container-fluid about_content_div">
                 <div class="row align-items-center">
-                    <div class="col-12 col-12 col-md-6">
-                        <p class="mb-4">About Us</p>
+                    <div
+                        class="col-12 col-12 col-md-12 col-lg-9 col-xl-6 text-center text-xl-start"
+                    >
+                        <div
+                            class="d-flex upper_div_cl service_section justify-content-center justify-content-xl-start mb-3 mb-xl-0"
+                        >
+                            <div class="line_div mt-2"></div>
+                            <h5 class="ms-3">ABOUT US</h5>
+                        </div>
                         <h4>We believe in crafting sweet experiences</h4>
                     </div>
                     <div class="col-12 col-12 col-md-6"></div>
@@ -154,9 +162,9 @@
             <div class="creating_a_world_class pt-2 pb-5">
                 <div class="side_padding">
                     <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-12 col-sm-12 col-md-6">
-                                <div class="d-flex">
+                        <div class="row text-center text-xl-start">
+                            <div class="col-12 col-sm-12 col-md-12 col-xl-6">
+                                <div class="d-flex justify-content-center justify-content-xl-start">
                                     <div class="line_div mt-2"></div>
                                     <h5 class="ms-3">AN EXCELLENT WORKPLACE</h5>
                                 </div>
@@ -183,7 +191,9 @@
                                     development.
                                 </p>
                             </div>
-                            <div class="col-12 col-sm-12 col-md-6">
+                            <div
+                                class="col-12 col-sm-12 col-md-12 col-xl-6 text-center text-xl-start pt-5 pt-xl-0"
+                            >
                                 <img src="./public/images/abm.png" class="img-fluid" alt="work" />
                             </div>
                         </div>
@@ -196,13 +206,13 @@
             <section class="your_truest_foundation">
                 <div class="container-fluid side_padding">
                     <div class="row">
-                        <div class="col-6 mb-3">
-                            <div class="d-flex">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 mb-3">
+                            <div class="d-flex justify-content-center justify-content-xl-start">
                                 <div class="line_div mt-2"></div>
                                 <h5 class="ms-3">AN EXCELLENT WORKPLACE</h5>
                             </div>
                         </div>
-                        <div class="col-12">
+                        <div class="col-12 text-center text-xl-start">
                             <h6>
                                 We use open source web content management systems to plan, design,
                                 and construct unique websites. Throughout the process, we
@@ -216,9 +226,9 @@
                             </h6>
                         </div>
 
-                        <div class="col-12 py-5">
-                            <div class="row">
-                                <div class="col-12 col-sm-12 col-md-4">
+                        <div class="col-12 pt-5 pb-0 pb-xl-5">
+                            <div class="row justify-content-center">
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-4">
                                     <div class="service_cart_div px-5">
                                         <div class="icons_div">
                                             <img
@@ -247,7 +257,9 @@
                                         </div> -->
                                     </div>
                                 </div>
-                                <div class="col-12 col-sm-12 col-md-4">
+                                <div
+                                    class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-4 py-5 py-xl-0"
+                                >
                                     <div class="service_cart_div px-5">
                                         <div class="icons_div">
                                             <img
@@ -277,7 +289,7 @@
                                         </div> -->
                                     </div>
                                 </div>
-                                <div class="col-12 col-sm-12 col-md-4">
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-4">
                                     <div class="service_cart_div px-5">
                                         <div class="icons_div">
                                             <img
@@ -314,7 +326,7 @@
             <!-- YOUR TRUST, OUR FOUNDATION. -->
 
             <!-- we love to talk -->
-            <section class="we_love_to_talk">
+            <!-- <section class="we_love_to_talk">
                 <div class="container-fluid side_padding">
                     <div class="row">
                         <div class="col-12 text-center mb-4">
@@ -379,17 +391,19 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> -->
             <!-- we love to talk -->
 
             <!-- Client Testimonials -->
             <section class="client_testimonials py-5">
                 <div class="container-fluid side_padding">
                     <div class="row">
-                        <div class="col-12 col-sm-12 col-md-6">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 text-center text-xl-start">
                             <h1>WE'RE LEADING DIGITAL BUSINESS AGENCY</h1>
                         </div>
-                        <div class="col-12 col-sm-12 col-md-6">
+                        <div
+                            class="col-12 col-sm-12 col-md-12 col-lg-6 mt-3 mt-xl-0 text-center text-xl-start"
+                        >
                             <p>
                                 There are many variations of passages of Lorem Ipsum available, but
                                 the majority have suffered alteration in some form, by injected
@@ -400,7 +414,7 @@
 
                         <div class="col-12">
                             <div class="client_content_div mt-5 mb-5">
-                                <div class="client_content_inner_div">
+                                <div class="client_content_inner_div text-center text-md-start">
                                     <h1>
                                         If you are going to use a passage of Lorem Ipsum, you need
                                         to be sure. Compare us between others companies.
@@ -421,7 +435,7 @@
                                                     accusantium doloremsyc laudantium totam apere
                                                 </p>
                                             </div>
-                                            <div class="col-12 col-sm-12 col-md-6">
+                                            <div class="col-12 col-sm-12 col-md-6 mt-4 mt-md-0">
                                                 <h1>Analyze Competitors</h1>
                                                 <p>
                                                     Sedut perspiciatis unde omn ates voluptate
@@ -431,6 +445,14 @@
                                         </div>
                                     </div>
                                 </div>
+                            </div>
+
+                            <div class="res_img">
+                                <img
+                                    src="./public/images/Rectangle 1499.png"
+                                    class="img-fluid"
+                                    alt=""
+                                />
                             </div>
                         </div>
 
@@ -529,7 +551,7 @@
                             </h3>
 
                             <div class="col-12 mt-4">
-                                <div class="row side_padding">
+                                <div class="row side_padding p-0">
                                     <div class="col-12">
                                         <div class="newsLetter_div">
                                             <input type="text" placeholder="Enter Your Email" />
@@ -549,23 +571,23 @@
         <!-- footer -->
         <footer>
             <div class="container-fluid side_padding">
-                <div class="row">
-                    <div class="col-12 col-sm-12 col-md-5 pe-5">
+                <div class="row text-center text-xl-start">
+                    <div class="col-12 col-sm-12 col-md-4 col-xl-5 pe-5">
                         <img src="./public/images/logo.png" alt="" />
                         <p class="mt-4 mb-4">C-91/7, Wazirpur Industrial Area, Delhi, 110052</p>
                     </div>
 
-                    <div class="col-12 col-sm-12 col-md-5 ps-5">
+                    <div class="col-12 col-sm-12 col-md-4 col-xl-4 ps-0 ps-xl-5">
                         <h3>Contacts Us</h3>
                         <ul class="mt-4">
                             <li>
-                                <div class="d-flex">
+                                <div class="d-flex justify-content-center justify-content-xl-start">
                                     <i class="fas fa-phone-alt mt-2 me-3"></i>
                                     <p class="mb-0">+(91) 8271233269</p>
                                 </div>
                             </li>
                             <li>
-                                <div class="d-flex">
+                                <div class="d-flex justify-content-center justify-content-xl-start">
                                     <i class="fas fa-envelope mt-2 me-3"></i>
                                     <p class="mb-0">contact@bonamisoftware.com</p>
                                 </div>
@@ -573,10 +595,10 @@
                         </ul>
                     </div>
 
-                    <div class="col-12 col-sm-12 col-md-2 ps-5">
+                    <div class="col-12 col-sm-12 col-md-4 col-xl-2 ps-0 ps-xl-5">
                         <h3>We are Social</h3>
 
-                        <div class="d-flex">
+                        <div class="d-flex justify-content-center justify-content-xl-start">
                             <div class="footer_icons_div">
                                 <i class="fab fa-facebook-f"></i>
                             </div>

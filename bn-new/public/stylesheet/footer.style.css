@@ -6,6 +6,7 @@ footer {
     background-size: cover;
     padding-bottom: 40px;
     margin-top: -300px;
+    background-repeat: no-repeat;
 }
 
 footer p {
