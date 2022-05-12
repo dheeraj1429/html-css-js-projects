@@ -1,0 +1,217 @@
+ <!-- Client Testimonials -->
+            <section class="client_testimonials py-5">
+                <div class="container-fluid side_padding">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 text-center text-xl-start">
+                            <h1 class="mt-3">
+                                We're Leading Digital <br />
+                                Business <span>Agency</span>
+                            </h1>
+                        </div>
+                        <div
+                            class="col-12 col-sm-12 col-md-12 col-lg-6 mt-3 mt-xl-0 text-center text-xl-start"
+                        >
+                            <p>
+                                There are many variations of passages of Lorem Ipsum available, but
+                                the majority have suffered alteration in some form, by injected
+                                humour. If you are going to use a passage of Lorem Ipsum, you need
+                                to be sure.
+                            </p>
+                        </div>
+
+                        <div class="col-12">
+                            <div class="client_content_div mt-5 mb-5">
+                                <div class="client_content_inner_div text-center text-md-start">
+                                    <h1>
+                                        If you are going to use a passage of Lorem Ipsum, you need
+                                        to be sure. Compare us between others companies.
+                                    </h1>
+                                    <p>
+                                        There are many variations of passages of Lorem Ipsum
+                                        available, but the majority have suffered alteration in some
+                                        form, by injected humour. If you are going to use a passage
+                                        of Lorem Ipsum, you need to be sure.
+                                    </p>
+
+                                    <div class="mt-5 mb-5 align-items-center line_div_inner">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-6">
+                                                <h1>Optimize Website</h1>
+                                                <p>
+                                                    Sedut perspiciatis unde omn ates voluptate
+                                                    accusantium doloremsyc laudantium totam apere
+                                                </p>
+                                            </div>
+                                            <div class="col-12 col-sm-12 col-md-6 mt-4 mt-md-0">
+                                                <h1>Analyze Competitors</h1>
+                                                <p>
+                                                    Sedut perspiciatis unde omn ates voluptate
+                                                    accusantium doloremsyc laudantium totam apere
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="res_img">
+                                <img
+                                    src="./public/images/Rectangle 1499.png"
+                                    class="img-fluid"
+                                    alt=""
+                                />
+                            </div>
+                        </div>
+
+                        <!-- <div class="col-6 mb-3">
+                            <div class="d-flex">
+                                <div class="line_div mt-2"></div>
+                                <h5 class="ms-3">Client Testimonials</h5>
+                            </div>
+
+                            <h1 class="mt-3">
+                                Making Sure all our Clients <br />
+                                are <span>Satisfied</span>
+                            </h1>
+                        </div>
+
+                        <div class="col-12 mt-5 mb-5 pb-5">
+                            <div class="row">
+                                <div class="col-12 col-sm-12 col-md-4">
+                                    <div class="user_testimonial_div">
+                                        <div class="d-flex align-items-center">
+                                            <div class="user_profile_div">
+                                                <img src="./public/images/userone.png" alt="" />
+                                            </div>
+                                            <div class="ms-3">
+                                                <h5 class="mb-0">Wade Warren</h5>
+                                                <span>Designer</span>
+                                            </div>
+                                        </div>
+
+                                        <p class="mt-3">
+                                            There was a coding expert, design expert, project management expert, experts
+                                            at all times. Among various coding companies out in the world, Bonami is the
+                                            best.
+                                        </p>
+
+                                        <div class="bottom_arrrow"></div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-4">
+                                    <div class="user_testimonial_div">
+                                        <div class="d-flex align-items-center">
+                                            <div class="user_profile_div">
+                                                <img src="./public/images/use-2.png" alt="" />
+                                            </div>
+                                            <div class="ms-3">
+                                                <h5 class="mb-0">Wade Warren</h5>
+                                                <span>Designer</span>
+                                            </div>
+                                        </div>
+
+                                        <p class="mt-3">
+                                            There was a coding expert, design expert, project management expert, experts
+                                            at all times. Among various coding companies out in the world, Bonami is the
+                                            best.
+                                        </p>
+
+                                        <div class="bottom_arrrow"></div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-4">
+                                    <div class="user_testimonial_div">
+                                        <div class="d-flex align-items-center">
+                                            <div class="user_profile_div">
+                                                <img src="./public/images/use-3.png" alt="" />
+                                            </div>
+                                            <div class="ms-3">
+                                                <h5 class="mb-0">Wade Warren</h5>
+                                                <span>Designer</span>
+                                            </div>
+                                        </div>
+
+                                        <p class="mt-3">
+                                            There was a coding expert, design expert, project management expert, experts
+                                            at all times. Among various coding companies out in the world, Bonami is the
+                                            best.
+                                        </p>
+
+                                        <div class="bottom_arrrow"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </section>
+            <!-- Client Testimonials -->
+
+
+            <section class="banner_section side_padding carrer_pad about_res_banner">
+
+          <div class="navbar_div py-3">
+               <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                         <a class="navbar-brand" href="#">
+                              <img src="./public/images/logo.png" alt="logo" />
+                         </a>
+                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                              aria-expanded="false" aria-label="Toggle navigation">
+                              <span class="navbar-toggler-icon"></span>
+                         </button>
+                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                   <li class="nav-item">
+                                        <a class="nav-link " href="./index.html">Home</a>
+                                   </li>
+                                   <li class="nav-item">
+                                        <a class="nav-link" href="./aboutUs.html">About Us</a>
+                                   </li>
+                                   <li class="nav-item">
+                                        <a class="nav-link activeNavbar_item" href="./career-one.html">Career</a>
+                                   </li>
+                                   
+                                   <li class="nav-item">
+                                        <a class="nav-link" href="./services.html">Services</a>
+                                   </li>
+                                   <li class="nav-item">
+                                        <a class="nav-link" href="./contact.html">Contact</a>
+                                   </li>
+                                   <!-- <li class="nav-item">
+                                            <button class="Appoiontment_button">Appiontment</button>
+                                    </li> -->
+                              </ul>
+                         </div>
+                    </div>
+               </nav>
+          </div>
+          <div class="container-fluid pb-5 pt-5 py-xxl-3 ">
+               <div class="row align-items-center">
+                    <div class="col-12 col-12 col-md-12 col-xl-6 text-center text-xl-start">
+
+                         <div class="mt-4 smContent_div lin_div_content">
+                              <div class="col-12">
+                                   <div class="d-flex upper_div_cl justify-content-center justify-content-xl-start">
+                                        <div class="line_div mt-2"></div>
+                                        <h5 class="ms-3">Why work with Bonami?</h5>
+                                   </div>
+                              </div>
+                         </div>
+
+                         <h1 class="text-white">Creating Leaders For a Better World</h1>
+
+                        
+
+                         <!-- <button class="right_arrow_button mt-4">
+                              Let's talk <img src="./public/images/right_arrow.png" alt="right_arrow" />
+                         </button> -->
+                    </div>
+                    <div class="col-12 col-12 col-md-12 col-xl-6 res_second_img">
+                         <img src="./public/images/earth.png" class="img-fluid w-50" alt="banner-image" style="opacity: 0;"/>
+                    </div>
+               </div>
+          </div>
+          
+     </section>

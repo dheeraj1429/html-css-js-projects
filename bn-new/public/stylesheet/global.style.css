@@ -22,7 +22,7 @@ body {
     --lightPinkCl: #c74da9;
     --darkButtonCl: #112852;
     --smGrayNewCL: #8193b2;
-    --bodyCl: #f0efef;
+    --bodyCl: #f7f7f7;
     --lightCl: #61ce7065;
     --lightSkyCl: #efeffb;
     --footerCl: #8e8e8e;
@@ -161,4 +161,7 @@ main {
 
 .res_img {
     display: none;
+}
+.accordion-item {
+    border-radius: 20px 20px 0 0 !important;
 }

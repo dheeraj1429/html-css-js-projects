@@ -116,6 +116,25 @@
     .content_dc_div h4 {
         font-size: 25px;
     }
+    .valuble_service h2 {
+        font-size: 32px;
+    }
+    .valuable_div h4 {
+        font-size: 19px;
+    }
+    .web_designing h1 {
+        font-size: 35px;
+    }
+    .web_designing p {
+        font-size: 16px;
+        line-height: normal;
+    }
+    .marginCl {
+        margin-top: 0;
+    }
+    .valuable_div {
+        height: 100%;
+    }
 }
 
 @media (max-width: 1300px) {
@@ -146,6 +165,38 @@
     }
     .res_second_img {
         display: none;
+    }
+    .server_bn {
+        padding-top: 100px !important;
+        padding-bottom: 92px !important;
+    }
+    .service_banner {
+        background-color: transparent !important;
+    }
+    .valuable_div {
+        padding: 2rem;
+    }
+    .professional_solutions_div {
+        padding-top: 104px;
+        padding-bottom: 5px;
+    }
+    .professional_solutions_div span {
+        font-size: 14px;
+    }
+    .web_designing p {
+        font-size: 14px;
+    }
+    .web_designing h1 {
+        font-size: 29px;
+    }
+    .best_place_to_work h2 {
+        font-size: 33px;
+    }
+    .your_truest_foundation {
+        clip-path: none;
+        background-color: transparent;
+        margin-bottom: auto;
+        padding: 50px 0 !important;
     }
 }
 
@@ -200,6 +251,29 @@
     .be_a_part_of_bonami h2 {
         font-size: 24px;
     }
+    .professional_solutions_div {
+        padding-top: 146px;
+        padding-bottom: 28px;
+    }
+    .web_designing h1 {
+        font-size: 24px;
+    }
+    .web_designing p {
+        font-size: 13px;
+    }
+    .best_place_to_work h2 {
+        font-size: 32px;
+    }
+    .best_place_to_work p {
+        margin-bottom: 0;
+        font-size: 15px;
+    }
+    .marginBottomCL {
+        margin-bottom: 2rem;
+    }
+    .carry_on_planing {
+        padding-bottom: 44px;
+    }
 }
 
 @media (max-width: 770px) {
@@ -233,6 +307,14 @@
     .cv_content_section h5 {
         font-size: 14px;
     }
+    .professional_solutions_div {
+        padding-top: 50px;
+        -webkit-clip-path: none;
+        clip-path: none;
+    }
+    .best_place_to_work .margin_img {
+        margin-top: 2rem;
+    }
 }
 
 @media (max-width: 700px) {
@@ -249,13 +331,6 @@
     .how_does_work_content {
         padding-left: 0rem;
     }
-}
-
-@media (max-width: 600px) {
-    .got_the_whole h3 {
-        font-size: 19px;
-        line-height: normal;
-    }
     .newsLetter_div button {
         position: relative;
         top: auto;
@@ -266,6 +341,14 @@
     .newsLetter_div {
         height: auto;
     }
+}
+
+@media (max-width: 600px) {
+    .got_the_whole h3 {
+        font-size: 19px;
+        line-height: normal;
+    }
+
     .about_banner h4 {
         font-size: 33px;
     }
@@ -293,6 +376,12 @@
     }
     .line_div {
         display: none;
+    }
+    .valuble_service h2 {
+        font-size: 23px;
+    }
+    .video_prev_div {
+        padding: 1rem;
     }
 }
 

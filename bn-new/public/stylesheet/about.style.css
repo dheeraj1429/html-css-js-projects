@@ -16,14 +16,15 @@
 }
 .about_banner .about_content_div {
     padding-top: 200px;
-    padding-bottom: 350px;
+    padding-bottom: 404px;
 }
 
 .about_banner h4 {
     color: var(--mainColorCl);
     font-weight: 700;
-    font-size: 45px;
+    font-size: 71.4758px;
 }
+
 .about_banner p {
     color: var(--lightGreenCl);
 }
@@ -34,10 +35,13 @@
 
 /* YOUR TRUST, OUR FOUNDATION. */
 .your_truest_foundation {
-    background-image: url(../images/you-trust.png);
+    background-color: #efeff9;
+    /* background-image: url(../images/you-trust.png); */
     background-position: center;
     background-size: cover;
     padding: 250px 0;
+    clip-path: polygon(100% 0, 100% 38%, 100% 100%, 0 100%, 0 14%);
+    margin-bottom: -200px;
 }
 .your_truest_foundation h5 {
     color: var(--lightGreenCl);
@@ -182,7 +186,7 @@
 .client_content_div .client_content_inner_div h1 {
     font-weight: 600;
     font-size: 30px;
-    line-height: 47px;
+    line-height: 40px;
 }
 
 .client_content_div .client_content_inner_div .line_div_inner {
