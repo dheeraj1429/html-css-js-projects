@@ -7,10 +7,7 @@
         <title>About Page</title>
 
         <!-- Bootstrap 5 CDN -->
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-        />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
 
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
@@ -34,6 +31,50 @@
     </head>
 
     <body>
+        <div class="navbar_div py-3">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="./public/images/logo.png" alt="logo" />
+                    </a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="./index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link activeNavbar_item" href="./aboutUs.html">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./career-one.html">Career</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="./services.html">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./contact.html">Contact</a>
+                            </li>
+                            <!-- <li class="nav-item">
+                                <button class="Appoiontment_button">Appiontment</button>
+                            </li> -->
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
         <div class="popUpOverLayDiv">
             <div class="popUpDiv">
                 <div class="container-fluid contact_for_consulation">
@@ -41,10 +82,7 @@
                         <div class="row">
                             <div class="col-12 col-sm-12 col-md-6">
                                 <p>WE ANSWER ALL THE SILLY QUESTIONS</p>
-                                <h2>
-                                    To learn how BonAmi can transform your business, schedule a free
-                                    consultation today!
-                                </h2>
+                                <h2>To learn how BonAmi can transform your business, schedule a free consultation today!</h2>
                             </div>
                             <div class="col-12 col-sm-12 col-md-6">
                                 <div class="row popup_elem_div">
@@ -61,24 +99,14 @@
                                         <input type="text" placeholder="Contact Us Regarding" />
                                     </div>
                                     <div class="col-12 mt-4">
-                                        <textarea
-                                            name=""
-                                            id=""
-                                            cols="30"
-                                            rows="10"
-                                            class="textaria"
-                                            placeholder="Message"
-                                        ></textarea>
+                                        <textarea name="" id="" cols="30" rows="10" class="textaria" placeholder="Message"></textarea>
 
                                         <button class="submit_button mt-4 mb-4">
                                             Submit Form
                                             <img src="./public/images/right_arrow.png" alt="" />
                                         </button>
 
-                                        <span>
-                                            Our experts will call back to you in your comfortable
-                                            time within 2 business days.
-                                        </span>
+                                        <span> Our experts will call back to you in your comfortable time within 2 business days. </span>
                                     </div>
                                 </div>
                             </div>
@@ -90,76 +118,23 @@
 
         <!-- navbar -->
         <section class="banner_section about_banner side_padding about_res_banner">
-            <div class="navbar_div py-3">
-                <nav class="navbar navbar-expand-lg">
-                    <div class="container-fluid">
-                        <a class="navbar-brand" href="#">
-                            <img src="./public/images/logo.png" alt="logo" />
-                        </a>
-                        <button
-                            class="navbar-toggler"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#navbarSupportedContent"
-                            aria-controls="navbarSupportedContent"
-                            aria-expanded="false"
-                            aria-label="Toggle navigation"
-                        >
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="./index.html">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link activeNavbar_item" href="./aboutUs.html"
-                                        >About Us</a
-                                    >
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="./career-one.html">Career</a>
-                                </li>
-
-                                <li class="nav-item">
-                                    <a class="nav-link" href="./services.html">Services</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="./contact.html">Contact</a>
-                                </li>
-                                <!-- <li class="nav-item">
-                                    <button class="Appoiontment_button">Appiontment</button>
-                                </li> -->
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
-            </div>
-
             <div class="container-fluid about_content_div">
-                <div class="row align-items-center">
-                    <div
-                        class="col-12 col-12 col-md-12 col-lg-9 col-xl-7 text-center text-xl-start"
-                    >
-                        <div
-                            class="d-flex upper_div_cl service_section justify-content-center justify-content-xl-start mb-3 mb-xl-0"
-                        >
-                            <div class="line_div mt-2"></div>
-                            <h5 class="ms-3">ABOUT US</h5>
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-12 col-12 col-md-12 col-lg-9 col-xl-7 text-center">
+                        <div class="d-flex upper_div_cl service_section justify-content-center mb-3 mb-xl-0">
+                            <h5 class="ms-3 text-white">ABOUT US</h5>
                         </div>
                         <h4>We Believe In Crafting Sweet Experiences</h4>
                     </div>
-                    <div class="col-12 col-12 col-md-5"></div>
                 </div>
             </div>
         </section>
-
         <!-- navbar -->
 
         <!-- main -->
         <main>
             <!-- Creating a world -->
-            <div class="creating_a_world_class pt-2 pb-5">
+            <div class="creating_a_world_class pt-2 pb-5 createing_margin">
                 <div class="side_padding">
                     <div class="container-fluid">
                         <div class="row text-center text-xl-start">
@@ -169,32 +144,23 @@
                                     <h5 class="ms-3">AN EXCELLENT WORKPLACE</h5>
                                 </div>
 
-                                <h1 class="mt-3">
-                                    Together We Aim At Making <span>Everything Possible.</span>
-                                </h1>
+                                <h1 class="mt-3">Together We Aim At Making <span>Everything Possible.</span></h1>
 
                                 <p class="mt-4">
-                                    Bonami Software Pvt. Ltd. is a leading global software
-                                    development firm with a track record of fulfilling corporate
-                                    objectives. We harness the power of various databases and APIs
-                                    and create, design, and deploy world-class apps for large
-                                    corporations, small-to-medium-sized organisations, and
-                                    early-stage startups. As a company, we have a strong belief in
-                                    providing a comfortable work culture for our employees. We
-                                    provide solutions that optimise business operations and provide
-                                    value to customers by efficiently combining technological stacks
+                                    Bonami Software Pvt. Ltd. is a leading global software development firm with a track record of fulfilling
+                                    corporate objectives. We harness the power of various databases and APIs and create, design, and deploy
+                                    world-class apps for large corporations, small-to-medium-sized organisations, and early-stage startups. As a
+                                    company, we have a strong belief in providing a comfortable work culture for our employees. We provide solutions
+                                    that optimise business operations and provide value to customers by efficiently combining technological stacks
                                 </p>
 
                                 <p>
-                                    A brand recognised for delivering the greatest customer-oriented
-                                    technologies while guiding you through all the stages of web
-                                    development.
+                                    A brand recognised for delivering the greatest customer-oriented technologies while guiding you through all the
+                                    stages of web development.
                                 </p>
                             </div>
-                            <div
-                                class="col-12 col-sm-12 col-md-12 col-xl-6 text-center text-xl-start pt-5 pt-xl-0"
-                            >
-                                <img src="./public/images/abm.png" class="img-fluid" alt="work" />
+                            <div class="col-12 col-sm-12 col-md-12 col-xl-6 text-center text-xl-start pt-5 pt-xl-0">
+                                <img src="./public/images/Group 1000001755.png" class="img-fluid" alt="work" />
                             </div>
                         </div>
                     </div>
@@ -214,15 +180,11 @@
                         </div>
                         <div class="col-12 text-center text-xl-start">
                             <h6>
-                                We use open source web content management systems to plan, design,
-                                and construct unique websites. Throughout the process, we
-                                collaborate with you. We get to know your company and create
-                                technology solutions that help you achieve your strategic goals. We
-                                follow the rules. We act in our clients’, team’s, and partners’ best
-                                interests. In every activity and encounter, everyone of us aspires
-                                to be the best we can be. With a defined approach, good
-                                communications, and regular feedback cycles, we give strong project
-                                leadership and strategic counsel.
+                                We use open source web content management systems to plan, design, and construct unique websites. Throughout the
+                                process, we collaborate with you. We get to know your company and create technology solutions that help you achieve
+                                your strategic goals. We follow the rules. We act in our clients’, team’s, and partners’ best interests. In every
+                                activity and encounter, everyone of us aspires to be the best we can be. With a defined approach, good communications,
+                                and regular feedback cycles, we give strong project leadership and strategic counsel.
                             </h6>
                         </div>
 
@@ -231,19 +193,13 @@
                                 <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-4">
                                     <div class="service_cart_div px-5">
                                         <div class="icons_div">
-                                            <img
-                                                src="./public/images/image 58 (Traced).png"
-                                                alt=""
-                                            />
+                                            <img src="./public/images/image 58 (Traced).png" alt="" />
                                         </div>
                                         <h2>Our Core Values</h2>
                                         <p>
-                                            Core values are an important part of every company's
-                                            culture. The top core principles for technology
-                                            organisations set the tone for day-to-day activity and
-                                            company culture in the tech industry. Bonami believes
-                                            that the driving force behind a company's behaviours and
-                                            actions are its core values
+                                            Core values are an important part of every company's culture. The top core principles for technology
+                                            organisations set the tone for day-to-day activity and company culture in the tech industry. Bonami
+                                            believes that the driving force behind a company's behaviours and actions are its core values
                                         </p>
 
                                         <!-- <div>
@@ -257,24 +213,16 @@
                                         </div> -->
                                     </div>
                                 </div>
-                                <div
-                                    class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-4 py-5 py-xl-0"
-                                >
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-4 py-5 py-xl-0">
                                     <div class="service_cart_div px-5">
                                         <div class="icons_div">
-                                            <img
-                                                src="./public/images/image 59 (Traced).png"
-                                                alt=""
-                                            />
+                                            <img src="./public/images/image 59 (Traced).png" alt="" />
                                         </div>
                                         <h2>Innovative Ideas</h2>
                                         <p>
-                                            We at Bonami are a group of creative thinkers with a
-                                            slew of novel ideas. In the previous few decades,
-                                            software development has risen at an exponential rate.
-                                            Technology has advanced to the point that it is now
-                                            possible to scale your firm. Today, innovation is more
-                                            than a buzzword; it's the fine line that separates
+                                            We at Bonami are a group of creative thinkers with a slew of novel ideas. In the previous few decades,
+                                            software development has risen at an exponential rate. Technology has advanced to the point that it is now
+                                            possible to scale your firm. Today, innovation is more than a buzzword; it's the fine line that separates
                                             successful companies from the others.
                                         </p>
 
@@ -292,19 +240,13 @@
                                 <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-4">
                                     <div class="service_cart_div px-5">
                                         <div class="icons_div">
-                                            <img
-                                                src="./public/images/image 60 (Traced).png"
-                                                alt=""
-                                            />
+                                            <img src="./public/images/image 60 (Traced).png" alt="" />
                                         </div>
                                         <h2>Target Achievements</h2>
                                         <p>
-                                            A popular path for software professionals is to lead a
-                                            software development team. It implies that you are in
-                                            charge of the team, the work they do, and the decisions
-                                            they make. The technological world is always evolving
-                                            and changing. And achieving certain targets is a major
-                                            part of it.
+                                            A popular path for software professionals is to lead a software development team. It implies that you are
+                                            in charge of the team, the work they do, and the decisions they make. The technological world is always
+                                            evolving and changing. And achieving certain targets is a major part of it.
                                         </p>
 
                                         <!-- <div>
@@ -425,49 +367,84 @@
         <!-- footer -->
         <footer>
             <div class="container-fluid side_padding">
-                <div class="row text-center text-xl-start">
-                    <div class="col-12 col-sm-12 col-md-4 col-xl-5 pe-5">
+                <div class="row text-center text-md-start">
+                    <div class="row pb-5">
+                        <div class="col-12 col-sm-12 col-md-8">
+                            <h1>Connect us On Social Media</h1>
+                            <p>Don’t wait make a smart & logical quote here. Its pretty easy.</p>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4">
+                            <div class="d-flex justify-content-center justify-content-xl-end mt-3">
+                                <div class="footer_icons_div">
+                                    <i class="fab fa-facebook-f"></i>
+                                </div>
+                                <div class="footer_icons_div ms-3">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-4 col-xl-5 pe-0">
                         <img src="./public/images/logo.png" alt="" />
                         <p class="mt-4 mb-4">C-91/7, Wazirpur Industrial Area, Delhi, 110052</p>
                     </div>
 
-                    <div class="col-12 col-sm-12 col-md-4 col-xl-4 ps-0 ps-xl-5">
-                        <h3>Contact Us</h3>
+                    <div class="col-12 col-sm-12 col-md-4 col-xl-2 ps-0 ps-md-5">
+                        <h3>Useful Links</h3>
                         <ul class="mt-4">
                             <li>
-                                <div class="d-flex justify-content-center justify-content-xl-start">
-                                    <i class="fas fa-phone-alt mt-2 me-3"></i>
-                                    <p class="mb-0">+(91) 8271233269</p>
+                                <div class="d-flex justify-content-center justify-content-md-start">
+                                    <p class="mb-0">Home</p>
                                 </div>
                             </li>
                             <li>
-                                <div class="d-flex justify-content-center justify-content-xl-start">
-                                    <i class="fas fa-envelope mt-2 me-3"></i>
-                                    <p class="mb-0">contact@bonamisoftware.com</p>
+                                <div class="d-flex justify-content-center justify-content-md-start">
+                                    <p class="mb-0">About Us</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="d-flex justify-content-center justify-content-md-start">
+                                    <p class="mb-0">Services</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="d-flex justify-content-center justify-content-md-start">
+                                    <p class="mb-0">Contact</p>
                                 </div>
                             </li>
                         </ul>
                     </div>
 
-                    <div class="col-12 col-sm-12 col-md-4 col-xl-2 ps-0 ps-xl-5">
-                        <h3>We are Social</h3>
-
-                        <div class="d-flex justify-content-center justify-content-xl-start mt-3">
-                            <div class="footer_icons_div">
-                                <i class="fab fa-facebook-f"></i>
-                            </div>
-                            <div class="footer_icons_div ms-3">
-                                <i class="fab fa-linkedin-in"></i>
-                            </div>
+                    <div class="col-12 col-sm-12 col-md-4 col-xl-4 ps-0 ps-xl-5 d-flex justify-content-xl-end justify-content-center">
+                        <div>
+                            <h3>Contact Us</h3>
+                            <ul class="mt-4">
+                                <li>
+                                    <div class="d-flex justify-content-center justify-content-md-start">
+                                        <i class="fas fa-phone-alt mt-2 me-3"></i>
+                                        <p class="mb-0">+(91) 8271233269</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="d-flex justify-content-center justify-content-md-start">
+                                        <i class="fas fa-envelope mt-2 me-3"></i>
+                                        <p class="mb-0">contact@bonamisoftware.com</p>
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-                <div class="row mt-4">
-                    <div class="col-12">
-                        <hr />
-                        <div class="d-flex align-items-center footer_second_content_div">
-                            <p>© 2022 Bonami Software Pvt. Ltd.</p>
-                            <p>Privacy Policy / Terms and Conditions</p>
+            </div>
+            <div class="footer_second">
+                <div class="container-fluid">
+                    <div class="row mt-4 justify-content-center">
+                        <div class="col-sm-12 col-md-10">
+                            <div class="d-flex align-items-center fo oter_second_content_div justify-content-between pt-2 pb-0">
+                                <p>© 2022 Bonami Software Pvt. Ltd.</p>
+                                <p>Privacy Policy / Terms and Conditions</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -479,7 +456,6 @@
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
 
         <script src="./public/javascript/script.js"></script>
     </body>

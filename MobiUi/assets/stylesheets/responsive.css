@@ -8,59 +8,43 @@
     .banner_section_bottom_div {
         display: none;
     }
-
     .banner_section::before {
         height: 100%;
     }
-
     .blog_cart_div p {
         font-size: 16px;
     }
-
     .blog_cart_div h5 {
         font-size: 25px;
     }
-
     .recognized_form_content h3 {
         font-size: 40px;
     }
-
     .recognized_form_content p {
         font-size: 17px;
     }
-
     .services h1 {
         font-weight: 700;
         font-size: 40px;
         line-height: normal;
     }
-
     .services p {
         font-size: 17px;
     }
-
     .portfolioSection h1 {
         font-size: 38px;
     }
-
     .exploreMore_button_three {
         padding: 0.4rem 3rem;
     }
-
     .exploreMore_button_second {
         padding: 0.6rem 3rem;
     }
-
     .services h3 {
         font-size: 49px;
     }
-
     .tec_tabs p {
         font-size: 20px;
-    }
-
-    .banner_section h1 {
-        font-size: 40px;
     }
 }
 
@@ -68,128 +52,17 @@
     .navbar_icons_div {
         display: none;
     }
-
-    .about_banner h1 {
-        font-size: 71px;
-    }
-
-    .mobile_app_strategy h1 {
-        font-size: 39px;
-    }
-
-    .mobile_app_strategy p {
-        font-size: 17px;
-    }
-
-    .arrow_div > div {
-        display: none;
-    }
-
-    .mobile_app_section .mobile_png {
-        margin-left: 0px;
-    }
-
-    .mobile_app_section h3 {
-        font-size: 37px;
-    }
-
-    .mobile_app_section p {
-        font-size: 20px;
-    }
-
-    .how_we_render h1 {
-        font-size: 40px;
-    }
-
-    .how_we_render .count_div p {
-        font-size: 15px;
-    }
-
-    .how_we_render .count_div h1 {
-        font-size: 120px;
-    }
-
-    .bg_pos_cart_div {
-        background-repeat: no-repeat;
-    }
-
-    .browse_the_category p {
-        color: var(--mainColor);
-        font-size: 14px;
-        line-height: 24px;
-    }
-
-    .browse_the_category {
-        padding-bottom: 30px;
-    }
-}
-
-@media (max-width: 1300px) {
-    .days_firt_cn h1 {
-        font-size: 161.638px;
-    }
-
-    .days_firt_cn h4 {
-        font-size: 22px;
-    }
 }
 
 @media (max-width: 1160px) {
     .navbar_icons_div {
         display: block;
     }
-
     .banner_section h3 {
         font-size: 34px;
     }
-
     .banner_section h1 {
         font-size: 34px;
-    }
-
-    .side_padding {
-        padding: 0px 60px;
-    }
-
-    .screen_touch_div h4 {
-        font-size: 15px;
-    }
-
-    .mobile_app_strategy h1 {
-        font-size: 31px;
-    }
-
-    .mobile_app_strategy p {
-        font-size: 15px;
-    }
-
-    .mobile_app_section p {
-        font-size: 18px;
-    }
-
-    .mobile_app_section h3 {
-        font-size: 28px;
-    }
-
-    .how_we_render .count_div p {
-        font-size: 14px;
-    }
-
-    .how_we_render .count_div h5 {
-        font-size: 26px;
-    }
-
-    .cards_eni_div p {
-        font-size: 14px;
-        line-height: normal;
-    }
-
-    .browse_the_category {
-        background-color: #40c4e0;
-    }
-
-    .recognized_form .line_div {
-        margin: 0%;
     }
 }
 
@@ -197,67 +70,35 @@
     .banner_section h3 {
         font-size: 28px;
     }
-
     .banner_section h1 {
         font-size: 20px;
     }
-
     .banner_section::before {
         height: 75%;
     }
-
     .recognized_form_content h3 {
         font-size: 28px;
     }
-
     .recognized_form_content p {
         font-size: 15px;
     }
-
     .services h1 {
         font-size: 30px;
     }
-
     .services p {
         font-size: 15px;
     }
-
     .portfolioSection h1 {
         font-size: 25px;
     }
-
     .services h3 {
         font-size: 36px;
     }
-
     .ready_to_go_content h3 {
         font-size: 25px;
     }
-
     .side_padding {
         padding: 0 20px;
-    }
-
-    .how_we_render h1 {
-        font-size: 34px;
-    }
-
-    .slick-next {
-        display: none;
-    }
-
-    .sliderTow .slick-next,
-    .slick-prev {
-        display: none;
-    }
-
-    .exploreMore_button {
-        padding: 0.5rem 1.5rem;
-        font-size: 14px;
-    }
-
-    .banner_section h1 {
-        font-size: 25px;
     }
 }
 
@@ -265,29 +106,11 @@
     .read_to_grow_inner_section input {
         border-radius: 30px !important;
     }
-
     .exploreMore_button_three {
         font-size: 17px;
     }
-
     .exploreMore_button_second {
         font-size: 17px;
-    }
-
-    .firstMobile {
-        width: 323px;
-        height: 595px;
-    }
-
-    .mobile_app_section p {
-        font-size: 14px;
-    }
-
-    .how_we_render h1 span br {
-        display: none;
-    }
-    .recognized_form .line_div {
-        margin: auto;
     }
 }
 
@@ -295,7 +118,6 @@
     .lineOne {
         display: block;
     }
-
     .lineTow {
         display: none !important;
     }
@@ -306,109 +128,11 @@
         display: block !important;
         text-align: center;
     }
-
     .exploreMore_button_second {
         padding: 0.8rem 4rem;
     }
-
     .exploreMore_button_three {
         padding: 0.8rem 4rem;
-    }
-
-    .about_banner h1 {
-        font-size: 55px;
-    }
-
-    .about_banner h1 {
-        font-size: 43px;
-    }
-
-    .about_banner p {
-        font-size: 15px;
-        line-height: normal;
-    }
-
-    .mobile_app_strategy h1 {
-        font-size: 24px;
-    }
-
-    .mobile_app_strategy p {
-        font-size: 13px;
-    }
-
-    .how_we_render .count_div h5 {
-        font-size: 22px;
-    }
-
-    .how_we_render .count_div h1 {
-        font-size: 152px;
-    }
-
-    .portfolioSection h1 {
-        font-size: 20px;
-    }
-
-    .how_we_render .count_div > div:nth-child(1) {
-        padding: 0 1rem;
-    }
-
-    .days_firt_cn h1 {
-        font-size: 98.638px;
-    }
-
-    .days_firt_cn {
-        align-items: flex-end;
-    }
-}
-
-@media (max-width: 573px) {
-    .align-items-center {
-        align-items: center !important;
-        justify-content: center;
-    }
-
-    .footer {
-        padding: 58px 0;
-    }
-
-    .footer_sm_div {
-        padding: 0 0.5rem;
-    }
-
-    .footer_sm_div p {
-        font-size: 13px;
-    }
-
-    .cards_eni_div {
-        height: 400px;
-    }
-
-    .cards_eni_div h3 {
-        font-size: 28px;
-    }
-
-    .soltion_div .cart_hover_an_div {
-        margin-top: 0 !important;
-    }
-
-    .soltion_div .cards_eni_div {
-        height: auto;
-    }
-
-    .mobile_app_strategy h2 {
-        font-size: 20px;
-    }
-
-    .mobile_app_strategy h1 {
-        font-size: 17px;
-    }
-
-    .mobile_dots i {
-        font-size: 9px;
-    }
-
-    .mobile_dots_active {
-        font-size: 10px !important;
     }
 }
 
@@ -416,28 +140,7 @@
     .banner_icons_div {
         display: none;
     }
-
     .banner_section h1 {
         font-size: 16px;
-    }
-
-    .banner_section h3 {
-        font-size: 23px;
-    }
-
-    .banner_section h1 {
-        font-size: 13px;
-    }
-
-    .blog_cart_div p {
-        font-size: 13px;
-    }
-
-    .recognized_form_content h3 {
-        font-size: 20px;
-    }
-
-    .recognized_form_content p {
-        font-size: 14px;
     }
 }

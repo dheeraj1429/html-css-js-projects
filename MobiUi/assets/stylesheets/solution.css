@@ -1,5 +1,5 @@
 .great_solution_banner {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, .8)), url(../images/solution-bg.png);
+    background-image: url(../images/solution-bg.png);
     background-position: center;
     background-size: cover;
 }
@@ -13,7 +13,6 @@
 .banner_icons_div {
     bottom: 30%;
 }
-
 /* cards section */
 .cards_eni_div {
     width: 100%;
@@ -53,7 +52,6 @@
     font-size: 54px;
     z-index: 100;
 }
-
 .cards_eni_div p {
     font-weight: 400;
     font-size: 17px;
@@ -122,21 +120,18 @@
     border-radius: 12px;
     padding: 1rem 2rem;
 }
-
 .phone_call_div h4 {
     color: var(--dark);
     font-weight: 600;
     font-size: 30px;
     margin-bottom: 0;
 }
-
 .phone_call_div p {
     color: var(--grayLight);
     font-weight: 400;
     font-size: 20px;
     margin-bottom: 0;
 }
-
 .solution_s .bg_pos_cart_div {
     background-image: url(../images/ef.png);
     background-position: center;
@@ -145,5 +140,4 @@
     top: -100px;
     height: 90vh;
 }
-
 /* cards section */

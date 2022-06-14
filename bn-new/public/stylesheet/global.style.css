@@ -17,13 +17,13 @@ body {
     --darkBlueCl: #040f28;
     --mainColorCl: #fff;
     --darkCl: #000;
-    --lightGreenCl: #61ce70;
+    --lightGreenCl: #207de9;
     --smGrayCl: #616161;
     --lightPinkCl: #c74da9;
     --darkButtonCl: #112852;
     --smGrayNewCL: #8193b2;
     --bodyCl: #f7f7f7;
-    --lightCl: #61ce7065;
+    --lightCl: #207ee959;
     --lightSkyCl: #efeffb;
     --footerCl: #8e8e8e;
     --darkBlCl: #040e24;
@@ -163,5 +163,30 @@ main {
     display: none;
 }
 .accordion-item {
-    border-radius: 20px 20px 0 0 !important;
+    border-radius: 20px 20px 20px 20px !important;
+}
+
+.show {
+    transition: all 0.3s ease;
+}
+
+.accordion-collapse {
+    transition: all 0.3s ease !important;
+}
+
+.fa-bars {
+    color: var(--mainColorCl);
+}
+
+.hover_image {
+    display: flex;
+}
+.hover_image .inner_hover_image {
+    position: relative;
+}
+.hover_image img {
+    position: absolute;
+    bottom: 0;
+    right: -70px;
+    z-index: -1;
 }

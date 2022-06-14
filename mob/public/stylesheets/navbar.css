@@ -1,0 +1,17 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    background-color: var(--dark);
+    z-index: 100;
+}
+
+.navbar-div {
+    padding: 1rem 0;
+}
+
+.navbar-div .nav-link {
+    color: var(--mainColor);
+    font-size: 17px;
+    line-height: 22px;
+    margin-right: 1rem;
+}

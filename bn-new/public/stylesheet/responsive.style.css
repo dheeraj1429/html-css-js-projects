@@ -135,6 +135,9 @@
     .valuable_div {
         height: 100%;
     }
+    footer h1 {
+        font-size: 39px;
+    }
 }
 
 @media (max-width: 1300px) {
@@ -198,6 +201,16 @@
         margin-bottom: auto;
         padding: 50px 0 !important;
     }
+    .text-animation-wrapper-div .slidUp-animation {
+        top: 50%;
+        position: relative !important;
+    }
+    .text-animation-wrapper-div {
+        margin-top: -38px;
+    }
+    .be_a_part_of_bonami {
+        margin-top: -70px;
+    }
 }
 
 @media (max-width: 1000px) {
@@ -212,18 +225,18 @@
     .side_padding {
         padding: 0px 65px;
     }
-    .banner_section {
+    /* .banner_section {
         background: var(--darkBlCl);
         background-repeat: no-repeat;
-    }
+    } */
     footer p {
         color: var(--footerCl);
         font-weight: 400;
         font-size: 15px;
     }
-    .creating_a_world_class {
+    /* .creating_a_world_class {
         margin-top: 30px;
-    }
+    } */
     .your_truest_foundation {
         background-image: none;
         background-position: center;
@@ -244,6 +257,7 @@
         padding-top: 133px;
         padding-bottom: 179px;
     }
+
     .client_testimonials h1 {
         font-size: 26px;
         line-height: 32px;
@@ -273,6 +287,9 @@
     }
     .carry_on_planing {
         padding-bottom: 44px;
+    }
+    .createing_margin {
+        margin-top: -80px;
     }
 }
 
@@ -341,6 +358,18 @@
     .newsLetter_div {
         height: auto;
     }
+    .smCart_content {
+        display: block !important;
+    }
+    .navbar_div {
+        padding: 0;
+    }
+    .nav-item {
+        text-align: center;
+    }
+    .nav-item a {
+        margin-right: 0;
+    }
 }
 
 @media (max-width: 600px) {
@@ -383,6 +412,30 @@
     .video_prev_div {
         padding: 1rem;
     }
+    .navbar_div {
+        background-color: var(--darkBlCl);
+    }
+
+    .service_section h1 {
+        font-size: 25px;
+    }
+    .banner_component {
+        padding-top: 200px;
+        padding-bottom: 125px;
+    }
+    .hover_image img {
+        display: none;
+    }
+    .servers_banner_content {
+        padding-top: 45px !important;
+        padding-bottom: 69px !important;
+    }
+    .web_designing {
+        margin-top: -133px;
+    }
+    .banner_section p {
+        font-size: 14px;
+    }
 }
 
 @media (max-width: 500px) {
@@ -404,9 +457,7 @@
         font-size: 19px;
         line-height: normal;
     }
-    .smCart_content {
-        display: block !important;
-    }
+
     .smCart_content img {
         margin-bottom: 1rem;
     }
@@ -427,7 +478,7 @@
     }
     .content_content_div {
         padding-top: 0px !important;
-        padding-bottom: 123px !important;
+        padding-bottom: 100px !important;
     }
     .inner_elemet_cart {
         display: block !important;
@@ -449,5 +500,17 @@
     .about_banner h4 {
         font-weight: 600;
         font-size: 18px;
+    }
+    .career_heading {
+        font-size: 25px !important;
+    }
+    footer h1 {
+        font-size: 24px;
+    }
+    .service_banner {
+        padding-top: 150px !important;
+    }
+    .content_content_div img {
+        margin-bottom: -135px;
     }
 }

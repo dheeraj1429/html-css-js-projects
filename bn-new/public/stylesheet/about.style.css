@@ -4,19 +4,29 @@
 }
 
 .service_banner {
-    background-image: url(../images/service-banner.png) !important;
+    background-image: url(../images/bn.png) !important;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .about_banner {
     height: auto;
-    background-image: url(../images/ab.png);
+    background-image: url(../images/Group\ 1000001758.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.content-bn {
+    background-image: url(../images/contac-bn.png) !important;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .about_banner .about_content_div {
     padding-top: 200px;
-    padding-bottom: 404px;
+    padding-bottom: 279px;
 }
 
 .about_banner h4 {
@@ -30,7 +40,7 @@
 }
 
 .creating_a_world_class {
-    margin-top: -80px;
+    margin-top: 30px;
 }
 
 /* YOUR TRUST, OUR FOUNDATION. */

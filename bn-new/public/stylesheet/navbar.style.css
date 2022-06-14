@@ -1,3 +1,16 @@
+.navbar_div {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    padding: 0 5rem;
+    transition: all 0.3s ease;
+    z-index: 999;
+}
+
+.navbar_div_active {
+    background-color: rgba(29, 29, 29, 0.82);
+}
+
 .navbar-nav li .nav-link {
     color: var(--mainColorCl);
     font-weight: 400;

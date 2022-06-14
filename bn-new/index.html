@@ -10,7 +10,6 @@
     <!-- Bootstrap 5 CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
 
-
     <!-- font awesome cnd -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
 
@@ -20,116 +19,63 @@
     <link rel="stylesheet" href="./public/stylesheet/navbar.style.css" />
     <link rel="stylesheet" href="./public/stylesheet/global.style.css" />
     <link rel="stylesheet" href="./public/stylesheet/buttons.style.css" />
+    <link rel="stylesheet" href="./public/livjs/stylesheet/LivJs.style.css" />
     <link rel="stylesheet" href="./public/stylesheet/responsive.style.css" />
-
 
 </head>
 
 <body>
 
-    <div class="popUpOverLayDiv">
-        <div class="popUpDiv">
-            <div class="container-fluid contact_for_consulation">
-                <div class="col-12">
-                    <div class="row">
-                        <div class="col-12 col-sm-12 col-md-6">
-                            <p>WE ANSWER ALL THE SILLY QUESTIONS</p>
-                            <h2>
-                                To learn how BonAmi can transform your business, schedule a free consultation
-                                today!
-                            </h2>
-                        </div>
-                        <div class="col-12 col-sm-12 col-md-6">
-                            <div class="row popup_elem_div">
-                                <div class="col-12 col-sm-12 col-md-6">
-                                    <input type="text" placeholder="Your Name" />
-                                </div>
-                                <div class="col-12 col-sm-12 col-md-6">
-                                    <input type="number" placeholder="Phone number*" />
-                                </div>
-                                <div class="col-12 col-sm-12 col-md-6 mt-4">
-                                    <input type="email" placeholder="Email*" />
-                                </div>
-                                <div class="col-12 col-sm-12 col-md-6 mt-4">
-                                    <input type="text" placeholder="Contact Us Regarding" />
-                                </div>
-                                <div class="col-12 mt-4">
-                                    <textarea
-                                        name=""
-                                        id=""
-                                        cols="30"
-                                        rows="10"
-                                        class="textaria"
-                                        placeholder="Message"
-                                    ></textarea>
-
-                                    <button class="submit_button mt-4 mb-4">
-                                        Submit Form <img src="./public/images/right_arrow.png" alt="" />
-                                    </button>
-
-                                    <span>
-                                        Our experts will call back to you in your comfortable time within 2
-                                        business days.
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+    <!-- navbar -->
+    <div class="navbar_div py-3 ">
+        <nav class="navbar navbar-expand-xl">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./public/images/logo.png" alt="logo" />
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link activeNavbar_item" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="./aboutUs.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./career-one.html">Career</a>
+                        </li>
+                         <li class="nav-item">
+                            <a class="nav-link" href="./services.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contact.html">Contact</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                                <button class="Appoiontment_button">Appiontment</button>
+                        </li> -->
+                    </ul>
                 </div>
             </div>
-        </div>
+        </nav>
     </div>
 
-    <!-- navbar -->
-    <section class="banner_section side_padding">
-        <div class="navbar_div py-3">
-            <nav class="navbar navbar-expand-xl">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">
-                        <img src="./public/images/logo.png" alt="logo" />
-                    </a>
-                    <button
-                        class="navbar-toggler"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent"
-                        aria-controls="navbarSupportedContent"
-                        aria-expanded="false"
-                        aria-label="Toggle navigation"
-                    >
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link activeNavbar_item" href="./index.html">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link " href="./aboutUs.html">About Us</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./career-one.html">Career</a>
-                            </li>
-                           
-                            
-                             <li class="nav-item">
-                                <a class="nav-link" href="./services.html">Services</a>
-                            </li>
 
-                            <li class="nav-item">
-                                <a class="nav-link" href="./contact.html">Contact</a>
-                            </li>
-                            <!-- <li class="nav-item">
-                                    <button class="Appoiontment_button">Appiontment</button>
-                            </li> -->
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </div>
+    <section class="banner_section side_padding home_banner">
 
+        <!-- <video src="./public/videos/Pexels Videos 1851190.mp4" autoplay></video> -->
 
-        <div class="container-fluid py-3 banner_component">
+        <div class="container-fluid banner_component">
             <div class="row align-items-center">
                 <div class="col-12 col-12 col-md-12 col-xl-6 text-center text-xl-start">
                     <div class="d-flex align-items-center mb-2 justify-content-center justify-content-xl-start">
@@ -137,29 +83,27 @@
                         <p class="mb-0 ms-3">Your Trusted Agency</p>
                     </div>
 
-                    <h1 class="text-white mt-4">
+                    <h1 class="text-white mt-5  mb-xl-0">
                         EXPLORE . CREATE <br />
-                        <span class="text">
-                            . INSPIRE
+                        <span class="slidUp-animation">
+                            . inspire
                         </span>
                     </h1>
 
                     <div class="mt-4 d-flex smContent_div">
                         <div class="line_div mt-2"></div> 
-                        <!-- ml12 -->
-                        <p class="mb-0 ms-3 animi-text">
+                        <p class="mb-0 ms-3 ml12">
                             Exploring the vast possibilities and creating positive human interactions to inspire
                             meaningful business outcomes.
                         </p>
                     </div>
-
-                    <button class="right_arrow_button mt-4">
-                        Let's talk <img src="./public/images/right_arrow.png" alt="right_arrow" />
-                    </button>
+                            <button class="right_arrow_button mt-4 animiButton">
+                                Let's talk <img src="./public/images/right_arrow.png" alt="right_arrow" />
+                            </button>
                 </div>
-                <div class="col-12 col-12 col-md-12 col-xl-6">
+                <!-- <div class="col-12 col-12 col-md-12 col-xl-6">
                     <img src="./public/images/earth.png" class="img-fluid" alt="banner-image" />
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
@@ -254,145 +198,7 @@
         </div>
         <!-- Creating a world -->
 
-        <!-- Services -->
-        <section class="service_section pb-5 pt-0 pt-xxl-5">
-            <div class="container-fluid side_padding">
-                <div class="row">
-                    <div class="col-12 col-xl-6 mb-5 creating_a_world_class">
-                        <div class="d-flex upper_div_cl justify-content-center justify-content-xl-start">
-                            <div class="line_div mt-2"></div>
-                            <h5 class="ms-3">Services</h5>
-                        </div>
-                        <h1 class="mt-3 text-center text-xl-start">
-                            Let’s Check Our Featured <br />
-                            <span> Services </span>
-                        </h1>
-                    </div>
-
-                    <div class="col-12 pt-0 pb-2 pt-xl-5 pb-xl-5">
-                        <div class="row">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-4 fade_up marginCards">
-                                <div class="service_cart_div px-5">
-                                    <div class="icons_div">
-                                        <img src="./public/images/sign.png" alt="" />
-                                    </div>
-                                    <h2>Quality Assurance</h2>
-                                    <p>
-                                        Our professional QA engineers provide web, mobile, and desktop testing
-                                        services and are always available to conduct a software audit. We can assure
-                                        you that your software is competent enough.
-                                    </p>
-
-                                    <!-- <div>
-                                        <img src="./public/images/white_button.png" class="img-fluid" alt="" />
-
-                                        <a href="#" class="ms-3">Learn More</a>
-                                    </div> -->
-                                </div>
-                            </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-4 fade_up marginCards">
-                                <div class="service_cart_div px-5 service_second_cart">
-                                    <div class="icons_div">
-                                        <img src="./public/images/code.png" alt="" />
-                                    </div>
-                                    <h2>Web Development</h2>
-                                    <p>
-                                        Bonami assists companies in growing their businesses by developing solid web
-                                        solutions that are specifically adapted to the needs of modern business
-                                        environments. We take your ideas and turn them into custom web solutions.
-                                    </p>
-
-                                    <!-- <div>
-                                        <img src="./public/images/white_button.png" class="img-fluid" alt="" />
-
-                                        <a href="#" class="ms-3">Learn More</a>
-                                    </div> -->
-                                </div>
-                            </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-4 fade_up marginCards">
-                                <div class="service_cart_div px-5 service_second_thred">
-                                    <div class="icons_div">
-                                        <img src="./public/images/settng.png" alt="" />
-                                    </div>
-                                    <h2>Website maintenance</h2>
-                                    <p>
-                                        We are open to take any kinds of challenges. We can fix, repair, rebuild the
-                                        software we didn’t create and help you manage it. Bonami doesn’t just create
-                                        software apps and abandon them.
-                                    </p>
-
-                                    <!-- <div>
-                                        <img src="./public/images/white_button.png" class="img-fluid" alt="" />
-
-                                        <a href="#" class="ms-3">Learn More</a>
-                                    </div> -->
-                                </div>
-                            </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-4 fade_up marginCards mt-md-0 mt-xxl-4">
-                                <div class="service_cart_div px-5">
-                                    <div class="icons_div">
-                                        <img src="./public/images/clound.png" alt="" />
-                                    </div>
-                                    <h2>Cloud Management</h2>
-                                    <p>
-                                        Data management and cloud-based architecture development. Bonami can assist
-                                        you with navigating the cloud, identifying the appropriate architecture, and
-                                        implementing a solution that fits your strategic business requirements.
-                                    </p>
-
-                                    <!-- <div>
-                                        <img src="./public/images/white_button.png" class="img-fluid" alt="" />
-
-                                        <a href="#" class="ms-3">Learn More</a>
-                                    </div> -->
-                                </div>
-                            </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-4 fade_up marginCards">
-                                <div class="service_cart_div px-5 service_five_cart">
-                                    <div class="icons_div">
-                                        <img src="./public/images/lap.png" alt="" />
-                                    </div>
-                                    <h2>SEO</h2>
-                                    <p>
-                                        We assist our clients in upgrading and migrating their infrastructure to
-                                        cloud-based solutions. We can also assist with the migration of legacy
-                                        solutions to the most up-to-date technology stacks and cloud
-                                        infrastructures.
-                                    </p>
-
-                                    <!-- <div>
-                                        <img src="./public/images/white_button.png" class="img-fluid" alt="" />
-
-                                        <a href="#" class="ms-3">Learn More</a>
-                                    </div> -->
-                                </div>
-                            </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-4 fade_up marginCards mt-md-0 mt-xxl-4">
-                                <div class="service_cart_div px-5 service_second_thred">
-                                    <div class="icons_div">
-                                        <img src="./public/images/se.png" alt="" />
-                                    </div>
-                                    <h2>Cloud Migration</h2>
-                                    <p>
-                                        We assist our clients in upgrading and migrating their infrastructure to
-                                        cloud-based solutions. We can also assist with the migration of legacy
-                                        solutions to the most up-to-date technology stacks and cloud
-                                        infrastructures.
-                                    </p>
-
-                                    <!-- <div>
-                                        <img src="./public/images/white_button.png" class="img-fluid" alt="" />
-
-                                        <a href="#" class="ms-3">Learn More</a>
-                                    </div> -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Services --> 
+       
 
         <!-- A Successful Entrepreneurial Development Process -->
         <section class="successful_entrepreenurial ">
@@ -405,7 +211,7 @@
                             <div class="row">
                                 <div class="col-12 col-sm-12 col-md-6 d-flex align-items-start smCart_content mb-4">
                                     <img src="./public/images/1.png" class="img-fluid" alt="" />
-                                    <div class="ms-3 text-center text-xl-start">
+                                    <div class="ms-3">
                                         <h5>Web Development / Product Development</h5>
                                         <!-- <p>
                                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos
@@ -469,7 +275,7 @@
         <!-- A Successful Entrepreneurial Development Process -->
 
         <!-- The business partners -->
-        <section class="the_business_partners py-5 fade_up my-4">
+        <!-- <section class="the_business_partners py-5 fade_up my-4">
             <div class="container-fluid side_padding">
                 <div class="row justify-content-center">
                     <div class="col-6 text-center mb-5 upper_div_cl creating_a_world_class">
@@ -530,8 +336,145 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- The business partners -->
+
+         <!-- Services -->
+         <section class="service_section pb-4 pt-5 pt-xxl-5">
+            <div class="container-fluid side_padding">
+                <div class="row">
+                    <div class="col-12 col-xl-6 mb-5 creating_a_world_class">
+                        <div class="d-flex upper_div_cl justify-content-center justify-content-xl-start">
+                            <div class="line_div mt-2"></div>
+                            <h5 class="ms-3">Services</h5>
+                        </div>
+                        <h1 class="mt-3 text-center text-xl-start">
+                            Let’s Check Our Featured <br />
+                            <span> Services </span>
+                        </h1>
+                    </div>
+
+                    <div class="col-12 pt-0 pb-2 pt-xl-5 pb-xl-5">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-4 fade_up marginCards">
+                                <div class="service_cart_div px-5">
+                                    <div class="icons_div">
+                                        <img src="./public/images/sign.png" alt="" />
+                                    </div>
+                                    <h2>Quality Assurance</h2>
+                                    <p>
+                                        Our professional QA engineers provide web, mobile, and desktop testing
+                                        services and are always available to conduct a software audit. We can assure
+                                        you that your software is competent enough.
+                                    </p>
+
+                                    <!-- <div>
+                                        <img src="./public/images/white_button.png" class="img-fluid" alt="" />
+
+                                        <a href="#" class="ms-3">Learn More</a>
+                                    </div> -->
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-4 fade_up marginCards">
+                                <div class="service_cart_div px-5 service_second_cart">
+                                    <div class="icons_div">
+                                        <img src="./public/images/code.png" alt="" />
+                                    </div>
+                                    <h2>Web Development</h2>
+                                    <p>
+                                        Bonami assists companies in growing their businesses by developing solid web
+                                        solutions that are specifically adapted to the needs of modern business
+                                        environments. We take your ideas and turn them into custom web solutions.
+                                    </p>
+
+                                    <!-- <div>
+                                        <img src="./public/images/white_button.png" class="img-fluid" alt="" />
+
+                                        <a href="#" class="ms-3">Learn More</a>
+                                    </div> -->
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-4 fade_up marginCards">
+                                <div class="service_cart_div px-5 service_second_thred">
+                                    <div class="icons_div">
+                                        <img src="./public/images/setting.png" alt="" />
+                                    </div>
+                                    <h2>Website maintenance</h2>
+                                    <p>
+                                        We are open to take any kinds of challenges. We can fix, repair, rebuild the
+                                        software we didn’t create and help you manage it. Bonami doesn’t just create
+                                        software apps and abandon them.
+                                    </p>
+
+                                    <!-- <div>
+                                        <img src="./public/images/white_button.png" class="img-fluid" alt="" />
+
+                                        <a href="#" class="ms-3">Learn More</a>
+                                    </div> -->
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-4 fade_up marginCards mt-md-0 mt-xxl-4">
+                                <div class="service_cart_div px-5">
+                                    <div class="icons_div">
+                                        <img src="./public/images/clound.png" alt="" />
+                                    </div>
+                                    <h2>Cloud Management</h2>
+                                    <p>
+                                        Data management and cloud-based architecture development. Bonami can assist
+                                        you with navigating the cloud, identifying the appropriate architecture, and
+                                        implementing a solution that fits your strategic business requirements.
+                                    </p>
+
+                                    <!-- <div>
+                                        <img src="./public/images/white_button.png" class="img-fluid" alt="" />
+
+                                        <a href="#" class="ms-3">Learn More</a>
+                                    </div> -->
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-4 fade_up marginCards">
+                                <div class="service_cart_div px-5 service_five_cart">
+                                    <div class="icons_div">
+                                        <img src="./public/images/lap.png" alt="" />
+                                    </div>
+                                    <h2>SEO</h2>
+                                    <p>
+                                        SEO is one of the most profitable ways to get leads. Because the majority of the leads that SEO generates and receives are free. To improve the Website's Search Engine Friendliness, we use a variety of strategies.
+                                    </p>
+
+                                    <!-- <div>
+                                        <img src="./public/images/white_button.png" class="img-fluid" alt="" />
+
+                                        <a href="#" class="ms-3">Learn More</a>
+                                    </div> -->
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-4 fade_up marginCards mt-md-0 mt-xxl-4">
+                                <div class="service_cart_div px-5 service_second_thred">
+                                    <div class="icons_div">
+                                        <img src="./public/images/se.png" alt="" />
+                                    </div>
+                                    <h2>Cloud Migration</h2>
+                                    <p>
+                                        We assist our clients in upgrading and migrating their infrastructure to
+                                        cloud-based solutions. We can also assist with the migration of legacy
+                                        solutions to the most up-to-date technology stacks and cloud
+                                        infrastructures.
+                                    </p>
+
+                                    <!-- <div>
+                                        <img src="./public/images/white_button.png" class="img-fluid" alt="" />
+
+                                        <a href="#" class="ms-3">Learn More</a>
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Services --> 
 
         <!-- HOW DOES WE WORK -->
         <section class="how_does_we">
@@ -546,7 +489,6 @@
                             <h5 class="ms-3">How does we work</h5>
                         </div>
                         <h1 class="mt-4">Delivering Intelligent Software <span>Solutions</span> for Companies.</h1>
-
                         <div class="how_does_work_content">
                             <p>
                                 Our software development team has built up a workflow that has enabled us to achieve
@@ -688,58 +630,96 @@
     <!-- footer -->
     <footer>
         <div class="container-fluid side_padding">
-            <div class="row text-center text-xl-start">
-                <div class="col-12 col-sm-12  col-md-4 col-xl-5  pe-5">
+            <div class="row text-center text-md-start">
+
+                <div class="row pb-5">
+                    <div class="col-12 col-sm-12 col-md-8">
+                        <h1>Connect us On Social Media</h1>
+                        <p>Don’t wait make a smart & logical quote here. Its pretty easy.</p>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4">
+                        <div class="d-flex justify-content-center justify-content-xl-end mt-3">
+                            <div class="footer_icons_div">
+                                <i class="fab fa-facebook-f"></i>
+                            </div>
+                            <div class="footer_icons_div ms-3">
+                                <i class="fab fa-linkedin-in"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-12  col-md-4 col-xl-5  pe-0">
                     <img src="./public/images/logo.png" alt="" />
                     <p class="mt-4 mb-4">
                         C-91/7, Wazirpur Industrial Area, Delhi, 110052
                     </p>
-
-
                 </div>
 
-                <div class="col-12 col-sm-12 col-md-4 col-xl-4  ps-0 ps-xl-5">
-                    <h3>Contact Us</h3>
-                    <ul class="mt-4">
-                        <li>
-                            <div class="d-flex justify-content-center justify-content-xl-start">
-                                <i class="fas fa-phone-alt mt-2 me-3"></i>
-                                <p class="mb-0">+(91) 8271233269</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="d-flex justify-content-center justify-content-xl-start">
-                                <i class="fas fa-envelope mt-2 me-3"></i>
-                                <p class="mb-0">contact@bonamisoftware.com
-                                </p>
-                            </div>
-                        </li>
-                    </ul>
+                <div class="col-12 col-sm-12 col-md-4 col-xl-2  ps-0 ps-md-5">
+                    <h3>Useful Links</h3>
+                        <ul class="mt-4">
+                            <li>
+                                <div class="d-flex justify-content-center justify-content-md-start">
+                                    <p class="mb-0">Home</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="d-flex justify-content-center justify-content-md-start">
+                                    <p class="mb-0">About Us
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="d-flex justify-content-center justify-content-md-start">
+                                    <p class="mb-0">Services
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="d-flex justify-content-center justify-content-md-start">
+                                    <p class="mb-0">Contact
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
                 </div>
 
-                <div class="col-12 col-sm-12 col-md-4 col-xl-2  ps-0 ps-xl-5">
-                    <h3>We are Social</h3>
-
-                    <div class="d-flex justify-content-center justify-content-xl-start mt-3">
-                        <div class="footer_icons_div">
-                            <i class="fab fa-facebook-f"></i>
-                        </div>
-                        <div class="footer_icons_div ms-3">
-                            <i class="fab fa-linkedin-in"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row mt-4">
-                <div class="col-12">
-                    <hr />
-                    <div class="d-flex align-items-center footer_second_content_div">
-                        <p>© 2022 Bonami Software Pvt. Ltd.</p>
-                        <p>Privacy Policy / Terms and Conditions</p>
+                <div class="col-12 col-sm-12 col-md-4 col-xl-4  ps-0 ps-xl-5 d-flex justify-content-xl-end justify-content-center">
+                    <div>
+                        <h3>Contact Us</h3>
+                        <ul class="mt-4">
+                            <li>
+                                <div class="d-flex justify-content-center justify-content-md-start">
+                                    <i class="fas fa-phone-alt mt-2 me-3"></i>
+                                    <p class="mb-0">+(91) 8271233269</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="d-flex justify-content-center justify-content-md-start">
+                                    <i class="fas fa-envelope mt-2 me-3"></i>
+                                    <p class="mb-0">contact@bonamisoftware.com
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="footer_second">
+            <div class="container-fluid">
+                <div class="row mt-4 justify-content-center">
+                    <div class="col-sm-12 col-md-10">
+                        <div class="d-flex align-items-center fo oter_second_content_div justify-content-between pt-2 pb-0">
+                            <p>© 2022 Bonami Software Pvt. Ltd.</p>
+                            <p>Privacy Policy / Terms and Conditions</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
     </footer>
     <!-- footer -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"
@@ -748,18 +728,24 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
 
     <script src="./public/javascript/script.js"></script>
+    <script src="./public/livjs/javascript/livJs.min.js"></script>
 
     <script>
 
-        var typing = new Typed(".text", {
-            strings: ["", "Freelancer", "Graphic Designer", "Web Designer", "Web Developer"],
-            typeSpeed: 100,
-            backSpeed: 40,
-            loop: true,
-        });
+        // var typing = new Typed(".text", {
+        //     strings: ["", "Freelancer", "Graphic Designer", "Web Designer", "Web Developer"],
+        //     typeSpeed: 100,
+        //     backSpeed: 40,
+        //     loop: true,
+        // });
+
+        livJs.textSlideUp(".slidUp-animation", {
+    elements: "one",
+    strings: ["Inspire", "Awesome", "Beautiful", "Design"],
+    colors: ["fff", "61CE70", "#4549FF", "rgb(0,255,240)"],
+});
 
         // Wrap every letter in a span
         var textWrapper = document.querySelector(".ml12");

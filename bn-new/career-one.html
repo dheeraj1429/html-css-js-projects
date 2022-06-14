@@ -32,6 +32,52 @@
 
 <body>
      
+     <div class="navbar_div pt-3 pb-0">
+          <nav class="navbar navbar-expand-lg">
+              <div class="container-fluid">
+                  <a class="navbar-brand" href="#">
+                      <img src="./public/images/logo.png" alt="logo" />
+                  </a>
+                  <button
+                      class="navbar-toggler"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#navbarSupportedContent"
+                      aria-controls="navbarSupportedContent"
+                      aria-expanded="false"
+                      aria-label="Toggle navigation"
+                  >
+                  <i class="fa-solid fa-bars"></i>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                              <a class="nav-link" href="./index.html">Home</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link " href="./aboutUs.html"
+                                  >About Us</a
+                              >
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link activeNavbar_item" href="./career-one.html">Career</a>
+                          </li>
+
+                          <li class="nav-item">
+                              <a class="nav-link" href="./services.html">Services</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="./contact.html">Contact</a>
+                          </li>
+                          <!-- <li class="nav-item">
+                              <button class="Appoiontment_button">Appiontment</button>
+                          </li> -->
+                      </ul>
+                  </div>
+              </div>
+          </nav>
+      </div>
+
      <div class="popUpOverLayDiv">
           <div class="popUpDiv">
               <div class="container-fluid contact_for_consulation">
@@ -86,67 +132,21 @@
 
      <!-- navbar -->
 
-     <section class="banner_section about_banner side_padding about_res_banner">
-          <div class="navbar_div pt-3 pb-0">
-              <nav class="navbar navbar-expand-lg">
-                  <div class="container-fluid">
-                      <a class="navbar-brand" href="#">
-                          <img src="./public/images/logo.png" alt="logo" />
-                      </a>
-                      <button
-                          class="navbar-toggler"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#navbarSupportedContent"
-                          aria-controls="navbarSupportedContent"
-                          aria-expanded="false"
-                          aria-label="Toggle navigation"
-                      >
-                          <span class="navbar-toggler-icon"></span>
-                      </button>
-                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                              <li class="nav-item">
-                                  <a class="nav-link" href="./index.html">Home</a>
-                              </li>
-                              <li class="nav-item">
-                                  <a class="nav-link " href="./aboutUs.html"
-                                      >About Us</a
-                                  >
-                              </li>
-                              <li class="nav-item">
-                                  <a class="nav-link activeNavbar_item" href="./career-one.html">Career</a>
-                              </li>
-
-                              <li class="nav-item">
-                                  <a class="nav-link" href="./services.html">Services</a>
-                              </li>
-                              <li class="nav-item">
-                                  <a class="nav-link" href="./contact.html">Contact</a>
-                              </li>
-                              <!-- <li class="nav-item">
-                                  <button class="Appoiontment_button">Appiontment</button>
-                              </li> -->
-                          </ul>
-                      </div>
-                  </div>
-              </nav>
-          </div>
-
+     <section class="banner_section about_banner side_padding ">
           <div class="container-fluid about_content_div">
-              <div class="row align-items-center">
+              <div class="row align-items-center justify-content-center">
                   <div
                       class="col-12 col-12 col-md-12 col-lg-9 col-xl-7 text-center text-xl-start"
                   >
                       <div
-                          class="d-flex upper_div_cl service_section justify-content-center justify-content-xl-start mb-3 mb-xl-0"
+                          class="d-flex upper_div_cl service_section justify-content-center  mb-3 mb-xl-0"
                       >
-                          <div class="line_div mt-2"></div>
-                          <h5 class="ms-3">Why work with Bonami?</h5>
+                          <h5 class="ms-3 text-white">Why work with Bonami?</h5>
                       </div>
-                      <h4>Creating Leaders For a Better World</h4>
+                      <h4 class="text-center my-4 career_heading">Creating Leaders For a Better World</h4>
+
+                      <p class="text-white text-center">Why settle for anything less when Bonami offers you an endless sky of possibilities? We, at Bonami, recognise the need of striking a balance between personal and professional life in order to achieve an individual's full potential. Our international experiences shape our employees' abilities and provide an educated and interactive environment that brings out the best in them. We strongly believe in offering a comfortable work environment and abundant opportunities.</p>
                   </div>
-                  <div class="col-12 col-12 col-md-5"></div>
               </div>
           </div>
       </section>
@@ -164,7 +164,7 @@
                               <h2>Be a part of Bonami and join us in our exciting journey! Onward and upward</h2>
                          </div>
                          <div class="col-12 col-sm-12 col-md-12 col-xl-6 text-center text-xl-start">
-                              <img src="./public/images/g.png" class="img-fluid" alt="" />
+                              <img src="./public/images/goog.png" class="img-fluid" alt="" />
                          </div>
                     </div>
                </div>
@@ -203,7 +203,6 @@
                                                   </p>
 
                                                   <h3>Responsibilities:</h3>
-
 
                                                   <ul>
                                                        <li>Collaborate with the technical team to develop new features
@@ -566,58 +565,98 @@
      <!-- footer -->
      <footer>
           <div class="container-fluid side_padding">
-              <div class="row text-center text-xl-start">
-                  <div class="col-12 col-sm-12  col-md-4 col-xl-5  pe-5">
+              <div class="row text-center text-md-start">
+  
+                  <div class="row pb-5">
+                      <div class="col-12 col-sm-12 col-md-8">
+                          <h1>Connect us On Social Media</h1>
+                          <p>Don’t wait make a smart & logical quote here. Its pretty easy.</p>
+                      </div>
+                      <div class="col-12 col-sm-12 col-md-4">
+                          <div class="d-flex justify-content-center justify-content-xl-end mt-3">
+                              <div class="footer_icons_div">
+                                  <i class="fab fa-facebook-f"></i>
+                              </div>
+                              <div class="footer_icons_div ms-3">
+                                  <i class="fab fa-linkedin-in"></i>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+  
+                  <div class="col-12 col-sm-12  col-md-4 col-xl-5  pe-0">
                       <img src="./public/images/logo.png" alt="" />
                       <p class="mt-4 mb-4">
                           C-91/7, Wazirpur Industrial Area, Delhi, 110052
                       </p>
-  
-  
                   </div>
   
-                  <div class="col-12 col-sm-12 col-md-4 col-xl-4  ps-0 ps-xl-5">
-                    <h3>Contact Us</h3>
-                      <ul class="mt-4">
-                          <li>
-                              <div class="d-flex justify-content-center justify-content-xl-start">
-                                  <i class="fas fa-phone-alt mt-2 me-3"></i>
-                                  <p class="mb-0">+(91) 8271233269</p>
-                              </div>
-                          </li>
-                          <li>
-                              <div class="d-flex justify-content-center justify-content-xl-start">
-                                  <i class="fas fa-envelope mt-2 me-3"></i>
-                                  <p class="mb-0">contact@bonamisoftware.com
-                                  </p>
-                              </div>
-                          </li>
-                      </ul>
+                  <div class="col-12 col-sm-12 col-md-4 col-xl-2  ps-0 ps-md-5">
+                      <h3>Useful Links</h3>
+                          <ul class="mt-4">
+                              <li>
+                                  <div class="d-flex justify-content-center justify-content-md-start">
+                                      <p class="mb-0">Home</p>
+                                  </div>
+                              </li>
+                              <li>
+                                  <div class="d-flex justify-content-center justify-content-md-start">
+                                      <p class="mb-0">About Us
+                                      </p>
+                                  </div>
+                              </li>
+                              <li>
+                                  <div class="d-flex justify-content-center justify-content-md-start">
+                                      <p class="mb-0">Services
+                                      </p>
+                                  </div>
+                              </li>
+                              <li>
+                                  <div class="d-flex justify-content-center justify-content-md-start">
+                                      <p class="mb-0">Contact
+                                      </p>
+                                  </div>
+                              </li>
+                          </ul>
                   </div>
   
-                  <div class="col-12 col-sm-12 col-md-4 col-xl-2  ps-0 ps-xl-5">
-                      <h3>We are Social</h3>
-  
-                      <div class="d-flex justify-content-center justify-content-xl-start mt-3">
-                          <div class="footer_icons_div">
-                              <i class="fab fa-facebook-f"></i>
-                          </div>
-                          <div class="footer_icons_div ms-3">
-                              <i class="fab fa-linkedin-in"></i>
-                          </div>
+                  <div class="col-12 col-sm-12 col-md-4 col-xl-4  ps-0 ps-xl-5 d-flex justify-content-xl-end justify-content-center">
+                      <div>
+                          <h3>Contact Us</h3>
+                          <ul class="mt-4">
+                              <li>
+                                  <div class="d-flex justify-content-center justify-content-md-start">
+                                      <i class="fas fa-phone-alt mt-2 me-3"></i>
+                                      <p class="mb-0">+(91) 8271233269</p>
+                                  </div>
+                              </li>
+                              <li>
+                                  <div class="d-flex justify-content-center justify-content-md-start">
+                                      <i class="fas fa-envelope mt-2 me-3"></i>
+                                      <p class="mb-0">contact@bonamisoftware.com
+                                      </p>
+                                  </div>
+                              </li>
+                          </ul>
                       </div>
                   </div>
+  
+                  
               </div>
-              <div class="row mt-4">
-                  <div class="col-12">
-                      <hr />
-                      <div class="d-flex align-items-center footer_second_content_div">
-                          <p>© 2022 Bonami Software Pvt. Ltd.</p>
-                          <p>Privacy Policy / Terms and Conditions</p>
+          </div>
+          <div class="footer_second">
+              <div class="container-fluid">
+                  <div class="row mt-4 justify-content-center">
+                      <div class="col-12 col-sm-12 col-md-10">
+                          <div class="d-flex align-items-center fo oter_second_content_div justify-content-between pt-2 pb-0">
+                              <p>© 2022 Bonami Software Pvt. Ltd.</p>
+                              <p>Privacy Policy / Terms and Conditions</p>
+                          </div>
                       </div>
                   </div>
               </div>
           </div>
+          
       </footer>
      <!-- footer -->
 
@@ -630,7 +669,7 @@
           integrity="sha512-BdHyGtczsUoFcEma+MfXc71KJLv/cd+sUsUaYYf2mXpfG/PtBjNXsPo78+rxWjscxUYN2Qr2+DbeGGiJx81ifg=="
           crossorigin="anonymous"></script>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script> -->
      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
 

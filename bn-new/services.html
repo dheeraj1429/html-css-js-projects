@@ -7,21 +7,12 @@
         <title>Services</title>
 
         <!-- Bootstrap 5 CDN -->
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-        />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
 
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
         <!-- font awesome cnd -->
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-            integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-            crossorigin="anonymous"
-            referrerpolicy="no-referrer"
-        />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
 
         <!-- style sheets -->
         <link rel="stylesheet" href="./public/stylesheet/footer.style.css" />
@@ -42,6 +33,51 @@
         </style>
     </head>
     <body>
+        <div class="navbar_div py-3">
+            <nav class="navbar navbar-expand-xl">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="./public/images/logo.png" alt="logo" />
+                    </a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="./index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./aboutUs.html">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./career-one.html">Career</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link activeNavbar_item" href="./services.html">Services</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="./contact.html">Contact</a>
+                            </li>
+                            <!-- <li class="nav-item">
+                                    <button class="Appoiontment_button">Appiontment</button>
+                                </li> -->
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
         <div class="popUpOverLayDiv">
             <div class="popUpDiv">
                 <div class="container-fluid contact_for_consulation">
@@ -49,10 +85,7 @@
                         <div class="row">
                             <div class="col-12 col-sm-12 col-md-6">
                                 <p>WE ANSWER ALL THE SILLY QUESTIONS</p>
-                                <h2>
-                                    To learn how BonAmi can transform your business, schedule a free
-                                    consultation today!
-                                </h2>
+                                <h2>To learn how BonAmi can transform your business, schedule a free consultation today!</h2>
                             </div>
                             <div class="col-12 col-sm-12 col-md-6">
                                 <div class="row popup_elem_div">
@@ -69,24 +102,14 @@
                                         <input type="text" placeholder="Contact Us Regarding" />
                                     </div>
                                     <div class="col-12 mt-4">
-                                        <textarea
-                                            name=""
-                                            id=""
-                                            cols="30"
-                                            rows="10"
-                                            class="textaria"
-                                            placeholder="Message"
-                                        ></textarea>
+                                        <textarea name="" id="" cols="30" rows="10" class="textaria" placeholder="Message"></textarea>
 
                                         <button class="submit_button mt-4 mb-4">
                                             Submit Form
                                             <img src="./public/images/right_arrow.png" alt="" />
                                         </button>
 
-                                        <span>
-                                            Our experts will call back to you in your comfortable
-                                            time within 2 business days.
-                                        </span>
+                                        <span> Our experts will call back to you in your comfortable time within 2 business days. </span>
                                     </div>
                                 </div>
                             </div>
@@ -97,74 +120,22 @@
         </div>
 
         <!-- navbar -->
-        <section class="banner_section about_banner side_padding service_banner">
-            <div class="navbar_div py-3">
-                <div class="navbar_div py-3">
-                    <nav class="navbar navbar-expand-xl">
-                        <div class="container-fluid">
-                            <a class="navbar-brand" href="#">
-                                <img src="./public/images/logo.png" alt="logo" />
-                            </a>
-                            <button
-                                class="navbar-toggler"
-                                type="button"
-                                data-bs-toggle="collapse"
-                                data-bs-target="#navbarSupportedContent"
-                                aria-controls="navbarSupportedContent"
-                                aria-expanded="false"
-                                aria-label="Toggle navigation"
-                            >
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="./index.html">Home</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="./aboutUs.html">About Us</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="./career-one.html">Career</a>
-                                    </li>
-
-                                    <li class="nav-item">
-                                        <a class="nav-link activeNavbar_item" href="./services.html"
-                                            >Services</a
-                                        >
-                                    </li>
-
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="./contact.html">Contact</a>
-                                    </li>
-                                    <!-- <li class="nav-item">
-                                        <button class="Appoiontment_button">Appiontment</button>
-                                    </li> -->
-                                </ul>
-                            </div>
-                        </div>
-                    </nav>
-                </div>
-            </div>
-            <div class="container-fluid about_content_div content_content_div server_bn">
-                <div class="row align-items-center">
-                    <div
-                        class="col-12 col-12 col-md-12 col-lg-12 col-xl-7 text-center text-xl-start"
-                    >
-                        <div
-                            class="d-flex upper_div_cl service_section justify-content-center justify-content-xl-start"
-                        >
-                            <div class="line_div mt-2"></div>
-                            <h5 class="ms-3">Services</h5>
+        <section class="banner_section about_banner service_banner">
+            <div class="container-fluid about_content_div server_bn side_padding servers_banner_content">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-12 col-12 col-md-12 col-lg-12 col-xl-10 text-center text-xl-start">
+                        <div class="d-flex upper_div_cl service_section justify-content-center">
+                            <h5 class="ms-3 text-white">Services</h5>
                         </div>
 
-                        <h4>We believe in crafting sweet experiences</h4>
+                        <h4 class="text-center">
+                            We believe in crafting sweet <br />
+                            experiences
+                        </h4>
                     </div>
-                    <div
-                        class="col-12 col-12 col-md-12 col-lg-12 col-xl-5 text-center pt-4 pt-xl-0"
-                    >
+                    <!-- <div class="col-12 col-12 col-md-12 col-lg-12 col-xl-5 text-center pt-4 pt-xl-0">
                         <img src="./public/images/Rectangle 1476.png" class="img-fluid" alt="" />
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </section>
@@ -172,14 +143,12 @@
         <!-- main -->
         <main>
             <!-- VALUABLE SERVICES -->
-            <section class="valuble_service pt-5 pt-xl-0">
+            <section class="valuble_service pt-2 pt-xl-0">
                 <div class="container-fluid pb-0 pb-xl-5">
                     <div class="row side_padding">
                         <div class="col-12 text-center mb-0 mb-lg-5">
                             <div class="row justify-content-center">
-                                <div
-                                    class="col-12 col-sm-12 col-md-6 d-flex upper_div_cl service_section justify-content-center"
-                                >
+                                <div class="col-12 col-sm-12 col-md-6 d-flex upper_div_cl service_section justify-content-center">
                                     <div class="line_div mt-2"></div>
                                     <h5 class="ms-3">VALUABLE SERVICES</h5>
                                 </div>
@@ -194,10 +163,8 @@
                             </div>
 
                             <span
-                                >A successful offshore software application development company,
-                                providing a full range of website and <br />
-                                mobile app brdevelopment, IoT, and other IT services and solutions
-                                globally.</span
+                                >A successful offshore software application development company, providing a full range of website and <br />
+                                mobile app brdevelopment, IoT, and other IT services and solutions globally.</span
                             >
                         </div>
 
@@ -211,10 +178,7 @@
                                 </div>
                                 <div class="col-12 col-sm-12 col-md-6 col-lg-4 marginBottomCL">
                                     <div class="valuable_div text-center marginCl">
-                                        <img
-                                            src="./public/images/Group 1000001751 (1).png"
-                                            alt=""
-                                        />
+                                        <img src="./public/images/Group 1000001751 (1).png" alt="" />
                                         <h4 class="mt-3">Custom Software Development</h4>
                                     </div>
                                 </div>
@@ -230,9 +194,7 @@
                                         <h4 class="mt-3">Blockchain</h4>
                                     </div>
                                 </div>
-                                <div
-                                    class="col-12 col-sm-12 col-md-6 col-lg-4 marginCl marginBottomCL"
-                                >
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-4 marginCl marginBottomCL">
                                     <div class="valuable_div text-center">
                                         <img src="./public/images/image 73 (Traced).png" alt="" />
                                         <h4 class="mt-3">Quality Assurance</h4>
@@ -263,24 +225,12 @@
                         <div class="col-12 best_place_to_work_content">
                             <div class="row">
                                 <div class="col-12 col-sm-12 col-md-0 col-xl-4"></div>
-                                <div
-                                    class="col-12 col-sm-12 col-md-6 col-xl-4 margin_img text-center text-md-start"
-                                >
-                                    <img
-                                        src="./public/images/Rectangle 1443.png"
-                                        class="img-fluid"
-                                        alt=""
-                                    />
+                                <div class="col-12 col-sm-12 col-md-6 col-xl-4 margin_img text-center text-md-start">
+                                    <img src="./public/images/Rectangle 1443.png" class="img-fluid" alt="" />
                                     <h4 class="text-white mt-3">01. Work Culture</h4>
                                 </div>
-                                <div
-                                    class="col-12 col-sm-12 col-md-6 col-xl-4 text-center text-md-start mt-4 mt-lg-0"
-                                >
-                                    <img
-                                        src="./public/images/Rectangle 1444.png"
-                                        class="img-fluid"
-                                        alt=""
-                                    />
+                                <div class="col-12 col-sm-12 col-md-6 col-xl-4 text-center text-md-start mt-4 mt-lg-0">
+                                    <img src="./public/images/Rectangle 1444.png" class="img-fluid" alt="" />
                                     <h4 class="text-white mt-3">02. Team in Discussion</h4>
                                 </div>
                             </div>
@@ -309,214 +259,151 @@
             <!-- WEB DESIGNING -->
             <section class="web_designing">
                 <div class="container-fluid">
-                    <div
-                        class="row align-items-center web_designing_content_div pt-5 pb-5 justify-content-center"
-                    >
-                        <div
-                            class="col-12 col-sm-12 col-md-12 col-lg-4 text-center text-lg-start mb-4 mb-lg-0"
-                        >
-                            <img
-                                src="./public/images/Rectangle 1485.png"
-                                class="img-fluid"
-                                alt=""
-                            />
+                    <div class="row align-items-center web_designing_content_div pt-5 pb-5 justify-content-center fade_up">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-4 text-center text-lg-start mb-4 mb-lg-0">
+                            <img src="./public/images/111.png" class="img-fluid" alt="" />
                         </div>
                         <div class="col-12 col-sm-12 col-md-12 col-lg-6 text-center text-lg-start">
-                            <h1>Web Designing</h1>
+                            <div class="hover_image justify-content-center justify-content-xl-start">
+                                <div class="inner_hover_image">
+                                    <h1>Web Designing</h1>
+                                    <img src="./public/images/image 89.png" alt="" />
+                                </div>
+                            </div>
+
                             <p>
-                                The importance of having a good and worthwhile site design is
-                                critical to your success. It’s like a website’s strength because it
-                                conveys the precise meaning of a company’s services. We are the
-                                greatest web design company in Delhi, dedicated to providing
-                                top-notch quality services to businesses of all types and domains,
-                                ensuring that you never face any obstacles on your path to online
-                                success.
+                                The importance of having a good and worthwhile site design is critical to your success. It’s like a website’s strength
+                                because it conveys the precise meaning of a company’s services. We are the greatest web design company in Delhi,
+                                dedicated to providing top-notch quality services to businesses of all types and domains, ensuring that you never face
+                                any obstacles on your path to online success.
                             </p>
                         </div>
                     </div>
-                    <div
-                        class="row align-items-center web_designing_content_div pt-5 pb-5 justify-content-center"
-                    >
-                        <div
-                            class="col-12 col-sm-12 col-md-12 col-lg-6 text-center text-lg-start order-2 order-lg-1"
-                        >
-                            <h1>Web Development</h1>
+                    <div class="row align-items-center web_designing_content_div pt-5 pb-5 justify-content-center fade_up">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 text-center text-lg-start order-2 order-lg-1">
+                            <div class="hover_image justify-content-center justify-content-xl-start">
+                                <div class="inner_hover_image">
+                                    <h1>Web Development</h1>
+                                    <img src="./public/images/image 14 (Traced).png" alt="" />
+                                </div>
+                            </div>
+
                             <p>
-                                Our trained developers have exceptional expertise in dealing with
-                                the newest web technologies to provide unique web solutions as a
-                                leading website application development business. BonAmi provides it
-                                all by covering a wide spectrum of web solutions and frameworks,
-                                whether it’s developing an online presence for your organisation, an
-                                information hub for your business, or empowering your apps/IoT
-                                devices through backend.
+                                Our trained developers have exceptional expertise in dealing with the newest web technologies to provide unique web
+                                solutions as a leading website application development business. BonAmi provides it all by covering a wide spectrum of
+                                web solutions and frameworks, whether it’s developing an online presence for your organisation, an information hub for
+                                your business, or empowering your apps/IoT devices through backend.
                             </p>
                         </div>
-                        <div
-                            class="col-12 col-sm-12 col-md-12 col-lg-4 text-center text-lg-start mb-4 mb-lg-0 order-1 order-lg-2"
-                        >
-                            <img
-                                src="./public/images/Group 1000001754.png"
-                                class="img-fluid"
-                                alt=""
-                            />
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-4 text-center text-lg-start mb-4 mb-lg-0 order-1 order-lg-2">
+                            <img src="./public/images/Group 1000001759.png" class="img-fluid" alt="" />
                         </div>
                     </div>
-                    <div
-                        class="row align-items-center web_designing_content_div pt-5 pb-5 justify-content-center"
-                    >
-                        <div
-                            class="col-12 col-sm-12 col-md-12 col-lg-4 text-center text-lg-start mb-4 mb-lg-0 order-2 order-lg-1"
-                        >
-                            <img
-                                src="./public/images/Rectangle 1486.png"
-                                class="img-fluid"
-                                alt=""
-                            />
+                    <div class="row align-items-center web_designing_content_div pt-5 pb-5 justify-content-center fade_up">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-4 text-center text-lg-start mb-4 mb-lg-0 order-2 order-lg-1">
+                            <img src="./public/images/Group 1000001762.png" class="img-fluid" alt="" />
                         </div>
-                        <div
-                            class="col-12 col-sm-12 col-lg-6 text-center text-lg-start order-2 order-lg-1"
-                        >
-                            <h1>Mobile Application Development</h1>
+                        <div class="col-12 col-sm-12 col-lg-6 text-center text-lg-start order-2 order-lg-1">
+                            <div class="hover_image justify-content-center justify-content-xl-start">
+                                <div class="inner_hover_image">
+                                    <h1>Mobile Application Development</h1>
+                                    <img src="./public/images/image 16 (Traced).png" alt="" />
+                                </div>
+                            </div>
+
                             <p>
-                                The importance of having a good and worthwhile site design is
-                                critical to your success. It’s like a website’s strength because it
-                                conveys the precise meaning of a company’s services. We are the
-                                greatest web design company in Delhi, dedicated to providing
-                                top-notch quality services to businesses of all types and domains,
-                                ensuring that you never face any obstacles on your path to online
-                                success.
+                                The importance of having a good and worthwhile site design is critical to your success. It’s like a website’s strength
+                                because it conveys the precise meaning of a company’s services. We are the greatest web design company in Delhi,
+                                dedicated to providing top-notch quality services to businesses of all types and domains, ensuring that you never face
+                                any obstacles on your path to online success.
                             </p>
                         </div>
                     </div>
-                    <div
-                        class="row align-items-center web_designing_content_div pt-5 pb-5 justify-content-center"
-                    >
-                        <div
-                            class="col-12 col-sm-12 col-lg-6 text-center text-lg-start order-2 order-lg-1"
-                        >
-                            <h1>Search Engine Optimization (SEO)</h1>
+                    <div class="row align-items-center web_designing_content_div pt-5 pb-5 justify-content-center fade_up">
+                        <div class="col-12 col-sm-12 col-lg-6 text-center text-lg-start order-2 order-lg-1">
+                            <div class="hover_image justify-content-center justify-content-xl-start">
+                                <div class="inner_hover_image">
+                                    <h1>Search Engine Optimization (SEO)</h1>
+                                    <img src="./public/images/image 18 (Traced).png" alt="" />
+                                </div>
+                            </div>
+
                             <p>
-                                The importance of having a good and worthwhile site design is
-                                critical to your success. It’s like a website’s strength because it
-                                conveys the precise meaning of a company’s services. We are the
-                                greatest web design company in Delhi, dedicated to providing
-                                top-notch quality services to businesses of all types and domains,
-                                ensuring that you never face any obstacles on your path to online
-                                success. Since our debut,
+                                The importance of having a good and worthwhile site design is critical to your success. It’s like a website’s strength
+                                because it conveys the precise meaning of a company’s services. We are the greatest web design company in Delhi,
+                                dedicated to providing top-notch quality services to businesses of all types and domains, ensuring that you never face
+                                any obstacles on your path to online success. Since our debut,
                             </p>
                         </div>
-                        <div
-                            class="col-12 col-sm-12 col-md-12 col-lg-4 text-center text-lg-start mb-4 mb-lg-0 order-1 order-lg-2"
-                        >
-                            <img
-                                src="./public/images/Rectangle 1487.png"
-                                class="img-fluid"
-                                alt=""
-                            />
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-4 text-center text-lg-start mb-4 mb-lg-0 order-1 order-lg-2">
+                            <img src="./public/images/Group 1000001759 (1).png" class="img-fluid" alt="" />
                         </div>
                     </div>
-                    <div
-                        class="row align-items-center web_designing_content_div pt-5 pb-5 justify-content-center"
-                    >
-                        <div
-                            class="col-12 col-sm-12 col-md-12 col-lg-4 text-center text-lg-start mb-4 mb-lg-0"
-                        >
-                            <img
-                                src="./public/images/Rectangle 1486.png"
-                                class="img-fluid"
-                                alt=""
-                            />
+                    <div class="row align-items-center web_designing_content_div pt-5 pb-5 justify-content-center fade_up">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-4 text-center text-lg-start mb-4 mb-lg-0">
+                            <img src="./public/images/Group 1000001773.png" class="img-fluid" alt="" />
                         </div>
-                        <div
-                            class="col-12 col-sm-12 col-lg-6 text-center text-lg-start order-2 order-lg-1"
-                        >
-                            <h1>Quality Assurance (QA)</h1>
+                        <div class="col-12 col-sm-12 col-lg-6 text-center text-lg-start order-2 order-lg-1">
+                            <div class="hover_image justify-content-center justify-content-xl-start">
+                                <div class="inner_hover_image">
+                                    <h1>Quality Assurance (QA)</h1>
+                                    <img src="./public/images/image 15 (Traced).png" alt="" />
+                                </div>
+                            </div>
+
                             <p>
-                                The cornerstone of our ecosystem is Quality Assurance (QA) and
-                                software testing services. Bonami has a team of experienced testers
-                                whose trust in the company allows for speedier releases with
-                                uncompromising quality. Functional, GUI, Usability, Security,
-                                Database testing, Cross-platform, Cross-browser, Accessibility, and
-                                other tests are performed.
+                                The cornerstone of our ecosystem is Quality Assurance (QA) and software testing services. Bonami has a team of
+                                experienced testers whose trust in the company allows for speedier releases with uncompromising quality. Functional,
+                                GUI, Usability, Security, Database testing, Cross-platform, Cross-browser, Accessibility, and other tests are
+                                performed.
                             </p>
                         </div>
                     </div>
-                    <div
-                        class="row align-items-center web_designing_content_div pt-5 pb-5 justify-content-center"
-                    >
-                        <div
-                            class="col-12 col-sm-12 col-lg-6 text-center text-lg-start order-2 order-lg-1"
-                        >
+                    <div class="row align-items-center web_designing_content_div pt-5 pb-5 justify-content-center fade_up">
+                        <div class="col-12 col-sm-12 col-lg-6 text-center text-lg-start order-2 order-lg-1">
                             <h1>Cloud Management</h1>
                             <p>
-                                The importance of having a good and worthwhile site design is
-                                critical to your success. It’s like a website’s strength because it
-                                conveys the precise meaning of a company’s services. We are the
-                                greatest web design company in Delhi, dedicated to providing
-                                top-notch quality services to businesses of all types and domains,
-                                ensuring that you never face any obstacles on your path to online
-                                success. Since our debut,
+                                The importance of having a good and worthwhile site design is critical to your success. It’s like a website’s strength
+                                because it conveys the precise meaning of a company’s services. We are the greatest web design company in Delhi,
+                                dedicated to providing top-notch quality services to businesses of all types and domains, ensuring that you never face
+                                any obstacles on your path to online success. Since our debut,
                             </p>
                         </div>
-                        <div
-                            class="col-12 col-sm-12 col-md-12 col-lg-4 text-center text-lg-start mb-4 mb-lg-0 order-1 order-lg-2"
-                        >
-                            <img
-                                src="./public/images/Group 1000001754.png"
-                                class="img-fluid"
-                                alt=""
-                            />
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-4 text-center text-lg-start mb-4 mb-lg-0 order-1 order-lg-2">
+                            <img src="./public/images/Group 1000001773 (1).png" class="img-fluid" alt="" />
                         </div>
                     </div>
-                    <div
-                        class="row align-items-center web_designing_content_div pt-5 pb-5 justify-content-center"
-                    >
-                        <div
-                            class="col-12 col-sm-12 col-md-12 col-lg-4 text-center text-lg-start mb-4 mb-lg-0"
-                        >
-                            <img
-                                src="./public/images/Rectangle 1486.png"
-                                class="img-fluid"
-                                alt=""
-                            />
+                    <div class="row align-items-center web_designing_content_div pt-5 pb-5 justify-content-center fade_up">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-4 text-center text-lg-start mb-4 mb-lg-0">
+                            <img src="./public/images/Group 1000001762 (1).png" class="img-fluid" alt="" />
                         </div>
-                        <div
-                            class="col-12 col-sm-12 col-lg-6 text-center text-lg-start order-2 order-lg-1"
-                        >
-                            <h1>
-                                Website Maintenance/ <br />
-                                Open To Challenges
-                            </h1>
+                        <div class="col-12 col-sm-12 col-lg-6 text-center text-lg-start order-2 order-lg-1">
+                            <div class="hover_image justify-content-center justify-content-xl-start">
+                                <div class="inner_hover_image">
+                                    <h1>
+                                        Website Maintenance/ <br />
+                                        Open To Challenges
+                                    </h1>
+                                    <img src="./public/images/image 19 (Traced).png" alt="" />
+                                </div>
+                            </div>
+
                             <p>
-                                We at Bonami don’t merely create software apps and then abandon
-                                them, we are open to take any kinds of challenges. We can fix,
-                                repair, rebuild the software we didn’t create and help you manage
-                                it.
+                                We at Bonami don’t merely create software apps and then abandon them, we are open to take any kinds of challenges. We
+                                can fix, repair, rebuild the software we didn’t create and help you manage it.
                             </p>
                         </div>
                     </div>
-                    <div
-                        class="row align-items-center web_designing_content_div pt-5 pb-0 pb-lg-5 mb-3 justify-content-center border-0"
-                    >
-                        <div
-                            class="col-12 col-sm-12 col-lg-6 text-center text-lg-start order-2 order-lg-1"
-                        >
+                    <div class="row align-items-center web_designing_content_div pt-5 pb-0 pb-lg-5 mb-3 justify-content-center border-0 fade_up">
+                        <div class="col-12 col-sm-12 col-lg-6 text-center text-lg-start order-2 order-lg-1">
                             <h1>Cloud Migration</h1>
                             <p>
-                                We assist our clients in upgrading and migrating their
-                                infrastructure to cloud-based solutions. We can also assist with the
-                                migration of legacy solutions to the most up-to-date technology
-                                stacks and cloud infrastructures.
+                                We assist our clients in upgrading and migrating their infrastructure to cloud-based solutions. We can also assist
+                                with the migration of legacy solutions to the most up-to-date technology stacks and cloud infrastructures.
                             </p>
                         </div>
-                        <div
-                            class="col-12 col-sm-12 col-md-12 col-lg-4 text-center text-lg-start mb-4 mb-lg-0 order-1 order-lg-2"
-                        >
-                            <img
-                                src="./public/images/Rectangle 1491.png"
-                                class="img-fluid"
-                                alt=""
-                            />
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-4 text-center text-lg-start mb-4 mb-lg-0 order-1 order-lg-2">
+                            <img src="./public/images/Group 1000001773 (2).png" class="img-fluid" alt="" />
                         </div>
                     </div>
                 </div>
@@ -631,49 +518,84 @@
         <!-- footer -->
         <footer>
             <div class="container-fluid side_padding">
-                <div class="row text-center text-xl-start">
-                    <div class="col-12 col-sm-12 col-md-4 col-xl-5 pe-5">
+                <div class="row text-center text-md-start">
+                    <div class="row pb-5">
+                        <div class="col-12 col-sm-12 col-md-8">
+                            <h1>Connect us On Social Media</h1>
+                            <p>Don’t wait make a smart & logical quote here. Its pretty easy.</p>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4">
+                            <div class="d-flex justify-content-center justify-content-xl-end mt-3">
+                                <div class="footer_icons_div">
+                                    <i class="fab fa-facebook-f"></i>
+                                </div>
+                                <div class="footer_icons_div ms-3">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-4 col-xl-5 pe-0">
                         <img src="./public/images/logo.png" alt="" />
                         <p class="mt-4 mb-4">C-91/7, Wazirpur Industrial Area, Delhi, 110052</p>
                     </div>
 
-                    <div class="col-12 col-sm-12 col-md-4 col-xl-4 ps-0 ps-xl-5">
-                        <h3>Contact Us</h3>
+                    <div class="col-12 col-sm-12 col-md-4 col-xl-2 ps-0 ps-md-5">
+                        <h3>Useful Links</h3>
                         <ul class="mt-4">
                             <li>
-                                <div class="d-flex justify-content-center justify-content-xl-start">
-                                    <i class="fas fa-phone-alt mt-2 me-3"></i>
-                                    <p class="mb-0">+(91) 8271233269</p>
+                                <div class="d-flex justify-content-center justify-content-md-start">
+                                    <p class="mb-0">Home</p>
                                 </div>
                             </li>
                             <li>
-                                <div class="d-flex justify-content-center justify-content-xl-start">
-                                    <i class="fas fa-envelope mt-2 me-3"></i>
-                                    <p class="mb-0">contact@bonamisoftware.com</p>
+                                <div class="d-flex justify-content-center justify-content-md-start">
+                                    <p class="mb-0">About Us</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="d-flex justify-content-center justify-content-md-start">
+                                    <p class="mb-0">Services</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="d-flex justify-content-center justify-content-md-start">
+                                    <p class="mb-0">Contact</p>
                                 </div>
                             </li>
                         </ul>
                     </div>
 
-                    <div class="col-12 col-sm-12 col-md-4 col-xl-2 ps-0 ps-xl-5">
-                        <h3>We are Social</h3>
-
-                        <div class="d-flex justify-content-center justify-content-xl-start mt-3">
-                            <div class="footer_icons_div">
-                                <i class="fab fa-facebook-f"></i>
-                            </div>
-                            <div class="footer_icons_div ms-3">
-                                <i class="fab fa-linkedin-in"></i>
-                            </div>
+                    <div class="col-12 col-sm-12 col-md-4 col-xl-4 ps-0 ps-xl-5 d-flex justify-content-xl-end justify-content-center">
+                        <div>
+                            <h3>Contact Us</h3>
+                            <ul class="mt-4">
+                                <li>
+                                    <div class="d-flex justify-content-center justify-content-md-start">
+                                        <i class="fas fa-phone-alt mt-2 me-3"></i>
+                                        <p class="mb-0">+(91) 8271233269</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="d-flex justify-content-center justify-content-md-start">
+                                        <i class="fas fa-envelope mt-2 me-3"></i>
+                                        <p class="mb-0">contact@bonamisoftware.com</p>
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-                <div class="row mt-4">
-                    <div class="col-12">
-                        <hr />
-                        <div class="d-flex align-items-center footer_second_content_div">
-                            <p>© 2022 Bonami Software Pvt. Ltd.</p>
-                            <p>Privacy Policy / Terms and Conditions</p>
+            </div>
+            <div class="footer_second">
+                <div class="container-fluid">
+                    <div class="row mt-4 justify-content-center">
+                        <div class="col-sm-12 col-md-10">
+                            <div class="d-flex align-items-center fo oter_second_content_div justify-content-between pt-2 pb-0">
+                                <p>© 2022 Bonami Software Pvt. Ltd.</p>
+                                <p>Privacy Policy / Terms and Conditions</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -694,7 +616,6 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
 
         <script src="./public/javascript/script.js"></script>
     </body>

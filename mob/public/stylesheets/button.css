@@ -1,0 +1,77 @@
+/* buttons */
+.exploreMore_button {
+    padding: 0.8rem 2.3rem;
+    background-color: var(--lightSkyCl);
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    color: var(--mainColor);
+    font-size: 20px;
+}
+.exploreMore_button_second {
+    padding: 0.8rem 4rem;
+    background-color: var(--lightSkyCl);
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    color: var(--mainColor);
+    font-size: 20px;
+}
+.exploreMore_button_three {
+    padding: 0.8rem 4rem;
+    border: 3px solid var(--lightSkyCl);
+    border-radius: 30px;
+    cursor: pointer;
+    color: var(--lightSkyCl);
+    font-size: 20px;
+    background-color: transparent;
+}
+.subscripButton {
+    padding: 0.8rem 2rem;
+    border-radius: 30px;
+    border: none;
+    background-color: var(--mainColor);
+    cursor: pointer;
+    color: var(--lightSkyCl);
+}
+.submit_button {
+    padding: 0.8rem 2rem;
+    background-color: var(--darkHeading);
+    border: none;
+    color: var(--mainColor);
+}
+.view_case_button {
+    padding: 1rem 3rem;
+    border: 1px solid var(--mainColor);
+    color: var(--mainColor);
+    background-color: transparent;
+}
+.explore_app_button {
+    padding: 0.9rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: var(--mainColor);
+    background-color: var(--lightSkyCl);
+}
+.contact-us-btn {
+    background-color: var(--lightSkyCl);
+    padding: 0.5rem 2rem;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    color: var(--mainColor);
+}
+.submit_button {
+    width: 100%;
+    padding: 0.8rem 2rem;
+    background-color: var(--lightSkyCl);
+    box-shadow: 0px 65.2563px 52.2051px rgb(49 49 49 / 7%), 0px 42.2958px 30.5738px rgb(49 49 49 / 7%), 0px 25.1358px 16.6283px rgb(49 49 49 / 6%),
+        0px 13.0513px 8.48332px rgb(49 49 49 / 5%), 0px 5.31718px 4.25375px rgb(49 49 49 / 4%), 0px 1.20845px 2.05437px rgb(49 49 49 / 2%);
+    border-radius: 15px;
+    backdrop-filter: blur(20px);
+    border: none;
+    border-radius: 8px;
+    color: var(--mainColor);
+}
+/* buttons */

@@ -1,9 +1,27 @@
 /* banner section */
 .banner_section {
-    background-image: url(../images/banner.png);
+    background-image: url(../images/Group\ 1000001654.png);
     background-position: center;
     background-size: cover;
     height: 120vh;
+}
+.home_banner {
+    height: auto;
+    position: relative;
+    z-index: 10;
+}
+.home_banner video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    /* min-width: 100%; */
+    /* min-height: 100%; */
+    z-index: -1;
+}
+.banner_component {
+    padding-top: 200px;
+    padding-bottom: 268px;
 }
 .banner_section p {
     color: var(--mainColorCl);
@@ -16,7 +34,6 @@
     text-transform: uppercase;
     letter-spacing: 0.5em;
 }
-
 .animi-text .letter {
     display: inline-block;
     line-height: 1em;
@@ -41,7 +58,7 @@
     border: 10px;
     background-color: var(--mainColorCl);
     padding: 40px 30px;
-    margin-top: -300px;
+    margin-top: 40px;
 }
 .cart_div_first {
     border-radius: 30px 0 0 30px;
@@ -115,19 +132,15 @@
 .service_cart_div:hover {
     background-color: var(--lightGreenCl);
 }
-
 .service_cart_div:hover a {
     color: var(--mainColorCl);
 }
-
 .service_section .active_cart {
     background-color: var(--lightGreenCl);
 }
-
 .service_cart_div:hover h2 {
     color: var(--mainColorCl);
 }
-
 .service_cart_div:hover p {
     color: var(--mainColorCl);
 }

@@ -324,6 +324,7 @@
     background-position: center;
     background-size: contain;
     z-index: -1;
+    background-repeat: no-repeat;
 }
 .read_to_grow_inner_section {
     width: 100%;

@@ -62,7 +62,7 @@
     box-shadow: 0 0 10px var(--lightGray) !important;
 }
 .accordion-flush .accordion-item .accordion-button {
-    background: linear-gradient(94.68deg, #be50ae 17.67%, #467bec 45.73%);
+    background-color: #207de9 !important;
     border-radius: 15px;
     color: var(--mainColorCl) !important;
 }
@@ -182,7 +182,7 @@
 }
 
 .web_designing_content_div {
-    border-bottom: 1px solid #616161;
+    border-bottom: 1px solid #6161612f;
 }
 
 .web_designing h1 {

@@ -82,22 +82,40 @@
             if (!targetToggle) return;
 
             if (options.targetButton) {
-                const targetButtonElm = _grabDomelm(`.${options.targetButton}`);
+                const targetButtonElm = _grabDomelm(`.${options.targetButton}`, options);
 
-                targetButtonElm.addEventListener("click", function () {
-                    //  ** show and hide the popup box with the candition, if the popup has the class then remove the class from the popup || add the class into the popup ** //
-                    if (!targetToggle.classList.contains(`${options.elementClass}`)) {
-                        targetToggle.classList.add(`${options.elementClass}`);
-                        showAndHide = true;
+                targetButtonElm.forEach((el, i, array) => {
+                    el.addEventListener("click", function (e) {
+                        const dataAttribute = e.target.getAttribute("data-bs-target");
 
-                        _grabDomelm("body").style.overflow = "hidden";
-                    } else {
-                        targetToggle.classList.remove(`${options.elementClass}`);
-                        showAndHide = false;
+                        const collapseTarget = _grabDomelm(dataAttribute);
 
-                        _grabDomelm("body").style.overflow = "scroll";
-                    }
+                        if (collapseTarget.classList.contains("show")) {
+                            collapseTarget.classList.remove("show");
+
+                            console.log("remove the class");
+                        } else {
+                            collapseTarget.classList.add("show");
+                        }
+
+                        console.log(collapseTarget);
+                    });
                 });
+
+                // targetButtonElm.addEventListener("click", function () {
+                //     //  ** show and hide the popup box with the candition, if the popup has the class then remove the class from the popup || add the class into the popup ** //
+                //     if (!targetToggle.classList.contains(`${options.elementClass}`)) {
+                //         targetToggle.classList.add(`${options.elementClass}`);
+                //         showAndHide = true;
+
+                //         _grabDomelm("body").style.overflow = "hidden";
+                //     } else {
+                //         targetToggle.classList.remove(`${options.elementClass}`);
+                //         showAndHide = false;
+
+                //         _grabDomelm("body").style.overflow = "scroll";
+                //     }
+                // });
             } else return;
 
             // ** add the event lisner to the overlay div to controll the inner form if the event target is match then remove the form from the dom ** //
@@ -162,10 +180,7 @@
             const targetElement = _grabDomelm(elm);
 
             // ** convert the target tag into the span tag ** //
-            targetElement.innerHTML = targetElement.textContent.replace(
-                /\S/g,
-                "<span class='letter'>$&</span>"
-            );
+            targetElement.innerHTML = targetElement.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
             const animationLetter = document.querySelectorAll(".letter");
             // ** create a loop for the animation text ** //
@@ -196,6 +211,22 @@
             };
         };
 
+        _libraryObj.windowScroll = function (element, addClass) {
+            const targetElement = _grabDomelm(element);
+
+            if (!targetElement) return;
+
+            window.addEventListener("scroll", function () {
+                const scroll = this.scrollY;
+
+                if (scroll > 100) {
+                    targetElement.classList.add(addClass);
+                } else {
+                    targetElement.classList.remove(addClass);
+                }
+            });
+        };
+
         return _libraryObj;
     };
 
@@ -212,6 +243,13 @@ myWindowGlobalLv.scroll(".fade_up", {
     class: "fade_down",
     removeClass: "fade_up",
 });
+
+myWindowGlobalLv.windowScroll(".navbar_div", "navbar_div_active");
+
+// myWindowGlobalLv.toggle(".accordion-collapse", {
+//     elements: 3,
+//     targetButton: "accordion-button",
+// });
 
 // myWindowGlobalLv.toggle(".popUpOverLayDiv", {
 //     elementClass: "show_popUp",
